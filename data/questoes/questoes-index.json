@@ -1,0 +1,382 @@
+{
+  "generatedAt": "2026-05-22T19:26:36.200Z",
+  "note": "Banco autoral no padrão ENEM. Não reproduz integralmente itens oficiais.",
+  "modules": [
+    {
+      "id": "modulo-01",
+      "title": "Módulo de questões 1",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-01.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-02",
+      "title": "Módulo de questões 2",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-02.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-03",
+      "title": "Módulo de questões 3",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-03.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-04",
+      "title": "Módulo de questões 4",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-04.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-05",
+      "title": "Módulo de questões 5",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-05.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-06",
+      "title": "Módulo de questões 6",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-06.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-07",
+      "title": "Módulo de questões 7",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-07.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-08",
+      "title": "Módulo de questões 8",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-08.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-09",
+      "title": "Módulo de questões 9",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-09.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-10",
+      "title": "Módulo de questões 10",
+      "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+      "file": "data/questoes/modulo-10.json",
+      "totalQuestions": 80,
+      "structure": [
+        {
+          "area": "humanas",
+          "areaLabel": "Ciências Humanas",
+          "count": 20,
+          "start": 1,
+          "end": 20
+        },
+        {
+          "area": "linguagens",
+          "areaLabel": "Linguagens",
+          "count": 20,
+          "start": 21,
+          "end": 40
+        },
+        {
+          "area": "natureza",
+          "areaLabel": "Ciências da Natureza",
+          "count": 20,
+          "start": 41,
+          "end": 60
+        },
+        {
+          "area": "matematica",
+          "areaLabel": "Matemática",
+          "count": 20,
+          "start": 61,
+          "end": 80
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "modules": 10,
+    "questions": 800,
+    "questionsPerArea": 20,
+    "areas": 4
+  }
+}

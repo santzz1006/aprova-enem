@@ -1,0 +1,4774 @@
+{
+  "id": "modulo-05",
+  "title": "Módulo de questões 5",
+  "description": "Treino em blocos: Humanas, Linguagens, Natureza e Matemática, com 20 questões seguidas por área.",
+  "structure": [
+    {
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "count": 20,
+      "start": 1,
+      "end": 20
+    },
+    {
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "count": 20,
+      "start": 21,
+      "end": 40
+    },
+    {
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "count": 20,
+      "start": 41,
+      "end": 60
+    },
+    {
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "count": 20,
+      "start": 61,
+      "end": 80
+    }
+  ],
+  "totalQuestions": 80,
+  "questions": [
+    {
+      "id": "mod-05-humanas-01",
+      "moduleId": "modulo-05",
+      "order": 1,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Geografia",
+      "chapter": "Agronegócio",
+      "topic": "Commodities",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Geografia - Agronegócio",
+      "stimulus": {
+        "type": "text",
+        "title": "Geografia: Commodities",
+        "text": "A pauta exportadora brasileira concentra produtos primários de alto peso logístico. A questão pede que o estudante relacione o contexto ao conceito de Commodities, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Commodities porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "dependência de cadeias globais e vulnerabilidade a preços externos"
+        },
+        {
+          "letter": "B",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "C",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "D",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "E",
+          "text": "isolamento total entre economia e território."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque dependência de cadeias globais e vulnerabilidade a preços externos é a leitura que melhor conecta o enunciado ao assunto Commodities. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Commodities.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Geografia",
+        "Agronegócio",
+        "Commodities"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-02",
+      "moduleId": "modulo-05",
+      "order": 2,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Sociologia",
+      "chapter": "Racismo estrutural",
+      "topic": "Representatividade",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Sociologia - Racismo estrutural",
+      "stimulus": {
+        "type": "text",
+        "title": "Sociologia: Representatividade",
+        "text": "Campanhas antirracistas criticam desigualdades reproduzidas por instituições e práticas sociais. A questão pede que o estudante relacione o contexto ao conceito de Representatividade, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Representatividade porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado."
+        },
+        {
+          "letter": "B",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "C",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "D",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "E",
+          "text": "questionamento de hierarquias raciais naturalizadas"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque questionamento de hierarquias raciais naturalizadas é a leitura que melhor conecta o enunciado ao assunto Representatividade. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Representatividade.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Sociologia",
+        "Racismo estrutural",
+        "Representatividade"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-03",
+      "moduleId": "modulo-05",
+      "order": 3,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Sociologia",
+      "chapter": "Trabalho e origem social",
+      "topic": "Escolhas profissionais",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Sociologia - Trabalho e origem social",
+      "stimulus": {
+        "type": "text",
+        "title": "Sociologia: Escolhas profissionais",
+        "text": "O acesso desigual à escola, renda e redes sociais condiciona trajetórias ocupacionais. A questão pede que o estudante relacione o contexto ao conceito de Escolhas profissionais, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Escolhas profissionais porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ausência de conflitos sociais no espaço colonial."
+        },
+        {
+          "letter": "B",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "C",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "D",
+          "text": "reprodução de desigualdades de classe"
+        },
+        {
+          "letter": "E",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque reprodução de desigualdades de classe é a leitura que melhor conecta o enunciado ao assunto Escolhas profissionais. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Escolhas profissionais.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Sociologia",
+        "Trabalho e origem social",
+        "Escolhas profissionais"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-04",
+      "moduleId": "modulo-05",
+      "order": 4,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Filosofia",
+      "chapter": "Contrato social",
+      "topic": "Rousseau",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Filosofia - Contrato social",
+      "stimulus": {
+        "type": "text",
+        "title": "Filosofia: Rousseau",
+        "text": "A vontade geral não é soma de interesses privados, mas orientação para o bem comum. A questão pede que o estudante relacione o contexto ao conceito de Rousseau, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Rousseau porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "neutralidade política das instituições de comunicação."
+        },
+        {
+          "letter": "B",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "C",
+          "text": "legitimidade política baseada na soberania popular"
+        },
+        {
+          "letter": "D",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "E",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque legitimidade política baseada na soberania popular é a leitura que melhor conecta o enunciado ao assunto Rousseau. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Rousseau.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Filosofia",
+        "Contrato social",
+        "Rousseau"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-05",
+      "moduleId": "modulo-05",
+      "order": 5,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Filosofia",
+      "chapter": "Ética e justiça",
+      "topic": "Aristóteles",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Filosofia - Ética e justiça",
+      "stimulus": {
+        "type": "text",
+        "title": "Filosofia: Aristóteles",
+        "text": "A justiça distributiva considera mérito, função e proporção na vida coletiva. A questão pede que o estudante relacione o contexto ao conceito de Aristóteles, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Aristóteles porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "isolamento total entre economia e território."
+        },
+        {
+          "letter": "B",
+          "text": "distribuição proporcional orientada pelo bem comum"
+        },
+        {
+          "letter": "C",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "D",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "E",
+          "text": "neutralidade política das instituições de comunicação"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque distribuição proporcional orientada pelo bem comum é a leitura que melhor conecta o enunciado ao assunto Aristóteles. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Aristóteles.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Filosofia",
+        "Ética e justiça",
+        "Aristóteles"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-06",
+      "moduleId": "modulo-05",
+      "order": 6,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "História",
+      "chapter": "Colonização espanhola",
+      "topic": "Leis Novas de 1542",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "História - Colonização espanhola",
+      "stimulus": {
+        "type": "text",
+        "title": "História: Leis Novas de 1542",
+        "text": "A restrição à encomienda indica conflito entre exploração colonial e controle metropolitano. A questão pede que o estudante relacione o contexto ao conceito de Leis Novas de 1542, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Leis Novas de 1542 porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "redução da exploração indígena sem eliminar a dominação colonial"
+        },
+        {
+          "letter": "B",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado."
+        },
+        {
+          "letter": "C",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "D",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "E",
+          "text": "isolamento total entre economia e território"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque redução da exploração indígena sem eliminar a dominação colonial é a leitura que melhor conecta o enunciado ao assunto Leis Novas de 1542. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Leis Novas de 1542.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "História",
+        "Colonização espanhola",
+        "Leis Novas de 1542"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-07",
+      "moduleId": "modulo-05",
+      "order": 7,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "História",
+      "chapter": "Era Vargas",
+      "topic": "Propaganda política",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "História - Era Vargas",
+      "stimulus": {
+        "type": "text",
+        "title": "História: Propaganda política",
+        "text": "A construção da imagem do líder aproximava Estado, trabalho e massas urbanas. A questão pede que o estudante relacione o contexto ao conceito de Propaganda política, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Propaganda política porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "B",
+          "text": "ausência de conflitos sociais no espaço colonial."
+        },
+        {
+          "letter": "C",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "D",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "E",
+          "text": "legitimação do poder por comunicação estatal e trabalhismo"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque legitimação do poder por comunicação estatal e trabalhismo é a leitura que melhor conecta o enunciado ao assunto Propaganda política. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Propaganda política.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "História",
+        "Era Vargas",
+        "Propaganda política"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-08",
+      "moduleId": "modulo-05",
+      "order": 8,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "História",
+      "chapter": "Guerra Fria",
+      "topic": "Muro de Berlim",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "História - Guerra Fria",
+      "stimulus": {
+        "type": "text",
+        "title": "História: Muro de Berlim",
+        "text": "A divisão da cidade expressava a ordem bipolar e a disputa ideológica do pós-guerra. A questão pede que o estudante relacione o contexto ao conceito de Muro de Berlim, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Muro de Berlim porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "B",
+          "text": "neutralidade política das instituições de comunicação."
+        },
+        {
+          "letter": "C",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "D",
+          "text": "materialização territorial da rivalidade entre capitalismo e socialismo"
+        },
+        {
+          "letter": "E",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque materialização territorial da rivalidade entre capitalismo e socialismo é a leitura que melhor conecta o enunciado ao assunto Muro de Berlim. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Muro de Berlim.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "História",
+        "Guerra Fria",
+        "Muro de Berlim"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-09",
+      "moduleId": "modulo-05",
+      "order": 9,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Geografia",
+      "chapter": "Urbanização",
+      "topic": "Segregação socioespacial",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Geografia - Urbanização",
+      "stimulus": {
+        "type": "text",
+        "title": "Geografia: Segregação socioespacial",
+        "text": "A expansão urbana desigual empurra população pobre para áreas com menor infraestrutura. A questão pede que o estudante relacione o contexto ao conceito de Segregação socioespacial, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Segregação socioespacial porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "B",
+          "text": "isolamento total entre economia e território."
+        },
+        {
+          "letter": "C",
+          "text": "periferização associada à desigualdade no acesso à cidade"
+        },
+        {
+          "letter": "D",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "E",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque periferização associada à desigualdade no acesso à cidade é a leitura que melhor conecta o enunciado ao assunto Segregação socioespacial. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Segregação socioespacial.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Geografia",
+        "Urbanização",
+        "Segregação socioespacial"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-10",
+      "moduleId": "modulo-05",
+      "order": 10,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Geografia",
+      "chapter": "Energia e sustentabilidade",
+      "topic": "Fontes renováveis",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Geografia - Energia e sustentabilidade",
+      "stimulus": {
+        "type": "text",
+        "title": "Geografia: Fontes renováveis",
+        "text": "A energia limpa reduz emissões, mas também exige território, rede e planejamento. A questão pede que o estudante relacione o contexto ao conceito de Fontes renováveis, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Fontes renováveis porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "B",
+          "text": "análise dos limites ambientais e econômicos da transição energética"
+        },
+        {
+          "letter": "C",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado."
+        },
+        {
+          "letter": "D",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "E",
+          "text": "neutralidade política das instituições de comunicação"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque análise dos limites ambientais e econômicos da transição energética é a leitura que melhor conecta o enunciado ao assunto Fontes renováveis. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Fontes renováveis.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Geografia",
+        "Energia e sustentabilidade",
+        "Fontes renováveis"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-11",
+      "moduleId": "modulo-05",
+      "order": 11,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Geografia",
+      "chapter": "Agronegócio",
+      "topic": "Commodities",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Geografia - Agronegócio",
+      "stimulus": {
+        "type": "text",
+        "title": "Geografia: Commodities",
+        "text": "A pauta exportadora brasileira concentra produtos primários de alto peso logístico. A questão pede que o estudante relacione o contexto ao conceito de Commodities, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Commodities porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "dependência de cadeias globais e vulnerabilidade a preços externos"
+        },
+        {
+          "letter": "B",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "C",
+          "text": "ausência de conflitos sociais no espaço colonial."
+        },
+        {
+          "letter": "D",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "E",
+          "text": "isolamento total entre economia e território"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque dependência de cadeias globais e vulnerabilidade a preços externos é a leitura que melhor conecta o enunciado ao assunto Commodities. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Commodities.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Geografia",
+        "Agronegócio",
+        "Commodities"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-12",
+      "moduleId": "modulo-05",
+      "order": 12,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Sociologia",
+      "chapter": "Racismo estrutural",
+      "topic": "Representatividade",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Sociologia - Racismo estrutural",
+      "stimulus": {
+        "type": "text",
+        "title": "Sociologia: Representatividade",
+        "text": "Campanhas antirracistas criticam desigualdades reproduzidas por instituições e práticas sociais. A questão pede que o estudante relacione o contexto ao conceito de Representatividade, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Representatividade porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "B",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "C",
+          "text": "neutralidade política das instituições de comunicação."
+        },
+        {
+          "letter": "D",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "E",
+          "text": "questionamento de hierarquias raciais naturalizadas"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque questionamento de hierarquias raciais naturalizadas é a leitura que melhor conecta o enunciado ao assunto Representatividade. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Representatividade.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Sociologia",
+        "Racismo estrutural",
+        "Representatividade"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-13",
+      "moduleId": "modulo-05",
+      "order": 13,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Sociologia",
+      "chapter": "Trabalho e origem social",
+      "topic": "Escolhas profissionais",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Sociologia - Trabalho e origem social",
+      "stimulus": {
+        "type": "text",
+        "title": "Sociologia: Escolhas profissionais",
+        "text": "O acesso desigual à escola, renda e redes sociais condiciona trajetórias ocupacionais. A questão pede que o estudante relacione o contexto ao conceito de Escolhas profissionais, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Escolhas profissionais porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "B",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "C",
+          "text": "isolamento total entre economia e território."
+        },
+        {
+          "letter": "D",
+          "text": "reprodução de desigualdades de classe"
+        },
+        {
+          "letter": "E",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque reprodução de desigualdades de classe é a leitura que melhor conecta o enunciado ao assunto Escolhas profissionais. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Escolhas profissionais.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Sociologia",
+        "Trabalho e origem social",
+        "Escolhas profissionais"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-14",
+      "moduleId": "modulo-05",
+      "order": 14,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Filosofia",
+      "chapter": "Contrato social",
+      "topic": "Rousseau",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Filosofia - Contrato social",
+      "stimulus": {
+        "type": "text",
+        "title": "Filosofia: Rousseau",
+        "text": "A vontade geral não é soma de interesses privados, mas orientação para o bem comum. A questão pede que o estudante relacione o contexto ao conceito de Rousseau, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Rousseau porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "B",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "C",
+          "text": "legitimidade política baseada na soberania popular"
+        },
+        {
+          "letter": "D",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado."
+        },
+        {
+          "letter": "E",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque legitimidade política baseada na soberania popular é a leitura que melhor conecta o enunciado ao assunto Rousseau. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Rousseau.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Filosofia",
+        "Contrato social",
+        "Rousseau"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-15",
+      "moduleId": "modulo-05",
+      "order": 15,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Filosofia",
+      "chapter": "Ética e justiça",
+      "topic": "Aristóteles",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Filosofia - Ética e justiça",
+      "stimulus": {
+        "type": "text",
+        "title": "Filosofia: Aristóteles",
+        "text": "A justiça distributiva considera mérito, função e proporção na vida coletiva. A questão pede que o estudante relacione o contexto ao conceito de Aristóteles, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Aristóteles porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "B",
+          "text": "distribuição proporcional orientada pelo bem comum"
+        },
+        {
+          "letter": "C",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "D",
+          "text": "ausência de conflitos sociais no espaço colonial."
+        },
+        {
+          "letter": "E",
+          "text": "neutralidade política das instituições de comunicação"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque distribuição proporcional orientada pelo bem comum é a leitura que melhor conecta o enunciado ao assunto Aristóteles. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Aristóteles.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Filosofia",
+        "Ética e justiça",
+        "Aristóteles"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-16",
+      "moduleId": "modulo-05",
+      "order": 16,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "História",
+      "chapter": "Colonização espanhola",
+      "topic": "Leis Novas de 1542",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "História - Colonização espanhola",
+      "stimulus": {
+        "type": "text",
+        "title": "História: Leis Novas de 1542",
+        "text": "A restrição à encomienda indica conflito entre exploração colonial e controle metropolitano. A questão pede que o estudante relacione o contexto ao conceito de Leis Novas de 1542, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Leis Novas de 1542 porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "redução da exploração indígena sem eliminar a dominação colonial"
+        },
+        {
+          "letter": "B",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "C",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "D",
+          "text": "neutralidade política das instituições de comunicação."
+        },
+        {
+          "letter": "E",
+          "text": "isolamento total entre economia e território"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque redução da exploração indígena sem eliminar a dominação colonial é a leitura que melhor conecta o enunciado ao assunto Leis Novas de 1542. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Leis Novas de 1542.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "História",
+        "Colonização espanhola",
+        "Leis Novas de 1542"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-17",
+      "moduleId": "modulo-05",
+      "order": 17,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "História",
+      "chapter": "Era Vargas",
+      "topic": "Propaganda política",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "História - Era Vargas",
+      "stimulus": {
+        "type": "text",
+        "title": "História: Propaganda política",
+        "text": "A construção da imagem do líder aproximava Estado, trabalho e massas urbanas. A questão pede que o estudante relacione o contexto ao conceito de Propaganda política, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Propaganda política porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "B",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "C",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "D",
+          "text": "isolamento total entre economia e território."
+        },
+        {
+          "letter": "E",
+          "text": "legitimação do poder por comunicação estatal e trabalhismo"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque legitimação do poder por comunicação estatal e trabalhismo é a leitura que melhor conecta o enunciado ao assunto Propaganda política. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Propaganda política.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "História",
+        "Era Vargas",
+        "Propaganda política"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-18",
+      "moduleId": "modulo-05",
+      "order": 18,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "História",
+      "chapter": "Guerra Fria",
+      "topic": "Muro de Berlim",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "História - Guerra Fria",
+      "stimulus": {
+        "type": "text",
+        "title": "História: Muro de Berlim",
+        "text": "A divisão da cidade expressava a ordem bipolar e a disputa ideológica do pós-guerra. A questão pede que o estudante relacione o contexto ao conceito de Muro de Berlim, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Muro de Berlim porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "B",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "C",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "D",
+          "text": "materialização territorial da rivalidade entre capitalismo e socialismo"
+        },
+        {
+          "letter": "E",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado."
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque materialização territorial da rivalidade entre capitalismo e socialismo é a leitura que melhor conecta o enunciado ao assunto Muro de Berlim. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Muro de Berlim.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "História",
+        "Guerra Fria",
+        "Muro de Berlim"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-19",
+      "moduleId": "modulo-05",
+      "order": 19,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Geografia",
+      "chapter": "Urbanização",
+      "topic": "Segregação socioespacial",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Geografia - Urbanização",
+      "stimulus": {
+        "type": "text",
+        "title": "Geografia: Segregação socioespacial",
+        "text": "A expansão urbana desigual empurra população pobre para áreas com menor infraestrutura. A questão pede que o estudante relacione o contexto ao conceito de Segregação socioespacial, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Segregação socioespacial porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "neutralidade política das instituições de comunicação"
+        },
+        {
+          "letter": "B",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "C",
+          "text": "periferização associada à desigualdade no acesso à cidade"
+        },
+        {
+          "letter": "D",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "E",
+          "text": "ausência de conflitos sociais no espaço colonial."
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque periferização associada à desigualdade no acesso à cidade é a leitura que melhor conecta o enunciado ao assunto Segregação socioespacial. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Segregação socioespacial.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Geografia",
+        "Urbanização",
+        "Segregação socioespacial"
+      ]
+    },
+    {
+      "id": "mod-05-humanas-20",
+      "moduleId": "modulo-05",
+      "order": 20,
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas",
+      "subject": "Geografia",
+      "chapter": "Energia e sustentabilidade",
+      "topic": "Fontes renováveis",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Geografia - Energia e sustentabilidade",
+      "stimulus": {
+        "type": "text",
+        "title": "Geografia: Fontes renováveis",
+        "text": "A energia limpa reduz emissões, mas também exige território, rede e planejamento. A questão pede que o estudante relacione o contexto ao conceito de Fontes renováveis, sem depender de memorização solta."
+      },
+      "prompt": "A situação descrita se relaciona ao tema Fontes renováveis porque evidencia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "isolamento total entre economia e território"
+        },
+        {
+          "letter": "B",
+          "text": "análise dos limites ambientais e econômicos da transição energética"
+        },
+        {
+          "letter": "C",
+          "text": "substituição completa do trabalho compulsório por trabalho assalariado"
+        },
+        {
+          "letter": "D",
+          "text": "ausência de conflitos sociais no espaço colonial"
+        },
+        {
+          "letter": "E",
+          "text": "neutralidade política das instituições de comunicação."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque análise dos limites ambientais e econômicos da transição energética é a leitura que melhor conecta o enunciado ao assunto Fontes renováveis. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Fontes renováveis.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências Humanas",
+        "Geografia",
+        "Energia e sustentabilidade",
+        "Fontes renováveis"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-01",
+      "moduleId": "modulo-05",
+      "order": 21,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Artigo de opinião",
+      "topic": "Tese e argumento",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Artigo de opinião",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Tese e argumento",
+        "text": "A defesa de ponto de vista depende de exemplos, dados e conectores argumentativos. A questão pede que o estudante relacione o contexto ao conceito de Tese e argumento, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Tese e argumento é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "distinguir tese de justificativa"
+        },
+        {
+          "letter": "B",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "C",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "D",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "E",
+          "text": "considerar imagem e texto como elementos sem relação."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque distinguir tese de justificativa é a leitura que melhor conecta o enunciado ao assunto Tese e argumento. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Tese e argumento.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Artigo de opinião",
+        "Tese e argumento"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-02",
+      "moduleId": "modulo-05",
+      "order": 22,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Inglês",
+      "chapter": "Cultura digital",
+      "topic": "Comportamento social",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Inglês - Cultura digital",
+      "stimulus": {
+        "type": "text",
+        "title": "Inglês: Comportamento social",
+        "text": "O texto em inglês critica rótulos geracionais criados em ambientes de mídia. A questão pede que o estudante relacione o contexto ao conceito de Comportamento social, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Comportamento social é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "decorar apenas o significado literal de uma palavra."
+        },
+        {
+          "letter": "B",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "C",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "D",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "E",
+          "text": "inferir intenção crítica do autor"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque inferir intenção crítica do autor é a leitura que melhor conecta o enunciado ao assunto Comportamento social. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Comportamento social.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Inglês",
+        "Cultura digital",
+        "Comportamento social"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-03",
+      "moduleId": "modulo-05",
+      "order": 23,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Espanhol",
+      "chapter": "Variação linguística",
+      "topic": "Regionalismo",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Espanhol - Variação linguística",
+      "stimulus": {
+        "type": "text",
+        "title": "Espanhol: Regionalismo",
+        "text": "O vocabulário hispano-americano muda conforme país, região e situação de uso. A questão pede que o estudante relacione o contexto ao conceito de Regionalismo, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Regionalismo é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ignorar o gênero textual e o público-alvo."
+        },
+        {
+          "letter": "B",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "C",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "D",
+          "text": "reconhecer diversidade lexical do espanhol"
+        },
+        {
+          "letter": "E",
+          "text": "decorar apenas o significado literal de uma palavra"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque reconhecer diversidade lexical do espanhol é a leitura que melhor conecta o enunciado ao assunto Regionalismo. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Regionalismo.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Espanhol",
+        "Variação linguística",
+        "Regionalismo"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-04",
+      "moduleId": "modulo-05",
+      "order": 24,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Campanha social",
+      "topic": "Finalidade comunicativa",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Campanha social",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Finalidade comunicativa",
+        "text": "Campanhas usam linguagem direta para orientar comportamento coletivo. A questão pede que o estudante relacione o contexto ao conceito de Finalidade comunicativa, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Finalidade comunicativa é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "responder com opinião pessoal sem pista do texto."
+        },
+        {
+          "letter": "B",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "C",
+          "text": "identificar persuasão e público-alvo"
+        },
+        {
+          "letter": "D",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "E",
+          "text": "ignorar o gênero textual e o público-alvo"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque identificar persuasão e público-alvo é a leitura que melhor conecta o enunciado ao assunto Finalidade comunicativa. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Finalidade comunicativa.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Campanha social",
+        "Finalidade comunicativa"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-05",
+      "moduleId": "modulo-05",
+      "order": 25,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Coesão textual",
+      "topic": "Conectores",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Coesão textual",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Conectores",
+        "text": "Conectores organizam causa, oposição, conclusão e progressão temática. A questão pede que o estudante relacione o contexto ao conceito de Conectores, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Conectores é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "considerar imagem e texto como elementos sem relação."
+        },
+        {
+          "letter": "B",
+          "text": "explicar relação semântica entre partes do texto"
+        },
+        {
+          "letter": "C",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "D",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "E",
+          "text": "responder com opinião pessoal sem pista do texto"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque explicar relação semântica entre partes do texto é a leitura que melhor conecta o enunciado ao assunto Conectores. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Conectores.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Coesão textual",
+        "Conectores"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-06",
+      "moduleId": "modulo-05",
+      "order": 26,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Interpretação textual",
+      "topic": "Ideia central",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Interpretação textual",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Ideia central",
+        "text": "O texto constrói sentido ao relacionar tema, ponto de vista e finalidade comunicativa. A questão pede que o estudante relacione o contexto ao conceito de Ideia central, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Ideia central é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "identificar a tese sustentada pelas pistas do texto"
+        },
+        {
+          "letter": "B",
+          "text": "decorar apenas o significado literal de uma palavra."
+        },
+        {
+          "letter": "C",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "D",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "E",
+          "text": "considerar imagem e texto como elementos sem relação"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque identificar a tese sustentada pelas pistas do texto é a leitura que melhor conecta o enunciado ao assunto Ideia central. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Ideia central.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Interpretação textual",
+        "Ideia central"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-07",
+      "moduleId": "modulo-05",
+      "order": 27,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Textos multimodais",
+      "topic": "Charge",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Textos multimodais",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Charge",
+        "text": "A charge combina exagero visual, linguagem verbal e contexto para produzir crítica. A questão pede que o estudante relacione o contexto ao conceito de Charge, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Charge é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "B",
+          "text": "ignorar o gênero textual e o público-alvo."
+        },
+        {
+          "letter": "C",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "D",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "E",
+          "text": "inferir crítica social a partir da relação entre imagem e fala"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque inferir crítica social a partir da relação entre imagem e fala é a leitura que melhor conecta o enunciado ao assunto Charge. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Charge.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Textos multimodais",
+        "Charge"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-08",
+      "moduleId": "modulo-05",
+      "order": 28,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Variação linguística",
+      "topic": "Registro informal",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Variação linguística",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Registro informal",
+        "text": "O uso de marcas de fala cotidiana pode aproximar emissor e público-alvo. A questão pede que o estudante relacione o contexto ao conceito de Registro informal, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Registro informal é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "B",
+          "text": "responder com opinião pessoal sem pista do texto."
+        },
+        {
+          "letter": "C",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "D",
+          "text": "reconhecer adequação da linguagem à situação comunicativa"
+        },
+        {
+          "letter": "E",
+          "text": "decorar apenas o significado literal de uma palavra"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque reconhecer adequação da linguagem à situação comunicativa é a leitura que melhor conecta o enunciado ao assunto Registro informal. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Registro informal.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Variação linguística",
+        "Registro informal"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-09",
+      "moduleId": "modulo-05",
+      "order": 29,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Literatura",
+      "chapter": "Poema",
+      "topic": "Memória e identidade",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Literatura - Poema",
+      "stimulus": {
+        "type": "text",
+        "title": "Literatura: Memória e identidade",
+        "text": "A voz poética transforma lembrança individual em reflexão coletiva. A questão pede que o estudante relacione o contexto ao conceito de Memória e identidade, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Memória e identidade é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "B",
+          "text": "considerar imagem e texto como elementos sem relação."
+        },
+        {
+          "letter": "C",
+          "text": "perceber memória como construção simbólica de identidade"
+        },
+        {
+          "letter": "D",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "E",
+          "text": "ignorar o gênero textual e o público-alvo"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque perceber memória como construção simbólica de identidade é a leitura que melhor conecta o enunciado ao assunto Memória e identidade. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Memória e identidade.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Literatura",
+        "Poema",
+        "Memória e identidade"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-10",
+      "moduleId": "modulo-05",
+      "order": 30,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Artes",
+      "chapter": "Arte afro-brasileira",
+      "topic": "Representação social",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Artes - Arte afro-brasileira",
+      "stimulus": {
+        "type": "text",
+        "title": "Artes: Representação social",
+        "text": "A obra valoriza sujeitos historicamente apagados e disputa a memória visual. A questão pede que o estudante relacione o contexto ao conceito de Representação social, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Representação social é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "B",
+          "text": "associar arte à resistência cultural e à representatividade"
+        },
+        {
+          "letter": "C",
+          "text": "decorar apenas o significado literal de uma palavra."
+        },
+        {
+          "letter": "D",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "E",
+          "text": "responder com opinião pessoal sem pista do texto"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque associar arte à resistência cultural e à representatividade é a leitura que melhor conecta o enunciado ao assunto Representação social. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Representação social.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Artes",
+        "Arte afro-brasileira",
+        "Representação social"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-11",
+      "moduleId": "modulo-05",
+      "order": 31,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Artigo de opinião",
+      "topic": "Tese e argumento",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Artigo de opinião",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Tese e argumento",
+        "text": "A defesa de ponto de vista depende de exemplos, dados e conectores argumentativos. A questão pede que o estudante relacione o contexto ao conceito de Tese e argumento, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Tese e argumento é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "distinguir tese de justificativa"
+        },
+        {
+          "letter": "B",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "C",
+          "text": "ignorar o gênero textual e o público-alvo."
+        },
+        {
+          "letter": "D",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "E",
+          "text": "considerar imagem e texto como elementos sem relação"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque distinguir tese de justificativa é a leitura que melhor conecta o enunciado ao assunto Tese e argumento. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Tese e argumento.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Artigo de opinião",
+        "Tese e argumento"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-12",
+      "moduleId": "modulo-05",
+      "order": 32,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Inglês",
+      "chapter": "Cultura digital",
+      "topic": "Comportamento social",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Inglês - Cultura digital",
+      "stimulus": {
+        "type": "text",
+        "title": "Inglês: Comportamento social",
+        "text": "O texto em inglês critica rótulos geracionais criados em ambientes de mídia. A questão pede que o estudante relacione o contexto ao conceito de Comportamento social, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Comportamento social é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "B",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "C",
+          "text": "responder com opinião pessoal sem pista do texto."
+        },
+        {
+          "letter": "D",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "E",
+          "text": "inferir intenção crítica do autor"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque inferir intenção crítica do autor é a leitura que melhor conecta o enunciado ao assunto Comportamento social. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Comportamento social.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Inglês",
+        "Cultura digital",
+        "Comportamento social"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-13",
+      "moduleId": "modulo-05",
+      "order": 33,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Espanhol",
+      "chapter": "Variação linguística",
+      "topic": "Regionalismo",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Espanhol - Variação linguística",
+      "stimulus": {
+        "type": "text",
+        "title": "Espanhol: Regionalismo",
+        "text": "O vocabulário hispano-americano muda conforme país, região e situação de uso. A questão pede que o estudante relacione o contexto ao conceito de Regionalismo, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Regionalismo é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "B",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "C",
+          "text": "considerar imagem e texto como elementos sem relação."
+        },
+        {
+          "letter": "D",
+          "text": "reconhecer diversidade lexical do espanhol"
+        },
+        {
+          "letter": "E",
+          "text": "decorar apenas o significado literal de uma palavra"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque reconhecer diversidade lexical do espanhol é a leitura que melhor conecta o enunciado ao assunto Regionalismo. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Regionalismo.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Espanhol",
+        "Variação linguística",
+        "Regionalismo"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-14",
+      "moduleId": "modulo-05",
+      "order": 34,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Campanha social",
+      "topic": "Finalidade comunicativa",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Campanha social",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Finalidade comunicativa",
+        "text": "Campanhas usam linguagem direta para orientar comportamento coletivo. A questão pede que o estudante relacione o contexto ao conceito de Finalidade comunicativa, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Finalidade comunicativa é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "B",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "C",
+          "text": "identificar persuasão e público-alvo"
+        },
+        {
+          "letter": "D",
+          "text": "decorar apenas o significado literal de uma palavra."
+        },
+        {
+          "letter": "E",
+          "text": "ignorar o gênero textual e o público-alvo"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque identificar persuasão e público-alvo é a leitura que melhor conecta o enunciado ao assunto Finalidade comunicativa. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Finalidade comunicativa.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Campanha social",
+        "Finalidade comunicativa"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-15",
+      "moduleId": "modulo-05",
+      "order": 35,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Coesão textual",
+      "topic": "Conectores",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Coesão textual",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Conectores",
+        "text": "Conectores organizam causa, oposição, conclusão e progressão temática. A questão pede que o estudante relacione o contexto ao conceito de Conectores, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Conectores é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "B",
+          "text": "explicar relação semântica entre partes do texto"
+        },
+        {
+          "letter": "C",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "D",
+          "text": "ignorar o gênero textual e o público-alvo."
+        },
+        {
+          "letter": "E",
+          "text": "responder com opinião pessoal sem pista do texto"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque explicar relação semântica entre partes do texto é a leitura que melhor conecta o enunciado ao assunto Conectores. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Conectores.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Coesão textual",
+        "Conectores"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-16",
+      "moduleId": "modulo-05",
+      "order": 36,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Interpretação textual",
+      "topic": "Ideia central",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Interpretação textual",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Ideia central",
+        "text": "O texto constrói sentido ao relacionar tema, ponto de vista e finalidade comunicativa. A questão pede que o estudante relacione o contexto ao conceito de Ideia central, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Ideia central é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "identificar a tese sustentada pelas pistas do texto"
+        },
+        {
+          "letter": "B",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "C",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "D",
+          "text": "responder com opinião pessoal sem pista do texto."
+        },
+        {
+          "letter": "E",
+          "text": "considerar imagem e texto como elementos sem relação"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque identificar a tese sustentada pelas pistas do texto é a leitura que melhor conecta o enunciado ao assunto Ideia central. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Ideia central.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Interpretação textual",
+        "Ideia central"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-17",
+      "moduleId": "modulo-05",
+      "order": 37,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Textos multimodais",
+      "topic": "Charge",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Textos multimodais",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Charge",
+        "text": "A charge combina exagero visual, linguagem verbal e contexto para produzir crítica. A questão pede que o estudante relacione o contexto ao conceito de Charge, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Charge é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "B",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "C",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "D",
+          "text": "considerar imagem e texto como elementos sem relação."
+        },
+        {
+          "letter": "E",
+          "text": "inferir crítica social a partir da relação entre imagem e fala"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque inferir crítica social a partir da relação entre imagem e fala é a leitura que melhor conecta o enunciado ao assunto Charge. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Charge.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Textos multimodais",
+        "Charge"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-18",
+      "moduleId": "modulo-05",
+      "order": 38,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Português",
+      "chapter": "Variação linguística",
+      "topic": "Registro informal",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Português - Variação linguística",
+      "stimulus": {
+        "type": "text",
+        "title": "Português: Registro informal",
+        "text": "O uso de marcas de fala cotidiana pode aproximar emissor e público-alvo. A questão pede que o estudante relacione o contexto ao conceito de Registro informal, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Registro informal é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "B",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "C",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "D",
+          "text": "reconhecer adequação da linguagem à situação comunicativa"
+        },
+        {
+          "letter": "E",
+          "text": "decorar apenas o significado literal de uma palavra."
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque reconhecer adequação da linguagem à situação comunicativa é a leitura que melhor conecta o enunciado ao assunto Registro informal. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Registro informal.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Português",
+        "Variação linguística",
+        "Registro informal"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-19",
+      "moduleId": "modulo-05",
+      "order": 39,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Literatura",
+      "chapter": "Poema",
+      "topic": "Memória e identidade",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Literatura - Poema",
+      "stimulus": {
+        "type": "text",
+        "title": "Literatura: Memória e identidade",
+        "text": "A voz poética transforma lembrança individual em reflexão coletiva. A questão pede que o estudante relacione o contexto ao conceito de Memória e identidade, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Memória e identidade é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "responder com opinião pessoal sem pista do texto"
+        },
+        {
+          "letter": "B",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "C",
+          "text": "perceber memória como construção simbólica de identidade"
+        },
+        {
+          "letter": "D",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "E",
+          "text": "ignorar o gênero textual e o público-alvo."
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque perceber memória como construção simbólica de identidade é a leitura que melhor conecta o enunciado ao assunto Memória e identidade. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Memória e identidade.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Literatura",
+        "Poema",
+        "Memória e identidade"
+      ]
+    },
+    {
+      "id": "mod-05-linguagens-20",
+      "moduleId": "modulo-05",
+      "order": 40,
+      "area": "linguagens",
+      "areaLabel": "Linguagens",
+      "subject": "Artes",
+      "chapter": "Arte afro-brasileira",
+      "topic": "Representação social",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Artes - Arte afro-brasileira",
+      "stimulus": {
+        "type": "text",
+        "title": "Artes: Representação social",
+        "text": "A obra valoriza sujeitos historicamente apagados e disputa a memória visual. A questão pede que o estudante relacione o contexto ao conceito de Representação social, sem depender de memorização solta."
+      },
+      "prompt": "No contexto apresentado, o principal efeito de sentido relacionado a Representação social é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "considerar imagem e texto como elementos sem relação"
+        },
+        {
+          "letter": "B",
+          "text": "associar arte à resistência cultural e à representatividade"
+        },
+        {
+          "letter": "C",
+          "text": "decorar apenas o significado literal de uma palavra"
+        },
+        {
+          "letter": "D",
+          "text": "ignorar o gênero textual e o público-alvo"
+        },
+        {
+          "letter": "E",
+          "text": "responder com opinião pessoal sem pista do texto."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque associar arte à resistência cultural e à representatividade é a leitura que melhor conecta o enunciado ao assunto Representação social. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Representação social.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Linguagens",
+        "Artes",
+        "Arte afro-brasileira",
+        "Representação social"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-01",
+      "moduleId": "modulo-05",
+      "order": 41,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Química",
+      "chapter": "Orgânica",
+      "topic": "Funções orgânicas",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Química - Orgânica",
+      "stimulus": {
+        "type": "text",
+        "title": "Química: Funções orgânicas",
+        "text": "Grupos funcionais determinam propriedades e reatividade de moléculas. A questão pede que o estudante relacione o contexto ao conceito de Funções orgânicas, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Funções orgânicas é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "reconhecimento da função pela estrutura"
+        },
+        {
+          "letter": "B",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "C",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "D",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "E",
+          "text": "conclusão sem evidência experimental ou dado."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque reconhecimento da função pela estrutura é a leitura que melhor conecta o enunciado ao assunto Funções orgânicas. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Funções orgânicas.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Química",
+        "Orgânica",
+        "Funções orgânicas"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-02",
+      "moduleId": "modulo-05",
+      "order": 42,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Física",
+      "chapter": "Cinemática",
+      "topic": "Velocidade média",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Física - Cinemática",
+      "stimulus": {
+        "type": "text",
+        "title": "Física: Velocidade média",
+        "text": "A razão entre deslocamento e tempo permite comparar movimentos em contextos cotidianos. A questão pede que o estudante relacione o contexto ao conceito de Velocidade média, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Velocidade média é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "mudança sem relação com causa e efeito."
+        },
+        {
+          "letter": "B",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "C",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "D",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "E",
+          "text": "cálculo de velocidade a partir de distância e tempo"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque cálculo de velocidade a partir de distância e tempo é a leitura que melhor conecta o enunciado ao assunto Velocidade média. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Velocidade média.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Física",
+        "Cinemática",
+        "Velocidade média"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-03",
+      "moduleId": "modulo-05",
+      "order": 43,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Física",
+      "chapter": "Eletricidade",
+      "topic": "Lei de Ohm",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Física - Eletricidade",
+      "stimulus": {
+        "type": "chart",
+        "title": "Modelo visual: Lei de Ohm",
+        "text": "Os valores simulam a comparação entre etapas de um processo científico.",
+        "bars": [
+          {
+            "label": "A",
+            "value": 55
+          },
+          {
+            "label": "B",
+            "value": 69
+          },
+          {
+            "label": "C",
+            "value": 85
+          },
+          {
+            "label": "D",
+            "value": 101
+          }
+        ]
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Lei de Ohm é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "interpretação baseada apenas no nome do conteúdo."
+        },
+        {
+          "letter": "B",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "C",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "D",
+          "text": "aumento da corrente quando a resistência diminui"
+        },
+        {
+          "letter": "E",
+          "text": "mudança sem relação com causa e efeito"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque aumento da corrente quando a resistência diminui é a leitura que melhor conecta o enunciado ao assunto Lei de Ohm. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Lei de Ohm.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Física",
+        "Eletricidade",
+        "Lei de Ohm"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-04",
+      "moduleId": "modulo-05",
+      "order": 44,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Física",
+      "chapter": "Ondulatória",
+      "topic": "Efeito Doppler",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Física - Ondulatória",
+      "stimulus": {
+        "type": "text",
+        "title": "Física: Efeito Doppler",
+        "text": "Movimento relativo entre fonte e observador altera a frequência percebida. A questão pede que o estudante relacione o contexto ao conceito de Efeito Doppler, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Efeito Doppler é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aumento de grandeza sem alterar o sistema."
+        },
+        {
+          "letter": "B",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "C",
+          "text": "som mais agudo na aproximação da fonte"
+        },
+        {
+          "letter": "D",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "E",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque som mais agudo na aproximação da fonte é a leitura que melhor conecta o enunciado ao assunto Efeito Doppler. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Efeito Doppler.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Física",
+        "Ondulatória",
+        "Efeito Doppler"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-05",
+      "moduleId": "modulo-05",
+      "order": 45,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Física",
+      "chapter": "Termologia",
+      "topic": "Calor específico",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Física - Termologia",
+      "stimulus": {
+        "type": "text",
+        "title": "Física: Calor específico",
+        "text": "Materiais diferentes exigem quantidades diferentes de energia para variar temperatura. A questão pede que o estudante relacione o contexto ao conceito de Calor específico, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Calor específico é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "conclusão sem evidência experimental ou dado."
+        },
+        {
+          "letter": "B",
+          "text": "comparação da energia necessária para aquecimento"
+        },
+        {
+          "letter": "C",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "D",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "E",
+          "text": "aumento de grandeza sem alterar o sistema"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque comparação da energia necessária para aquecimento é a leitura que melhor conecta o enunciado ao assunto Calor específico. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Calor específico.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Física",
+        "Termologia",
+        "Calor específico"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-06",
+      "moduleId": "modulo-05",
+      "order": 46,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Biologia",
+      "chapter": "Ecologia",
+      "topic": "Bioacumulação",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Biologia - Ecologia",
+      "stimulus": {
+        "type": "chart",
+        "title": "Modelo visual: Bioacumulação",
+        "text": "Os valores simulam a comparação entre etapas de um processo científico.",
+        "bars": [
+          {
+            "label": "A",
+            "value": 58
+          },
+          {
+            "label": "B",
+            "value": 72
+          },
+          {
+            "label": "C",
+            "value": 88
+          },
+          {
+            "label": "D",
+            "value": 104
+          }
+        ]
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Bioacumulação é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "maior concentração em predadores de topo"
+        },
+        {
+          "letter": "B",
+          "text": "mudança sem relação com causa e efeito."
+        },
+        {
+          "letter": "C",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "D",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "E",
+          "text": "conclusão sem evidência experimental ou dado"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque maior concentração em predadores de topo é a leitura que melhor conecta o enunciado ao assunto Bioacumulação. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Bioacumulação.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Biologia",
+        "Ecologia",
+        "Bioacumulação"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-07",
+      "moduleId": "modulo-05",
+      "order": 47,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Biologia",
+      "chapter": "Genética",
+      "topic": "Heredograma",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Biologia - Genética",
+      "stimulus": {
+        "type": "text",
+        "title": "Biologia: Heredograma",
+        "text": "A análise de herança recessiva observa pais, filhos afetados e padrões familiares. A questão pede que o estudante relacione o contexto ao conceito de Heredograma, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Heredograma é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "B",
+          "text": "interpretação baseada apenas no nome do conteúdo."
+        },
+        {
+          "letter": "C",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "D",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "E",
+          "text": "identificação de alelos e probabilidade de descendentes"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque identificação de alelos e probabilidade de descendentes é a leitura que melhor conecta o enunciado ao assunto Heredograma. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Heredograma.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Biologia",
+        "Genética",
+        "Heredograma"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-08",
+      "moduleId": "modulo-05",
+      "order": 48,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Biologia",
+      "chapter": "Vírus",
+      "topic": "Proteína spike",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Biologia - Vírus",
+      "stimulus": {
+        "type": "text",
+        "title": "Biologia: Proteína spike",
+        "text": "Proteínas virais participam do reconhecimento e entrada em células hospedeiras. A questão pede que o estudante relacione o contexto ao conceito de Proteína spike, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Proteína spike é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "B",
+          "text": "aumento de grandeza sem alterar o sistema."
+        },
+        {
+          "letter": "C",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "D",
+          "text": "bloqueio da etapa inicial de infecção"
+        },
+        {
+          "letter": "E",
+          "text": "mudança sem relação com causa e efeito"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque bloqueio da etapa inicial de infecção é a leitura que melhor conecta o enunciado ao assunto Proteína spike. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Proteína spike.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Biologia",
+        "Vírus",
+        "Proteína spike"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-09",
+      "moduleId": "modulo-05",
+      "order": 49,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Química",
+      "chapter": "Soluções",
+      "topic": "Diluição",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Química - Soluções",
+      "stimulus": {
+        "type": "chart",
+        "title": "Modelo visual: Diluição",
+        "text": "Os valores simulam a comparação entre etapas de um processo científico.",
+        "bars": [
+          {
+            "label": "A",
+            "value": 61
+          },
+          {
+            "label": "B",
+            "value": 75
+          },
+          {
+            "label": "C",
+            "value": 91
+          },
+          {
+            "label": "D",
+            "value": 107
+          }
+        ]
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Diluição é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "B",
+          "text": "conclusão sem evidência experimental ou dado."
+        },
+        {
+          "letter": "C",
+          "text": "redução da concentração final"
+        },
+        {
+          "letter": "D",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "E",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque redução da concentração final é a leitura que melhor conecta o enunciado ao assunto Diluição. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Diluição.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Química",
+        "Soluções",
+        "Diluição"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-10",
+      "moduleId": "modulo-05",
+      "order": 50,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Química",
+      "chapter": "Equilíbrio químico",
+      "topic": "Le Chatelier",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Química - Equilíbrio químico",
+      "stimulus": {
+        "type": "text",
+        "title": "Química: Le Chatelier",
+        "text": "O sistema tende a reduzir a perturbação imposta por concentração, pressão ou temperatura. A questão pede que o estudante relacione o contexto ao conceito de Le Chatelier, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Le Chatelier é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "B",
+          "text": "deslocamento do equilíbrio para consumir o reagente adicionado"
+        },
+        {
+          "letter": "C",
+          "text": "mudança sem relação com causa e efeito."
+        },
+        {
+          "letter": "D",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "E",
+          "text": "aumento de grandeza sem alterar o sistema"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque deslocamento do equilíbrio para consumir o reagente adicionado é a leitura que melhor conecta o enunciado ao assunto Le Chatelier. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Le Chatelier.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Química",
+        "Equilíbrio químico",
+        "Le Chatelier"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-11",
+      "moduleId": "modulo-05",
+      "order": 51,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Química",
+      "chapter": "Orgânica",
+      "topic": "Funções orgânicas",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Química - Orgânica",
+      "stimulus": {
+        "type": "text",
+        "title": "Química: Funções orgânicas",
+        "text": "Grupos funcionais determinam propriedades e reatividade de moléculas. A questão pede que o estudante relacione o contexto ao conceito de Funções orgânicas, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Funções orgânicas é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "reconhecimento da função pela estrutura"
+        },
+        {
+          "letter": "B",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "C",
+          "text": "interpretação baseada apenas no nome do conteúdo."
+        },
+        {
+          "letter": "D",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "E",
+          "text": "conclusão sem evidência experimental ou dado"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque reconhecimento da função pela estrutura é a leitura que melhor conecta o enunciado ao assunto Funções orgânicas. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Funções orgânicas.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Química",
+        "Orgânica",
+        "Funções orgânicas"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-12",
+      "moduleId": "modulo-05",
+      "order": 52,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Física",
+      "chapter": "Cinemática",
+      "topic": "Velocidade média",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Física - Cinemática",
+      "stimulus": {
+        "type": "text",
+        "title": "Física: Velocidade média",
+        "text": "A razão entre deslocamento e tempo permite comparar movimentos em contextos cotidianos. A questão pede que o estudante relacione o contexto ao conceito de Velocidade média, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Velocidade média é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "B",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "C",
+          "text": "aumento de grandeza sem alterar o sistema."
+        },
+        {
+          "letter": "D",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "E",
+          "text": "cálculo de velocidade a partir de distância e tempo"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque cálculo de velocidade a partir de distância e tempo é a leitura que melhor conecta o enunciado ao assunto Velocidade média. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Velocidade média.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Física",
+        "Cinemática",
+        "Velocidade média"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-13",
+      "moduleId": "modulo-05",
+      "order": 53,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Física",
+      "chapter": "Eletricidade",
+      "topic": "Lei de Ohm",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Física - Eletricidade",
+      "stimulus": {
+        "type": "chart",
+        "title": "Modelo visual: Lei de Ohm",
+        "text": "Os valores simulam a comparação entre etapas de um processo científico.",
+        "bars": [
+          {
+            "label": "A",
+            "value": 65
+          },
+          {
+            "label": "B",
+            "value": 79
+          },
+          {
+            "label": "C",
+            "value": 95
+          },
+          {
+            "label": "D",
+            "value": 111
+          }
+        ]
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Lei de Ohm é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "B",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "C",
+          "text": "conclusão sem evidência experimental ou dado."
+        },
+        {
+          "letter": "D",
+          "text": "aumento da corrente quando a resistência diminui"
+        },
+        {
+          "letter": "E",
+          "text": "mudança sem relação com causa e efeito"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque aumento da corrente quando a resistência diminui é a leitura que melhor conecta o enunciado ao assunto Lei de Ohm. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Lei de Ohm.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Física",
+        "Eletricidade",
+        "Lei de Ohm"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-14",
+      "moduleId": "modulo-05",
+      "order": 54,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Física",
+      "chapter": "Ondulatória",
+      "topic": "Efeito Doppler",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Física - Ondulatória",
+      "stimulus": {
+        "type": "text",
+        "title": "Física: Efeito Doppler",
+        "text": "Movimento relativo entre fonte e observador altera a frequência percebida. A questão pede que o estudante relacione o contexto ao conceito de Efeito Doppler, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Efeito Doppler é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "B",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "C",
+          "text": "som mais agudo na aproximação da fonte"
+        },
+        {
+          "letter": "D",
+          "text": "mudança sem relação com causa e efeito."
+        },
+        {
+          "letter": "E",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque som mais agudo na aproximação da fonte é a leitura que melhor conecta o enunciado ao assunto Efeito Doppler. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Efeito Doppler.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Física",
+        "Ondulatória",
+        "Efeito Doppler"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-15",
+      "moduleId": "modulo-05",
+      "order": 55,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Física",
+      "chapter": "Termologia",
+      "topic": "Calor específico",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Física - Termologia",
+      "stimulus": {
+        "type": "text",
+        "title": "Física: Calor específico",
+        "text": "Materiais diferentes exigem quantidades diferentes de energia para variar temperatura. A questão pede que o estudante relacione o contexto ao conceito de Calor específico, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Calor específico é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "B",
+          "text": "comparação da energia necessária para aquecimento"
+        },
+        {
+          "letter": "C",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "D",
+          "text": "interpretação baseada apenas no nome do conteúdo."
+        },
+        {
+          "letter": "E",
+          "text": "aumento de grandeza sem alterar o sistema"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque comparação da energia necessária para aquecimento é a leitura que melhor conecta o enunciado ao assunto Calor específico. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Calor específico.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Física",
+        "Termologia",
+        "Calor específico"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-16",
+      "moduleId": "modulo-05",
+      "order": 56,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Biologia",
+      "chapter": "Ecologia",
+      "topic": "Bioacumulação",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Biologia - Ecologia",
+      "stimulus": {
+        "type": "chart",
+        "title": "Modelo visual: Bioacumulação",
+        "text": "Os valores simulam a comparação entre etapas de um processo científico.",
+        "bars": [
+          {
+            "label": "A",
+            "value": 68
+          },
+          {
+            "label": "B",
+            "value": 82
+          },
+          {
+            "label": "C",
+            "value": 98
+          },
+          {
+            "label": "D",
+            "value": 114
+          }
+        ]
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Bioacumulação é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "maior concentração em predadores de topo"
+        },
+        {
+          "letter": "B",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "C",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "D",
+          "text": "aumento de grandeza sem alterar o sistema."
+        },
+        {
+          "letter": "E",
+          "text": "conclusão sem evidência experimental ou dado"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque maior concentração em predadores de topo é a leitura que melhor conecta o enunciado ao assunto Bioacumulação. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Bioacumulação.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Biologia",
+        "Ecologia",
+        "Bioacumulação"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-17",
+      "moduleId": "modulo-05",
+      "order": 57,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Biologia",
+      "chapter": "Genética",
+      "topic": "Heredograma",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Biologia - Genética",
+      "stimulus": {
+        "type": "text",
+        "title": "Biologia: Heredograma",
+        "text": "A análise de herança recessiva observa pais, filhos afetados e padrões familiares. A questão pede que o estudante relacione o contexto ao conceito de Heredograma, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Heredograma é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "B",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "C",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "D",
+          "text": "conclusão sem evidência experimental ou dado."
+        },
+        {
+          "letter": "E",
+          "text": "identificação de alelos e probabilidade de descendentes"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque identificação de alelos e probabilidade de descendentes é a leitura que melhor conecta o enunciado ao assunto Heredograma. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Heredograma.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Biologia",
+        "Genética",
+        "Heredograma"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-18",
+      "moduleId": "modulo-05",
+      "order": 58,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Biologia",
+      "chapter": "Vírus",
+      "topic": "Proteína spike",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Biologia - Vírus",
+      "stimulus": {
+        "type": "text",
+        "title": "Biologia: Proteína spike",
+        "text": "Proteínas virais participam do reconhecimento e entrada em células hospedeiras. A questão pede que o estudante relacione o contexto ao conceito de Proteína spike, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Proteína spike é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "B",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "C",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "D",
+          "text": "bloqueio da etapa inicial de infecção"
+        },
+        {
+          "letter": "E",
+          "text": "mudança sem relação com causa e efeito."
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque bloqueio da etapa inicial de infecção é a leitura que melhor conecta o enunciado ao assunto Proteína spike. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Proteína spike.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Biologia",
+        "Vírus",
+        "Proteína spike"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-19",
+      "moduleId": "modulo-05",
+      "order": 59,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Química",
+      "chapter": "Soluções",
+      "topic": "Diluição",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Química - Soluções",
+      "stimulus": {
+        "type": "chart",
+        "title": "Modelo visual: Diluição",
+        "text": "Os valores simulam a comparação entre etapas de um processo científico.",
+        "bars": [
+          {
+            "label": "A",
+            "value": 71
+          },
+          {
+            "label": "B",
+            "value": 85
+          },
+          {
+            "label": "C",
+            "value": 101
+          },
+          {
+            "label": "D",
+            "value": 117
+          }
+        ]
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Diluição é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aumento de grandeza sem alterar o sistema"
+        },
+        {
+          "letter": "B",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "C",
+          "text": "redução da concentração final"
+        },
+        {
+          "letter": "D",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "E",
+          "text": "interpretação baseada apenas no nome do conteúdo."
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque redução da concentração final é a leitura que melhor conecta o enunciado ao assunto Diluição. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Diluição.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Química",
+        "Soluções",
+        "Diluição"
+      ]
+    },
+    {
+      "id": "mod-05-natureza-20",
+      "moduleId": "modulo-05",
+      "order": 60,
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza",
+      "subject": "Química",
+      "chapter": "Equilíbrio químico",
+      "topic": "Le Chatelier",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Química - Equilíbrio químico",
+      "stimulus": {
+        "type": "text",
+        "title": "Química: Le Chatelier",
+        "text": "O sistema tende a reduzir a perturbação imposta por concentração, pressão ou temperatura. A questão pede que o estudante relacione o contexto ao conceito de Le Chatelier, sem depender de memorização solta."
+      },
+      "prompt": "A explicação científica mais adequada para a situação relacionada a Le Chatelier é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "conclusão sem evidência experimental ou dado"
+        },
+        {
+          "letter": "B",
+          "text": "deslocamento do equilíbrio para consumir o reagente adicionado"
+        },
+        {
+          "letter": "C",
+          "text": "mudança sem relação com causa e efeito"
+        },
+        {
+          "letter": "D",
+          "text": "interpretação baseada apenas no nome do conteúdo"
+        },
+        {
+          "letter": "E",
+          "text": "aumento de grandeza sem alterar o sistema."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque deslocamento do equilíbrio para consumir o reagente adicionado é a leitura que melhor conecta o enunciado ao assunto Le Chatelier. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Le Chatelier.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Ciências da Natureza",
+        "Química",
+        "Equilíbrio químico",
+        "Le Chatelier"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-01",
+      "moduleId": "modulo-05",
+      "order": 61,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Geometria plana",
+      "topic": "Área do círculo",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Geometria plana",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Área do círculo",
+        "text": "Um círculo de raio 4 cm tem área igual a A questão pede que o estudante relacione o contexto ao conceito de Área do círculo, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Área do círculo, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "16π cm²"
+        },
+        {
+          "letter": "B",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "C",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "D",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "E",
+          "text": "ignorar a taxa, escala ou proporção."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque 16π cm² é a leitura que melhor conecta o enunciado ao assunto Área do círculo. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Área do círculo.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Geometria plana",
+        "Área do círculo"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-02",
+      "moduleId": "modulo-05",
+      "order": 62,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Geometria espacial",
+      "topic": "Volume de cilindro",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Geometria espacial",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Volume de cilindro",
+        "text": "Um cilindro de raio 3 m e altura 5 m tem volume A questão pede que o estudante relacione o contexto ao conceito de Volume de cilindro, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Volume de cilindro, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "somar valores sem conferir a unidade."
+        },
+        {
+          "letter": "B",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "C",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "D",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "E",
+          "text": "45π m³"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque 45π m³ é a leitura que melhor conecta o enunciado ao assunto Volume de cilindro. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Volume de cilindro.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Geometria espacial",
+        "Volume de cilindro"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-03",
+      "moduleId": "modulo-05",
+      "order": 63,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Escala",
+      "topic": "Mapas e plantas",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Escala",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Mapas e plantas",
+        "text": "Em escala 1:50 000, 3 cm no mapa representam A questão pede que o estudante relacione o contexto ao conceito de Mapas e plantas, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Mapas e plantas, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "usar fórmula sem identificar a grandeza pedida."
+        },
+        {
+          "letter": "B",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "C",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "D",
+          "text": "1,5 km"
+        },
+        {
+          "letter": "E",
+          "text": "somar valores sem conferir a unidade"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque 1,5 km é a leitura que melhor conecta o enunciado ao assunto Mapas e plantas. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Mapas e plantas.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Escala",
+        "Mapas e plantas"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-04",
+      "moduleId": "modulo-05",
+      "order": 64,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Função quadrática",
+      "topic": "Máximo e mínimo",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Função quadrática",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Máximo e mínimo",
+        "text": "A parábola com concavidade para baixo pode modelar A questão pede que o estudante relacione o contexto ao conceito de Máximo e mínimo, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Máximo e mínimo, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "comparar números de contextos diferentes."
+        },
+        {
+          "letter": "B",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "C",
+          "text": "valor máximo de receita"
+        },
+        {
+          "letter": "D",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "E",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque valor máximo de receita é a leitura que melhor conecta o enunciado ao assunto Máximo e mínimo. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Máximo e mínimo.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Função quadrática",
+        "Máximo e mínimo"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-05",
+      "moduleId": "modulo-05",
+      "order": 65,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Matemática financeira",
+      "topic": "Custo-benefício",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Matemática financeira",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Custo-benefício",
+        "text": "Comparar preço por unidade evita escolher apenas pela embalagem maior. A questão pede que o estudante relacione o contexto ao conceito de Custo-benefício, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Custo-benefício, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ignorar a taxa, escala ou proporção."
+        },
+        {
+          "letter": "B",
+          "text": "menor custo unitário"
+        },
+        {
+          "letter": "C",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "D",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "E",
+          "text": "comparar números de contextos diferentes"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque menor custo unitário é a leitura que melhor conecta o enunciado ao assunto Custo-benefício. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Custo-benefício.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Matemática financeira",
+        "Custo-benefício"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-06",
+      "moduleId": "modulo-05",
+      "order": 66,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Porcentagem",
+      "topic": "Desconto percentual",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Porcentagem",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Desconto percentual",
+        "text": "Um produto de R$ 240 recebe desconto de 15%. A questão pede que o estudante relacione o contexto ao conceito de Desconto percentual, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Desconto percentual, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "204"
+        },
+        {
+          "letter": "B",
+          "text": "somar valores sem conferir a unidade."
+        },
+        {
+          "letter": "C",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "D",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "E",
+          "text": "ignorar a taxa, escala ou proporção"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque 204 é a leitura que melhor conecta o enunciado ao assunto Desconto percentual. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Desconto percentual.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Porcentagem",
+        "Desconto percentual"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-07",
+      "moduleId": "modulo-05",
+      "order": 67,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Função afim",
+      "topic": "Tarifa fixa e variável",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Função afim",
+      "stimulus": {
+        "type": "chart",
+        "title": "Custo de corrida por aplicativo",
+        "text": "O valor total aumenta de acordo com a distância percorrida.",
+        "bars": [
+          {
+            "label": "0 km",
+            "value": 6
+          },
+          {
+            "label": "4 km",
+            "value": 16
+          },
+          {
+            "label": "8 km",
+            "value": 26
+          },
+          {
+            "label": "12 km",
+            "value": 36
+          }
+        ]
+      },
+      "prompt": "Considerando a situação apresentada sobre Tarifa fixa e variável, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "B",
+          "text": "usar fórmula sem identificar a grandeza pedida."
+        },
+        {
+          "letter": "C",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "D",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "E",
+          "text": "6 + 2,5x"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque 6 + 2,5x é a leitura que melhor conecta o enunciado ao assunto Tarifa fixa e variável. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Tarifa fixa e variável.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Função afim",
+        "Tarifa fixa e variável"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-08",
+      "moduleId": "modulo-05",
+      "order": 68,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Estatística",
+      "topic": "Média aritmética",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Estatística",
+      "stimulus": {
+        "type": "table",
+        "title": "Notas de um estudante",
+        "text": "Uma escola registrou quatro notas de um estudante em simulados sucessivos.",
+        "columns": [
+          "Simulado",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "rows": [
+          [
+            "Nota",
+            "620",
+            "680",
+            "700",
+            "760"
+          ]
+        ]
+      },
+      "prompt": "Considerando a situação apresentada sobre Média aritmética, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "B",
+          "text": "comparar números de contextos diferentes."
+        },
+        {
+          "letter": "C",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "D",
+          "text": "690"
+        },
+        {
+          "letter": "E",
+          "text": "somar valores sem conferir a unidade"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque 690 é a leitura que melhor conecta o enunciado ao assunto Média aritmética. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Média aritmética.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Estatística",
+        "Média aritmética"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-09",
+      "moduleId": "modulo-05",
+      "order": 69,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Probabilidade",
+      "topic": "Eventos equiprováveis",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Probabilidade",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Eventos equiprováveis",
+        "text": "Um dado comum é lançado uma vez. A chance de sair número par é A questão pede que o estudante relacione o contexto ao conceito de Eventos equiprováveis, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Eventos equiprováveis, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "B",
+          "text": "ignorar a taxa, escala ou proporção."
+        },
+        {
+          "letter": "C",
+          "text": "1/2"
+        },
+        {
+          "letter": "D",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "E",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque 1/2 é a leitura que melhor conecta o enunciado ao assunto Eventos equiprováveis. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Eventos equiprováveis.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Probabilidade",
+        "Eventos equiprováveis"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-10",
+      "moduleId": "modulo-05",
+      "order": 70,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Combinatória",
+      "topic": "Princípio multiplicativo",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Combinatória",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Princípio multiplicativo",
+        "text": "Uma senha tem 2 letras e 3 algarismos, sem restrição de repetição. A questão pede que o estudante relacione o contexto ao conceito de Princípio multiplicativo, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Princípio multiplicativo, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "B",
+          "text": "26² · 10³"
+        },
+        {
+          "letter": "C",
+          "text": "somar valores sem conferir a unidade."
+        },
+        {
+          "letter": "D",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "E",
+          "text": "comparar números de contextos diferentes"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque 26² · 10³ é a leitura que melhor conecta o enunciado ao assunto Princípio multiplicativo. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Princípio multiplicativo.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Combinatória",
+        "Princípio multiplicativo"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-11",
+      "moduleId": "modulo-05",
+      "order": 71,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Geometria plana",
+      "topic": "Área do círculo",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Geometria plana",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Área do círculo",
+        "text": "Um círculo de raio 4 cm tem área igual a A questão pede que o estudante relacione o contexto ao conceito de Área do círculo, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Área do círculo, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "16π cm²"
+        },
+        {
+          "letter": "B",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "C",
+          "text": "usar fórmula sem identificar a grandeza pedida."
+        },
+        {
+          "letter": "D",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "E",
+          "text": "ignorar a taxa, escala ou proporção"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque 16π cm² é a leitura que melhor conecta o enunciado ao assunto Área do círculo. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Área do círculo.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Geometria plana",
+        "Área do círculo"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-12",
+      "moduleId": "modulo-05",
+      "order": 72,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Geometria espacial",
+      "topic": "Volume de cilindro",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Geometria espacial",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Volume de cilindro",
+        "text": "Um cilindro de raio 3 m e altura 5 m tem volume A questão pede que o estudante relacione o contexto ao conceito de Volume de cilindro, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Volume de cilindro, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "B",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "C",
+          "text": "comparar números de contextos diferentes."
+        },
+        {
+          "letter": "D",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "E",
+          "text": "45π m³"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque 45π m³ é a leitura que melhor conecta o enunciado ao assunto Volume de cilindro. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Volume de cilindro.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Geometria espacial",
+        "Volume de cilindro"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-13",
+      "moduleId": "modulo-05",
+      "order": 73,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Escala",
+      "topic": "Mapas e plantas",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Escala",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Mapas e plantas",
+        "text": "Em escala 1:50 000, 3 cm no mapa representam A questão pede que o estudante relacione o contexto ao conceito de Mapas e plantas, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Mapas e plantas, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "B",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "C",
+          "text": "ignorar a taxa, escala ou proporção."
+        },
+        {
+          "letter": "D",
+          "text": "1,5 km"
+        },
+        {
+          "letter": "E",
+          "text": "somar valores sem conferir a unidade"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque 1,5 km é a leitura que melhor conecta o enunciado ao assunto Mapas e plantas. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Mapas e plantas.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Escala",
+        "Mapas e plantas"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-14",
+      "moduleId": "modulo-05",
+      "order": 74,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Função quadrática",
+      "topic": "Máximo e mínimo",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Função quadrática",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Máximo e mínimo",
+        "text": "A parábola com concavidade para baixo pode modelar A questão pede que o estudante relacione o contexto ao conceito de Máximo e mínimo, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Máximo e mínimo, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "B",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "C",
+          "text": "valor máximo de receita"
+        },
+        {
+          "letter": "D",
+          "text": "somar valores sem conferir a unidade."
+        },
+        {
+          "letter": "E",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque valor máximo de receita é a leitura que melhor conecta o enunciado ao assunto Máximo e mínimo. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Máximo e mínimo.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Função quadrática",
+        "Máximo e mínimo"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-15",
+      "moduleId": "modulo-05",
+      "order": 75,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Matemática financeira",
+      "topic": "Custo-benefício",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Matemática financeira",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Custo-benefício",
+        "text": "Comparar preço por unidade evita escolher apenas pela embalagem maior. A questão pede que o estudante relacione o contexto ao conceito de Custo-benefício, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Custo-benefício, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "B",
+          "text": "menor custo unitário"
+        },
+        {
+          "letter": "C",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "D",
+          "text": "usar fórmula sem identificar a grandeza pedida."
+        },
+        {
+          "letter": "E",
+          "text": "comparar números de contextos diferentes"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque menor custo unitário é a leitura que melhor conecta o enunciado ao assunto Custo-benefício. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Custo-benefício.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Matemática financeira",
+        "Custo-benefício"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-16",
+      "moduleId": "modulo-05",
+      "order": 76,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Porcentagem",
+      "topic": "Desconto percentual",
+      "difficulty": "desafio",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Porcentagem",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Desconto percentual",
+        "text": "Um produto de R$ 240 recebe desconto de 15%. A questão pede que o estudante relacione o contexto ao conceito de Desconto percentual, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Desconto percentual, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "204"
+        },
+        {
+          "letter": "B",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "C",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "D",
+          "text": "comparar números de contextos diferentes."
+        },
+        {
+          "letter": "E",
+          "text": "ignorar a taxa, escala ou proporção"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A alternativa correta é A, porque 204 é a leitura que melhor conecta o enunciado ao assunto Desconto percentual. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Desconto percentual.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Porcentagem",
+        "Desconto percentual"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-17",
+      "moduleId": "modulo-05",
+      "order": 77,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Função afim",
+      "topic": "Tarifa fixa e variável",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Função afim",
+      "stimulus": {
+        "type": "chart",
+        "title": "Custo de corrida por aplicativo",
+        "text": "O valor total aumenta de acordo com a distância percorrida.",
+        "bars": [
+          {
+            "label": "0 km",
+            "value": 6
+          },
+          {
+            "label": "4 km",
+            "value": 16
+          },
+          {
+            "label": "8 km",
+            "value": 26
+          },
+          {
+            "label": "12 km",
+            "value": 36
+          }
+        ]
+      },
+      "prompt": "Considerando a situação apresentada sobre Tarifa fixa e variável, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "B",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "C",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "D",
+          "text": "ignorar a taxa, escala ou proporção."
+        },
+        {
+          "letter": "E",
+          "text": "6 + 2,5x"
+        }
+      ],
+      "answer": "E",
+      "explanation": "A alternativa correta é E, porque 6 + 2,5x é a leitura que melhor conecta o enunciado ao assunto Tarifa fixa e variável. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Tarifa fixa e variável.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Função afim",
+        "Tarifa fixa e variável"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-18",
+      "moduleId": "modulo-05",
+      "order": 78,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Estatística",
+      "topic": "Média aritmética",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Estatística",
+      "stimulus": {
+        "type": "table",
+        "title": "Notas de um estudante",
+        "text": "Uma escola registrou quatro notas de um estudante em simulados sucessivos.",
+        "columns": [
+          "Simulado",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "rows": [
+          [
+            "Nota",
+            "620",
+            "680",
+            "700",
+            "760"
+          ]
+        ]
+      },
+      "prompt": "Considerando a situação apresentada sobre Média aritmética, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "B",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "C",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "D",
+          "text": "690"
+        },
+        {
+          "letter": "E",
+          "text": "somar valores sem conferir a unidade."
+        }
+      ],
+      "answer": "D",
+      "explanation": "A alternativa correta é D, porque 690 é a leitura que melhor conecta o enunciado ao assunto Média aritmética. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Média aritmética.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Estatística",
+        "Média aritmética"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-19",
+      "moduleId": "modulo-05",
+      "order": 79,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Probabilidade",
+      "topic": "Eventos equiprováveis",
+      "difficulty": "intermediário",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Probabilidade",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Eventos equiprováveis",
+        "text": "Um dado comum é lançado uma vez. A chance de sair número par é A questão pede que o estudante relacione o contexto ao conceito de Eventos equiprováveis, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Eventos equiprováveis, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "comparar números de contextos diferentes"
+        },
+        {
+          "letter": "B",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "C",
+          "text": "1/2"
+        },
+        {
+          "letter": "D",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "E",
+          "text": "usar fórmula sem identificar a grandeza pedida."
+        }
+      ],
+      "answer": "C",
+      "explanation": "A alternativa correta é C, porque 1/2 é a leitura que melhor conecta o enunciado ao assunto Eventos equiprováveis. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Eventos equiprováveis.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Probabilidade",
+        "Eventos equiprováveis"
+      ]
+    },
+    {
+      "id": "mod-05-matematica-20",
+      "moduleId": "modulo-05",
+      "order": 80,
+      "area": "matematica",
+      "areaLabel": "Matemática",
+      "subject": "Matemática",
+      "chapter": "Combinatória",
+      "topic": "Princípio multiplicativo",
+      "difficulty": "essencial",
+      "reference": {
+        "exam": "ENEM",
+        "note": "Treino autoral no padrão ENEM, baseado em habilidades e temas recorrentes de provas anteriores."
+      },
+      "skill": "Matemática - Combinatória",
+      "stimulus": {
+        "type": "text",
+        "title": "Matemática: Princípio multiplicativo",
+        "text": "Uma senha tem 2 letras e 3 algarismos, sem restrição de repetição. A questão pede que o estudante relacione o contexto ao conceito de Princípio multiplicativo, sem depender de memorização solta."
+      },
+      "prompt": "Considerando a situação apresentada sobre Princípio multiplicativo, qual alternativa representa corretamente o raciocínio ou resultado esperado?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ignorar a taxa, escala ou proporção"
+        },
+        {
+          "letter": "B",
+          "text": "26² · 10³"
+        },
+        {
+          "letter": "C",
+          "text": "somar valores sem conferir a unidade"
+        },
+        {
+          "letter": "D",
+          "text": "usar fórmula sem identificar a grandeza pedida"
+        },
+        {
+          "letter": "E",
+          "text": "comparar números de contextos diferentes."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A alternativa correta é B, porque 26² · 10³ é a leitura que melhor conecta o enunciado ao assunto Princípio multiplicativo. As demais alternativas fogem do comando, exageram a conclusão ou tratam o tema de forma genérica.",
+      "review": [
+        "Revise Princípio multiplicativo.",
+        "Volte ao comando da questão antes de escolher a alternativa.",
+        "Procure o dado, conceito ou pista textual que sustenta a resposta."
+      ],
+      "tags": [
+        "Matemática",
+        "Matemática",
+        "Combinatória",
+        "Princípio multiplicativo"
+      ]
+    }
+  ]
+}

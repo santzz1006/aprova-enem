@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS ENEM 2026 | Plano 30 dias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="plano-estudos.css?v=plano-personal-1">
+  <link rel="stylesheet" href="portal-theme.css?v=brand-aprovai-croco-3">
+</head>
+<body>
+  <div class="plan-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <div class="sidebar-flow">
+        <a class="brand brand-image" href="dashboard.html" aria-label="AprovAI">
+          <img class="brand-full-logo" src="aprovai.croco.png" alt="AprovAI">
+        </a>
+
+        <nav class="main-nav">
+          <a class="nav-link" href="dashboard.html"><i data-lucide="layout-dashboard"></i><span>Dashboard</span></a>
+          <a class="nav-link" href="biblioteca.html"><i data-lucide="library"></i><span>Biblioteca</span></a>
+          <a class="nav-link" href="quiz.html"><i data-lucide="messages-square"></i><span>Quiz por matéria</span></a>
+          <a class="nav-link" href="questoes.html"><i data-lucide="badge-help"></i><span>Questões ENEM</span></a>
+          <a class="nav-link" href="redacao.html"><i data-lucide="pen-tool"></i><span>Redação</span></a>
+          <a class="nav-link active" href="plano-estudos.html" aria-current="page"><i data-lucide="calendar-check"></i><span>Plano 30 dias</span></a>
+          <a class="nav-link nav-button" href="dashboard.html"><i data-lucide="settings"></i><span>Configurações</span></a>
+        </nav>
+
+        <div class="sidebar-summary">
+          <span class="summary-label">Seu ciclo</span>
+          <strong id="sidebarPlanProgress">0/30 dias</strong>
+          <div class="mini-progress" aria-hidden="true"><span id="sidebarProgress"></span></div>
+          <small id="sidebarStreak">Sequência ainda não iniciada.</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="plan-main">
+      <header class="plan-topbar">
+        <div>
+          <span class="eyebrow">Plano de estudos</span>
+          <h1>Plano ENEM de 30 dias</h1>
+          <p>Calendário prático com apostila, quiz, revisão e redação todos os dias. Seu progresso fica salvo no navegador.</p>
+        </div>
+        <div class="top-actions">
+          <button class="secondary-button" id="continueButton" type="button"><i data-lucide="play"></i> Continuar</button>
+          <button class="ghost-button" id="resetPlanButton" type="button"><i data-lucide="rotate-ccw"></i> Reiniciar</button>
+        </div>
+      </header>
+
+      <section class="plan-hero">
+        <div class="hero-copy">
+          <span class="status-pill"><i data-lucide="calendar-days"></i> 30 dias</span>
+          <h2 id="heroTitle">Um mês de estudo com metas pequenas e consistentes.</h2>
+          <p id="heroText">O plano prioriza sua área do diagnóstico, mas mantém Matemática, Linguagens, Humanas, Natureza, questões e redação girando toda semana.</p>
+          <div class="profile-tags" id="planProfileTags"></div>
+          <div class="hero-actions">
+            <button class="primary-button" id="startTodayButton" type="button"><i data-lucide="check-circle-2"></i> Fazer tarefa de hoje</button>
+            <a class="ghost-button" href="dashboard.html"><i data-lucide="layout-dashboard"></i> Ver dashboard</a>
+          </div>
+        </div>
+        <div class="plan-stats">
+          <article><span>Concluídos</span><strong id="statCompleted">0</strong></article>
+          <article><span>Sequência</span><strong id="statStreak">0</strong></article>
+          <article><span>Tarefas</span><strong id="statTasks">0%</strong></article>
+        </div>
+      </section>
+
+      <section class="plan-layout">
+        <aside class="plan-panel">
+          <span class="eyebrow">Resumo</span>
+          <div class="month-ring">
+            <strong id="ringPercent">0%</strong>
+            <span>do ciclo</span>
+          </div>
+          <div class="progress-list" id="areaProgress"></div>
+          <div class="quick-actions">
+            <button class="ghost-button compact" id="markCurrentDayButton" type="button"><i data-lucide="badge-check"></i> Concluir dia aberto</button>
+            <button class="ghost-button compact" id="clearDayButton" type="button"><i data-lucide="eraser"></i> Limpar dia aberto</button>
+          </div>
+        </aside>
+
+        <section class="calendar-section">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Calendário</span>
+              <h2 id="calendarTitle">30 dias de evolução</h2>
+            </div>
+            <div class="filter-row" id="areaFilters"></div>
+          </div>
+          <div class="calendar-grid" id="calendarGrid"></div>
+        </section>
+      </section>
+
+      <section class="day-detail" id="dayDetail">
+        <div class="day-head">
+          <div>
+            <span class="eyebrow" id="dayPhase">Dia</span>
+            <h2 id="dayTitle">Carregando plano</h2>
+            <p id="dayGoal">Preparando tarefas.</p>
+          </div>
+          <span class="day-time" id="dayTime">0 min</span>
+        </div>
+        <div class="task-checklist" id="taskChecklist"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><i data-lucide="check"></i><span id="toastText">Atualizado.</span></div>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="plano-estudos.js?v=plano-personal-1"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+{
+  "title": "Regras de avaliacao da redacao ENEM",
+  "version": "1.0.0",
+  "note": "Sistema autoral de apoio ao estudante. A nota e uma estimativa didatica baseada nas cinco competencias do ENEM, nao uma correcao oficial.",
+  "scoreScale": {
+    "total": 1000,
+    "competenceMax": 200
+  },
+  "competencies": [
+    {
+      "id": "c1",
+      "name": "Competencia 1",
+      "label": "Norma-padrao",
+      "description": "Avalia dominio da escrita formal: ortografia, pontuacao, concordancia, escolha vocabular e ausencia de informalidade excessiva.",
+      "positiveSignals": [
+        "Frases completas e compreensiveis.",
+        "Pontuacao equilibrada.",
+        "Poucas marcas de oralidade.",
+        "Uso de vocabulario formal.",
+        "Concordancia verbal e nominal sem desvios graves."
+      ],
+      "riskSignals": [
+        "Uso de girias como tipo, mano, coisa, negocio e etc sem funcao argumentativa.",
+        "Frases longas demais sem pausa.",
+        "Ausencia de acentuacao em palavras frequentes.",
+        "Repeticao excessiva de palavras.",
+        "Erro de grafia em conectivos ou termos de repertorio."
+      ],
+      "rules": {
+        "minWords": 120,
+        "idealWords": 220,
+        "maxSentenceWords": 38,
+        "informalTerms": ["tipo", "mano", "coisa", "negocio", "pra", "ta", "vc", "pq", "mto", "galera"],
+        "commonErrors": [
+          { "pattern": "\\bmais\\s+sim\\b", "message": "Troque 'mais sim' por 'mas sim' quando houver oposicao." },
+          { "pattern": "\\bpor que\\s+isso\\b", "message": "Verifique se o uso de 'por que' esta correto no contexto." },
+          { "pattern": "\\bagente\\b", "message": "Em texto formal, use 'a gente' apenas se for intencional; geralmente prefira 'a sociedade' ou 'os individuos'." },
+          { "pattern": "\\bconcerteza\\b", "message": "O correto e 'com certeza'." },
+          { "pattern": "\\bderrepente\\b", "message": "O correto e 'de repente'." }
+        ]
+      }
+    },
+    {
+      "id": "c2",
+      "name": "Competencia 2",
+      "label": "Tema e tipo textual",
+      "description": "Avalia se o texto atende ao tema, se permanece no modelo dissertativo-argumentativo e se usa repertorio sociocultural produtivo.",
+      "positiveSignals": [
+        "Tese clara na introducao.",
+        "Tema retomado ao longo do texto.",
+        "Uso de repertorio pertinente.",
+        "Argumentacao em linguagem impessoal.",
+        "Defesa de ponto de vista sem fugir do recorte tematico."
+      ],
+      "riskSignals": [
+        "Texto narrativo ou relato pessoal.",
+        "Tema aparece apenas no titulo.",
+        "Repertorio citado sem explicacao.",
+        "Argumentos muito genericos.",
+        "Fuga parcial do tema."
+      ],
+      "repertoireMarkers": [
+        "Constituicao Federal",
+        "Declaração Universal dos Direitos Humanos",
+        "Paulo Freire",
+        "Sociologo",
+        "Filosofo",
+        "IBGE",
+        "ONU",
+        "OMS",
+        "Estatuto",
+        "Lei",
+        "Kant",
+        "Aristoteles",
+        "Bauman",
+        "Simone de Beauvoir",
+        "Milton Santos",
+        "Machado de Assis"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Competencia 3",
+      "label": "Argumentacao",
+      "description": "Avalia selecao, organizacao e interpretacao das informacoes para defender a tese.",
+      "positiveSignals": [
+        "Dois argumentos principais bem separados.",
+        "Causa e consequencia explicadas.",
+        "Exemplos conectados a tese.",
+        "Progressao de ideias.",
+        "Paragrafos de desenvolvimento com topico frasal."
+      ],
+      "argumentPatterns": [
+        "causa",
+        "consequencia",
+        "portanto",
+        "desse modo",
+        "nesse sentido",
+        "alem disso",
+        "por outro lado",
+        "isso ocorre porque",
+        "tal realidade",
+        "esse cenário"
+      ],
+      "riskSignals": [
+        "Lista de problemas sem explicacao.",
+        "Repeticao da tese sem desenvolver.",
+        "Exemplo solto.",
+        "Paragrafo com muitas ideias desconectadas.",
+        "Conclusao trazendo argumento novo."
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Competencia 4",
+      "label": "Coesao",
+      "description": "Avalia conectivos, retomadas, transicoes entre frases e fluidez textual.",
+      "connectors": [
+        "ademais",
+        "alem disso",
+        "outrossim",
+        "entretanto",
+        "contudo",
+        "todavia",
+        "portanto",
+        "logo",
+        "assim",
+        "desse modo",
+        "nesse sentido",
+        "sob essa perspectiva",
+        "dessa forma",
+        "por conseguinte",
+        "em primeiro lugar",
+        "em segunda analise",
+        "com efeito",
+        "por fim"
+      ],
+      "positiveSignals": [
+        "Conectivos variados.",
+        "Retomada por pronomes e sinonimos.",
+        "Paragrafos ligados entre si.",
+        "Evita repeticao mecanica.",
+        "Conclusao retoma a tese."
+      ],
+      "riskSignals": [
+        "Comecar todos os paragrafos do mesmo jeito.",
+        "Usar muitos conectivos sem relacao logica.",
+        "Repetir a mesma palavra muitas vezes.",
+        "Frases soltas sem transicao.",
+        "Pontuacao quebrando o sentido."
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "Competencia 5",
+      "label": "Intervencao",
+      "description": "Avalia proposta de intervencao completa, respeitando direitos humanos.",
+      "requiredElements": [
+        "agente",
+        "acao",
+        "meio",
+        "finalidade",
+        "detalhamento"
+      ],
+      "agentExamples": [
+        "Governo Federal",
+        "Ministerio da Educacao",
+        "Ministerio da Saude",
+        "escolas",
+        "midia",
+        "familias",
+        "sociedade civil",
+        "empresas",
+        "ONGs"
+      ],
+      "actionMarkers": ["deve", "promover", "criar", "ampliar", "fiscalizar", "implementar", "desenvolver", "investir"],
+      "meansMarkers": ["por meio de", "mediante", "atraves de", "com campanhas", "com projetos", "com parcerias"],
+      "purposeMarkers": ["a fim de", "para que", "com o objetivo de", "visando", "com finalidade de"],
+      "detailMarkers": ["principalmente", "especialmente", "por exemplo", "como", "em parceria", "periodicamente"],
+      "humanRightsRisks": ["exterminar", "eliminar pessoas", "retirar direitos", "censurar completamente", "violencia como solucao"]
+    }
+  ],
+  "structure": {
+    "idealParagraphs": 4,
+    "paragraphs": [
+      {
+        "name": "Introducao",
+        "checks": ["contextualizacao", "tema", "tese"]
+      },
+      {
+        "name": "Desenvolvimento 1",
+        "checks": ["topico frasal", "argumento", "explicacao", "exemplo"]
+      },
+      {
+        "name": "Desenvolvimento 2",
+        "checks": ["segundo argumento", "causa ou consequencia", "repertorio", "fechamento"]
+      },
+      {
+        "name": "Conclusao",
+        "checks": ["retomada", "intervencao completa", "direitos humanos"]
+      }
+    ]
+  },
+  "themes": [
+    "desafios para democratizar o acesso a educacao no Brasil",
+    "caminhos para combater a desinformacao na sociedade brasileira",
+    "impactos da tecnologia na saude mental dos jovens",
+    "valorizacao da cultura indigena e afro-brasileira",
+    "combate ao racismo estrutural no Brasil",
+    "seguranca alimentar e desigualdade social",
+    "inclusao de pessoas com deficiencia",
+    "preservacao ambiental e desenvolvimento economico",
+    "violencia contra a mulher",
+    "evasao escolar no ensino medio"
+  ],
+  "feedbackMessages": {
+    "excellent": "Texto muito forte. A estrutura esta clara e os criterios principais aparecem bem.",
+    "good": "Boa base. Alguns ajustes finos podem elevar a nota.",
+    "medium": "O texto tem caminho, mas precisa desenvolver melhor tese, argumentos ou intervencao.",
+    "low": "Ainda esta incompleto para o padrao ENEM. Foque em estrutura, tema e proposta de intervencao."
+  }
+}

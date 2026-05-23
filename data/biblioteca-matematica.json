@@ -1,0 +1,442 @@
+{
+  "area": "matematica",
+  "areaLabel": "Matemática e suas Tecnologias",
+  "icon": "calculator",
+  "priorityMessage": "Sua escolha inicial aponta para Matemática. A biblioteca começa por porcentagem, proporção, funções, gráficos, estatística, probabilidade, geometria, medidas e otimização de custos, sem esconder os demais conteúdos.",
+  "collections": [
+    {
+      "id": "matematica-basica-grandezas",
+      "subject": "Matemática",
+      "title": "Matemática básica, grandezas e unidades",
+      "difficulty": "essencial",
+      "estimatedMinutes": 150,
+      "priority": 5,
+      "tags": ["matemática básica", "porcentagem", "proporção", "unidades", "estimativa"],
+      "summary": "Apostila base para operações, razão, proporção, regra de três, porcentagem, unidades, dinheiro, estimativa e leitura de tabelas.",
+      "whyEnem": "A prova usa matemática básica em quase todas as áreas: custos, gráficos, escalas, porcentagens, unidades e comparação de valores.",
+      "skills": [
+        "Resolver proporções e porcentagens rapidamente.",
+        "Converter unidades com segurança.",
+        "Interpretar tabelas, médias e valores em contexto."
+      ],
+      "chapters": [
+        {
+          "title": "Operações e proporcionalidade",
+          "explanation": "Foca base numérica, razão, proporção e regra de três em situações reais.",
+          "topics": [
+            "Operações com números reais",
+            "Razão",
+            "Proporção",
+            "Regra de três",
+            "Comparação de valores",
+            "Estimativa numérica",
+            "Arredondamento",
+            "Comparação entre quantidades"
+          ]
+        },
+        {
+          "title": "Porcentagem e dinheiro",
+          "explanation": "Mostra como aumentos, descontos e variações percentuais aparecem em compras, economia e gráficos.",
+          "topics": [
+            "Porcentagem",
+            "Aumento percentual",
+            "Desconto percentual",
+            "Variação percentual",
+            "Conversão de porcentagem para decimal",
+            "Operações com dinheiro",
+            "Cálculo de preço",
+            "Cálculo de custo",
+            "Cálculo de lucro/prejuízo"
+          ]
+        },
+        {
+          "title": "Medidas e leitura de dados",
+          "explanation": "Organiza unidades, conversões, tabelas, gráficos e média.",
+          "topics": [
+            "Unidades de medida",
+            "Conversão de unidades",
+            "Interpretação de tabela",
+            "Interpretação de gráfico",
+            "Média aritmética",
+            "Comprimento",
+            "Área",
+            "Volume",
+            "Massa",
+            "Tempo",
+            "Velocidade",
+            "Vazão",
+            "Densidade",
+            "Escalas",
+            "Notação científica",
+            "Conversão de centímetros, metros e quilômetros",
+            "Conversão de mililitros e litros",
+            "Conversão de unidades de fluxo",
+            "Medidas de tela por polegadas",
+            "Diagonal de retângulos",
+            "Razão entre lados",
+            "Medidas de embalagens",
+            "Medidas de piscinas",
+            "Medidas de sensores",
+            "Medidas em gráficos técnicos"
+          ]
+        }
+      ],
+      "checklist": [
+        "Converter todas as unidades antes de calcular.",
+        "Testar se a resposta faz sentido numericamente.",
+        "Separar valor inicial, variação e valor final."
+      ]
+    },
+    {
+      "id": "matematica-funcoes-algebra",
+      "subject": "Matemática",
+      "title": "Funções, álgebra e modelagem",
+      "difficulty": "essencial",
+      "estimatedMinutes": 160,
+      "priority": 5,
+      "tags": ["função afim", "função quadrática", "gráficos", "modelagem", "álgebra"],
+      "summary": "Apostila sobre função afim, linear, quadrática, exponencial, logarítmica, equações, inequações, grandezas e modelagem.",
+      "whyEnem": "O ENEM cobra função como linguagem para modelar conta, custo, crescimento, previsão e relação entre grandezas.",
+      "skills": [
+        "Identificar tipo de função pelo contexto e gráfico.",
+        "Montar fórmulas com valor fixo e variável.",
+        "Interpretar tendência e extrapolação."
+      ],
+      "chapters": [
+        {
+          "title": "Tipos de função",
+          "explanation": "Organiza funções mais cobradas e seus formatos em problemas reais.",
+          "topics": [
+            "Função afim",
+            "Função linear",
+            "Modelagem por fórmula do tipo valor fixo + valor variável",
+            "Função quadrática em contexto de custo",
+            "Função exponencial",
+            "Função logarítmica",
+            "Escala Richter"
+          ]
+        },
+        {
+          "title": "Equações e relações entre grandezas",
+          "explanation": "Trabalha resolução algébrica e identificação de proporcionalidades.",
+          "topics": [
+            "Equações do 1º grau",
+            "Sistemas simples",
+            "Inequações",
+            "Relação entre grandezas",
+            "Grandezas diretamente proporcionais",
+            "Grandezas inversamente proporcionais",
+            "Grandezas compostas",
+            "Variação de uma grandeza em função de outra"
+          ]
+        },
+        {
+          "title": "Gráficos e modelagem",
+          "explanation": "Foca leitura de gráficos de função, tendência e previsão.",
+          "topics": [
+            "Interpretação de gráficos de funções",
+            "Gráficos crescentes e decrescentes",
+            "Gráficos por partes",
+            "Funções definidas por intervalos",
+            "Extrapolação de tendência",
+            "Ajuste linear",
+            "Previsão com base em gráfico",
+            "Modelagem matemática de situações reais"
+          ]
+        }
+      ],
+      "checklist": [
+        "Identificar variáveis do problema.",
+        "Ver se há valor fixo e valor proporcional.",
+        "Ler eixos e unidades do gráfico."
+      ]
+    },
+    {
+      "id": "matematica-estatistica-probabilidade",
+      "subject": "Matemática",
+      "title": "Estatística, probabilidade e combinatória",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 170,
+      "priority": 5,
+      "tags": ["estatística", "probabilidade", "combinatória", "gráficos", "contagem"],
+      "summary": "Apostila sobre leitura de tabelas e gráficos, média, frequência, tendência, probabilidade, contagem, senha, códigos e seleção.",
+      "whyEnem": "Esses conteúdos aparecem em dados sociais, produção, clima, finanças, população, senhas, grupos e tomada de decisão.",
+      "skills": [
+        "Interpretar diferentes tipos de gráfico.",
+        "Calcular frequência, média e tendência.",
+        "Resolver contagem e probabilidade sem listar tudo."
+      ],
+      "chapters": [
+        {
+          "title": "Estatística e dados",
+          "explanation": "Organiza leitura de dados, médias, frequências e tendências.",
+          "topics": [
+            "Leitura de tabelas",
+            "Leitura de gráficos de barras",
+            "Leitura de gráficos de linhas",
+            "Leitura de gráfico de setores",
+            "Média aritmética",
+            "Comparação de médias",
+            "Distribuição por faixa etária",
+            "Frequência absoluta",
+            "Frequência relativa",
+            "Percentual em gráficos",
+            "Análise de tendência",
+            "Organização de dados",
+            "Interpretação de dados socioeconômicos",
+            "Interpretação de dados de produção",
+            "Interpretação de dados financeiros",
+            "Gráficos de exportação e importação",
+            "Balança comercial",
+            "Dados de população",
+            "Taxas de crescimento",
+            "Dados climáticos/temperatura",
+            "Dados de receita e projeção"
+          ]
+        },
+        {
+          "title": "Probabilidade e combinatória",
+          "explanation": "Trabalha contagem de possibilidades, eventos e probabilidades em contextos práticos.",
+          "topics": [
+            "Princípio fundamental da contagem",
+            "Permutações",
+            "Combinações",
+            "Arranjos",
+            "Fatorial",
+            "Probabilidade simples",
+            "Probabilidade condicional em contexto prático",
+            "Contagem de senhas",
+            "Contagem de sequências",
+            "Contagem de possibilidades em teclados",
+            "Probabilidade em tentativas",
+            "Espaço amostral",
+            "Eventos equiprováveis",
+            "Codificação e cifras",
+            "Cifra de César",
+            "Probabilidade de descoberta de padrão",
+            "Distribuição de pessoas em grupos",
+            "Seleção de profissionais",
+            "Escalas e combinações"
+          ]
+        }
+      ],
+      "checklist": [
+        "Diferenciar combinação e arranjo.",
+        "Calcular total de casos antes dos favoráveis.",
+        "Conferir se o gráfico usa porcentagem ou valor absoluto."
+      ]
+    },
+    {
+      "id": "matematica-geometria-plana",
+      "subject": "Matemática",
+      "title": "Geometria plana",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 150,
+      "priority": 5,
+      "tags": ["geometria plana", "área", "circunferência", "escala", "pitágoras"],
+      "summary": "Apostila sobre áreas, circunferência, setor circular, polígonos, Pitágoras, semelhança, escalas, mapas e otimização geométrica.",
+      "whyEnem": "Geometria plana aparece em mapas, plantas, rotas, campos, embalagens, tangência e problemas de otimização espacial.",
+      "skills": [
+        "Calcular área e comprimento em figuras compostas.",
+        "Usar escala e semelhança.",
+        "Interpretar geometria em contexto prático."
+      ],
+      "chapters": [
+        {
+          "title": "Figuras e áreas",
+          "explanation": "Organiza fórmulas e relações entre figuras planas.",
+          "topics": [
+            "Área do círculo",
+            "Comprimento da circunferência",
+            "Setor circular",
+            "Área de setor circular",
+            "Ângulo central",
+            "Triângulo equilátero",
+            "Área do triângulo",
+            "Quadrado",
+            "Hexágono regular",
+            "Polígonos regulares",
+            "Relação entre lado e área"
+          ]
+        },
+        {
+          "title": "Relações geométricas",
+          "explanation": "Foca Pitágoras, semelhança, distância, circuncentro e tangência.",
+          "topics": [
+            "Teorema de Pitágoras",
+            "Semelhança de triângulos",
+            "Escalas",
+            "Distância entre pontos",
+            "Circuncentro",
+            "Ponto equidistante",
+            "Geometria de rotas",
+            "Comprimento de correias e arcos",
+            "Tangência"
+          ]
+        },
+        {
+          "title": "Aplicações",
+          "explanation": "Mostra geometria em mapas, plantas, objetos e medidas de espaços.",
+          "topics": [
+            "Geometria aplicada a mapas e plantas",
+            "Otimização geométrica",
+            "Disposição de objetos em retângulos",
+            "Medidas de quadras/campos"
+          ]
+        }
+      ],
+      "checklist": [
+        "Desenhar a figura e marcar dados.",
+        "Procurar triângulo retângulo escondido.",
+        "Conferir se a escala altera comprimento ou área."
+      ]
+    },
+    {
+      "id": "matematica-geometria-espacial",
+      "subject": "Matemática",
+      "title": "Geometria espacial e visualização 3D",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 140,
+      "priority": 4,
+      "tags": ["geometria espacial", "volume", "cilindro", "cubo", "projeção"],
+      "summary": "Apostila sobre volumes de cubos, cilindros, prismas, tanques, embalagens, tronco de cone, projeção ortogonal e escala volumétrica.",
+      "whyEnem": "A prova cobra volume em reservatórios, embalagens, sólidos de revolução, cortes, obstáculos e gráficos de enchimento.",
+      "skills": [
+        "Calcular volume e capacidade.",
+        "Relacionar altura e volume.",
+        "Interpretar projeções e visualização espacial."
+      ],
+      "chapters": [
+        {
+          "title": "Volumes e capacidade",
+          "explanation": "Organiza sólidos mais cobrados e conversões de capacidade.",
+          "topics": [
+            "Volume de cubo",
+            "Volume de cilindro",
+            "Volume de prismas",
+            "Volume de tanques",
+            "Volume de embalagens",
+            "Capacidade",
+            "Relação entre volume e altura"
+          ]
+        },
+        {
+          "title": "Sólidos e projeções",
+          "explanation": "Foca sólidos de revolução, tronco de cone, cortes e representação espacial.",
+          "topics": [
+            "Sólidos de revolução",
+            "Tronco de cone",
+            "Projeção ortogonal",
+            "Representação espacial",
+            "Visualização 3D",
+            "Cortes e obstáculos em reservatórios",
+            "Gráfico de enchimento de tanque",
+            "Relação entre dimensão linear e volume",
+            "Escala volumétrica",
+            "Embalagens cúbicas e cilíndricas"
+          ]
+        }
+      ],
+      "checklist": [
+        "Ver se a unidade final é volume ou capacidade.",
+        "Separar sólido inteiro e parte removida.",
+        "Lembrar que escala volumétrica cresce ao cubo."
+      ]
+    },
+    {
+      "id": "matematica-financeira-aplicada",
+      "subject": "Matemática",
+      "title": "Matemática financeira e aplicada",
+      "difficulty": "essencial",
+      "estimatedMinutes": 150,
+      "priority": 5,
+      "tags": ["financeira", "custos", "descontos", "otimização", "contratos"],
+      "summary": "Apostila sobre orçamento, promoções, tarifas, corrida por aplicativo, preço por unidade, otimização de compra, contratos e tempo médio.",
+      "whyEnem": "O ENEM adora problemas de decisão: escolher a alternativa mais vantajosa com base em custo, benefício, tarifa, contrato e restrições.",
+      "skills": [
+        "Comparar propostas financeiras.",
+        "Calcular desconto, acréscimo e economia.",
+        "Identificar custo fixo, variável e benefício."
+      ],
+      "chapters": [
+        {
+          "title": "Custos, descontos e orçamento",
+          "explanation": "Trabalha operações financeiras do cotidiano com foco em comparação de escolhas.",
+          "topics": [
+            "Cálculo de custos",
+            "Orçamento",
+            "Promoção",
+            "Descontos",
+            "Acréscimos",
+            "Divisão de pagamento",
+            "Preço por unidade",
+            "Cálculo de economia"
+          ]
+        },
+        {
+          "title": "Tarifas, contratos e otimização",
+          "explanation": "Organiza problemas com taxa fixa, variável e melhor decisão econômica.",
+          "topics": [
+            "Tarifa fixa e tarifa variável",
+            "Cálculo de corrida por aplicativo",
+            "Otimização de compra",
+            "Minimização de custo",
+            "Maximização de benefício",
+            "Receitas com venda de ingressos",
+            "Variação de preço",
+            "Escolha mais vantajosa",
+            "Relação custo-benefício",
+            "Análise de contratos",
+            "Tempo médio de atendimento"
+          ]
+        }
+      ],
+      "checklist": [
+        "Montar tabela comparativa das opções.",
+        "Separar custo fixo e custo variável.",
+        "Conferir a pergunta: menor custo ou maior benefício."
+      ]
+    },
+    {
+      "id": "matematica-resumo-recorrencias",
+      "subject": "Matemática",
+      "title": "Resumo dos assuntos mais fortes",
+      "difficulty": "revisão",
+      "estimatedMinutes": 70,
+      "priority": 5,
+      "tags": ["revisão", "recorrência", "prioridade", "ENEM"],
+      "summary": "Apostila de revisão rápida com os temas que mais se repetem: porcentagem, proporção, funções, gráficos, estatística, probabilidade, geometria, volume, escala e custos.",
+      "whyEnem": "Serve como checklist estratégico para revisar antes de simulados e identificar lacunas de maior retorno.",
+      "skills": [
+        "Priorizar assuntos de alta frequência.",
+        "Montar revisão por erros.",
+        "Conectar conteúdo matemático a contexto."
+      ],
+      "chapters": [
+        {
+          "title": "Núcleo recorrente",
+          "explanation": "Lista de assuntos que devem aparecer no ciclo de revisão do aluno.",
+          "topics": [
+            "Porcentagem",
+            "Proporção",
+            "Função afim",
+            "Gráficos",
+            "Estatística",
+            "Probabilidade",
+            "Combinatória",
+            "Geometria plana",
+            "Geometria espacial",
+            "Volume",
+            "Escala",
+            "Otimização de custos"
+          ]
+        }
+      ],
+      "checklist": [
+        "Resolver uma questão por assunto.",
+        "Anotar erro de leitura, conta ou conceito.",
+        "Repetir os temas com maior erro no quiz."
+      ]
+    }
+  ]
+}

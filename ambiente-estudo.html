@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS ENEM 2026 | Ambiente de Estudo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ambiente-estudo.css?v=rollback-scroll-1">
+  <link rel="stylesheet" href="portal-theme.css?v=brand-aprovai-croco-3">
+</head>
+<body>
+  <div class="study-shell">
+    <aside class="sidebar study-sidebar" aria-label="Navegação principal e tópicos da apostila">
+      <div class="sidebar-flow">
+        <a class="brand brand-image" href="dashboard.html" aria-label="AprovAI">
+          <img class="brand-full-logo" src="aprovai.croco.png" alt="AprovAI">
+        </a>
+
+        <nav class="main-nav">
+          <a class="nav-link" href="dashboard.html">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Dashboard</span>
+          </a>
+          <a class="nav-link active" href="biblioteca.html" aria-current="page">
+            <i data-lucide="library"></i>
+            <span>Biblioteca</span>
+          </a>
+          <a class="nav-link" href="quiz.html">
+            <i data-lucide="messages-square"></i>
+            <span>Quiz por matéria</span>
+          </a>
+          <a class="nav-link" href="questoes.html">
+            <i data-lucide="badge-help"></i>
+            <span>Questões ENEM</span>
+          </a>
+          <a class="nav-link" href="redacao.html">
+            <i data-lucide="pen-tool"></i>
+            <span>Redação</span>
+          </a>
+          <a class="nav-link" href="plano-estudos.html">
+            <i data-lucide="calendar-check"></i>
+            <span>Plano 30 dias</span>
+          </a>
+          <a class="nav-link nav-button" href="dashboard.html">
+            <i data-lucide="settings"></i>
+            <span>Configurações</span>
+          </a>
+        </nav>
+
+        <div class="study-progress-card">
+          <span class="eyebrow">Progresso</span>
+          <strong id="sidebarTitle">Carregando aula</strong>
+          <div class="progress-track" aria-hidden="true">
+            <span id="sidebarProgress"></span>
+          </div>
+          <small id="sidebarProgressText">0 tópicos concluídos.</small>
+        </div>
+
+        <nav class="lesson-nav" id="lessonNav" aria-label="Tópicos da apostila"></nav>
+      </div>
+    </aside>
+
+    <main class="study-main">
+      <header class="study-topbar">
+        <button class="icon-button mobile-menu" id="mobileMenuButton" type="button" aria-label="Abrir menu">
+          <i data-lucide="menu"></i>
+        </button>
+        <a class="ghost-button" href="biblioteca.html">
+          <i data-lucide="arrow-left"></i>
+          Biblioteca
+        </a>
+        <div class="topbar-spacer"></div>
+        <button class="ghost-button" id="markLessonButton" type="button">
+          <i data-lucide="check-circle-2"></i>
+          Concluir tópico
+        </button>
+      </header>
+
+      <section class="study-hero">
+        <span class="eyebrow" id="areaLabel">Apostila</span>
+        <h1 id="bookletTitle">Carregando conteúdo</h1>
+        <p id="bookletSummary">Aguarde enquanto o ambiente prepara suas aulas.</p>
+        <div class="hero-meta" id="heroMeta"></div>
+      </section>
+
+      <section class="study-layout">
+        <article class="lesson-reader" aria-labelledby="lessonTitle">
+          <div class="lesson-kicker">
+            <span id="chapterLabel">Capítulo</span>
+            <span id="lessonCounter">Tópico 1</span>
+          </div>
+          <h2 id="lessonTitle">Aula</h2>
+          <p class="plain-summary" id="plainSummary"></p>
+
+          <div class="reader-section">
+            <h3>Explicação simples</h3>
+            <div id="lessonExplanation"></div>
+          </div>
+
+          <div class="reader-section rich-section">
+            <h3>Fórmulas e modelos de raciocínio</h3>
+            <div class="formula-grid" id="formulaCards"></div>
+          </div>
+
+          <div class="reader-section rich-section">
+            <h3>Modelos visuais do assunto</h3>
+            <div class="visual-grid" id="visualModels"></div>
+          </div>
+
+          <div class="reader-section">
+            <h3>Como isso aparece no ENEM</h3>
+            <ul id="howItAppears"></ul>
+          </div>
+
+          <div class="reader-section">
+            <h3>Passo a passo para resolver</h3>
+            <ol id="stepByStep"></ol>
+          </div>
+
+          <div class="example-box">
+            <h3>Exemplo guiado</h3>
+            <strong id="exampleSituation"></strong>
+            <p id="exampleAnalysis"></p>
+            <p id="exampleAnswer"></p>
+          </div>
+
+          <div class="reader-section rich-section">
+            <h3>Questões resolvidas e cálculos</h3>
+            <div class="worked-grid" id="workedExamples"></div>
+          </div>
+
+          <div class="reader-section rich-section">
+            <h3>Questões estilo ENEM</h3>
+            <div class="question-grid" id="enemQuestions"></div>
+          </div>
+
+          <div class="reader-section rich-section">
+            <h3>Roteiro explicativo da aula</h3>
+            <div class="script-box" id="studyScript"></div>
+          </div>
+
+          <div class="reader-section">
+            <h3>Erros comuns</h3>
+            <ul id="commonMistakes"></ul>
+          </div>
+
+          <div class="practice-card">
+            <span class="eyebrow">Mini prática</span>
+            <h3 id="practicePrompt"></h3>
+            <div class="practice-options" id="practiceOptions"></div>
+            <p id="practiceFeedback"></p>
+          </div>
+
+          <div class="reader-section">
+            <h3>Revisão rápida</h3>
+            <ul id="quickReview"></ul>
+          </div>
+
+          <div class="reader-section rich-section">
+            <h3>Glossário e domínio do assunto</h3>
+            <div class="glossary-grid" id="glossaryGrid"></div>
+            <div class="rubric-grid" id="masteryRubric"></div>
+          </div>
+
+          <div class="lesson-actions">
+            <button class="secondary-button" id="previousLessonButton" type="button">
+              <i data-lucide="arrow-left"></i>
+              Anterior
+            </button>
+            <button class="primary-button" id="nextLessonButton" type="button">
+              Próximo tópico
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+        </article>
+
+        <aside class="study-aside" aria-label="Resumo da apostila">
+          <section class="aside-card">
+            <span class="eyebrow">Antes de estudar</span>
+            <ul id="beforeStudy"></ul>
+          </section>
+
+          <section class="aside-card">
+            <span class="eyebrow">Objetivo</span>
+            <p id="studyPromise"></p>
+          </section>
+
+          <section class="aside-card">
+            <span class="eyebrow">Revisão final</span>
+            <p id="finalReviewSummary"></p>
+            <ul id="finalReviewChecklist"></ul>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <i data-lucide="check"></i>
+    <span id="toastText">Atualizado.</span>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="ambiente-estudo.js"></script>
+</body>
+</html>

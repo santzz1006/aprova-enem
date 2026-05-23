@@ -1,0 +1,492 @@
+{
+  "area": "linguagens",
+  "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+  "icon": "languages",
+  "priorityMessage": "Sua escolha inicial aponta para Linguagens. Por isso, a biblioteca abre destacando interpretação, gêneros textuais, literatura, artes e língua estrangeira. Todas as áreas continuam disponíveis nos filtros.",
+  "collections": [
+    {
+      "id": "linguagens-interpretacao-textual",
+      "subject": "Língua Portuguesa",
+      "title": "Interpretação e compreensão textual",
+      "difficulty": "essencial",
+      "estimatedMinutes": 120,
+      "priority": 5,
+      "tags": ["interpretação", "texto", "multimodal", "argumentação", "ENEM"],
+      "summary": "Apostila central para entender ideia principal, inferência, ponto de vista, crítica social e relação entre texto verbal e visual.",
+      "whyEnem": "O ENEM costuma cobrar leitura cuidadosa de textos reais: notícia, campanha, crônica, poema, anúncio, charge, obra de arte e divulgação científica. O aluno precisa justificar sentido pelo contexto, não por decoreba.",
+      "skills": [
+        "Identificar ideia central e finalidade comunicativa.",
+        "Inferir sentidos implícitos a partir do contexto.",
+        "Relacionar linguagem verbal e não verbal.",
+        "Reconhecer tese, argumento, ponto de vista, ironia, humor e crítica."
+      ],
+      "chapters": [
+        {
+          "title": "Compreensão global",
+          "explanation": "Ensina a localizar tema, objetivo, público-alvo e direção argumentativa do texto antes de responder alternativas.",
+          "topics": [
+            "Identificação da ideia central do texto",
+            "Compreensão de finalidade comunicativa",
+            "Identificação do público-alvo",
+            "Compreensão global do texto",
+            "Identificação da intenção do autor"
+          ]
+        },
+        {
+          "title": "Inferência e sentidos implícitos",
+          "explanation": "Trabalha pistas contextuais, escolha lexical e relações entre partes do texto para chegar a uma conclusão não dita diretamente.",
+          "topics": [
+            "Inferência de sentido a partir do contexto",
+            "Interpretação de sentidos implícitos",
+            "Reconhecimento de ironia, humor e crítica",
+            "Análise de crítica social em textos jornalísticos, literários e publicitários"
+          ]
+        },
+        {
+          "title": "Textos multimodais",
+          "explanation": "Mostra como imagem, título, legenda, cores, composição e texto verbal se combinam para construir sentido.",
+          "topics": [
+            "Relação entre título, texto verbal e texto visual",
+            "Leitura de textos multimodais",
+            "Cartaz",
+            "Campanha",
+            "Anúncio",
+            "Charge",
+            "Capa de revista",
+            "Obra de arte",
+            "Imagem publicitária",
+            "Relação entre linguagem verbal e linguagem não verbal"
+          ]
+        },
+        {
+          "title": "Tipos de leitura cobrados",
+          "explanation": "Organiza os formatos que mais aparecem e o tipo de pergunta que cada um costuma gerar.",
+          "topics": [
+            "Interpretação de textos literários e não literários",
+            "Leitura de textos de divulgação científica",
+            "Leitura de campanha institucional",
+            "Leitura de texto de opinião",
+            "Leitura de crônica",
+            "Leitura de narrativa curta",
+            "Leitura de poema",
+            "Leitura de reportagem",
+            "Leitura de anúncio publicitário",
+            "Leitura de texto jurídico simplificado"
+          ]
+        }
+      ],
+      "checklist": [
+        "Sublinhar o comando da questão.",
+        "Separar fato, opinião e inferência.",
+        "Explicar por que três alternativas estão erradas.",
+        "Registrar palavras-chave do texto."
+      ]
+    },
+    {
+      "id": "linguagens-generos-textuais",
+      "subject": "Língua Portuguesa",
+      "title": "Gêneros textuais no ENEM",
+      "difficulty": "essencial",
+      "estimatedMinutes": 100,
+      "priority": 5,
+      "tags": ["gêneros", "leitura", "texto", "função social"],
+      "summary": "Mapa dos gêneros que aparecem na prova e das funções sociais que o aluno precisa reconhecer.",
+      "whyEnem": "A prova raramente pergunta o nome do gênero isolado. Ela cobra a função social do texto, sua organização, seu público e o efeito produzido pela linguagem.",
+      "skills": [
+        "Reconhecer a função comunicativa de cada gênero.",
+        "Comparar forma, linguagem e objetivo.",
+        "Perceber como o gênero influencia a interpretação."
+      ],
+      "chapters": [
+        {
+          "title": "Gêneros literários e artísticos",
+          "explanation": "Foca leitura estética, subjetividade, memória, narrativa e linguagem poética.",
+          "topics": [
+            "Crônica",
+            "Poema",
+            "Canção",
+            "Conto",
+            "Texto literário narrativo",
+            "Texto autobiográfico/memorialístico",
+            "Texto de apresentação cultural"
+          ]
+        },
+        {
+          "title": "Gêneros jornalísticos e argumentativos",
+          "explanation": "Trabalha tese, argumento, crítica social, ponto de vista e seleção de informações.",
+          "topics": [
+            "Reportagem",
+            "Artigo de opinião",
+            "Texto jornalístico",
+            "Texto de opinião",
+            "Texto de crítica social",
+            "Texto expositivo-argumentativo"
+          ]
+        },
+        {
+          "title": "Gêneros institucionais e de circulação social",
+          "explanation": "Analisa campanhas, cartazes e textos que buscam orientar, persuadir ou simplificar informação pública.",
+          "topics": [
+            "Texto de divulgação científica",
+            "Texto publicitário",
+            "Campanha social",
+            "Cartaz institucional",
+            "Texto instrucional",
+            "Texto jurídico traduzido para linguagem simples"
+          ]
+        }
+      ],
+      "checklist": [
+        "Identificar quem fala e para quem fala.",
+        "Marcar o objetivo principal do texto.",
+        "Relacionar linguagem, suporte e público.",
+        "Comparar o gênero com outro texto da mesma proposta."
+      ]
+    },
+    {
+      "id": "linguagens-construcao-sentido",
+      "subject": "Língua Portuguesa",
+      "title": "Linguagem e construção de sentido",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 110,
+      "priority": 4,
+      "tags": ["linguagem", "sentido", "variação", "coesão", "coerência"],
+      "summary": "Apostila para entender como escolhas linguísticas, registros, conectores e recursos expressivos constroem sentido.",
+      "whyEnem": "O ENEM valoriza análise de efeito de sentido: por que o autor escolheu uma palavra, repetiu uma expressão, mudou o registro ou simplificou uma linguagem técnica.",
+      "skills": [
+        "Analisar escolhas lexicais e marcas de subjetividade.",
+        "Reconhecer variação linguística e adequação ao interlocutor.",
+        "Entender coesão, coerência e progressão textual."
+      ],
+      "chapters": [
+        {
+          "title": "Recursos expressivos",
+          "explanation": "Mostra como primeira pessoa, repetição, pontuação e ambiguidade alteram tom, intensidade e ponto de vista.",
+          "topics": [
+            "Uso da primeira pessoa",
+            "Marcas de subjetividade",
+            "Escolha lexical",
+            "Repetição como recurso expressivo",
+            "Pontuação expressiva",
+            "Intertextualidade",
+            "Ambiguidade",
+            "Polissemia",
+            "Humor linguístico"
+          ]
+        },
+        {
+          "title": "Registros e adequação",
+          "explanation": "Estuda a relação entre contexto, interlocutor, gênero e variedade linguística escolhida.",
+          "topics": [
+            "Registro formal e informal",
+            "Variação linguística",
+            "Adequação da fala ao interlocutor",
+            "Linguagem cotidiana",
+            "Linguagem técnica",
+            "Linguagem literária",
+            "Linguagem publicitária",
+            "Linguagem de campanha",
+            "Linguagem oral versus escrita",
+            "Linguagem digital",
+            "Simplificação de linguagem especializada",
+            "Acessibilidade linguística"
+          ]
+        },
+        {
+          "title": "Coesão, coerência e progressão",
+          "explanation": "Organiza relações entre ideias, retomadas e conectores para interpretar a estrutura argumentativa do texto.",
+          "topics": [
+            "Encadeamento de ideias",
+            "Progressão temática",
+            "Retomada de informações",
+            "Relações de causa e consequência",
+            "Relações de oposição",
+            "Relações de comparação",
+            "Relações temporais na narrativa",
+            "Organização do ponto de vista",
+            "Construção de argumento",
+            "Relação entre partes do texto",
+            "Uso de conectores",
+            "Articulação entre exemplos e tese",
+            "Coerência entre linguagem e objetivo comunicativo"
+          ]
+        }
+      ],
+      "checklist": [
+        "Perguntar que efeito a escolha linguística gera.",
+        "Identificar o registro predominante.",
+        "Mapear conectores e relações semânticas.",
+        "Conferir se a alternativa respeita o contexto."
+      ]
+    },
+    {
+      "id": "linguagens-literatura",
+      "subject": "Literatura",
+      "title": "Análise literária e temas recorrentes",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 130,
+      "priority": 4,
+      "tags": ["literatura", "poesia", "memória", "identidade", "crítica social"],
+      "summary": "Apostila para ler poemas, narrativas e adaptações literárias com foco em memória, identidade, ancestralidade e resistência cultural.",
+      "whyEnem": "A literatura no ENEM aparece como interpretação de linguagem, experiência histórica, memória coletiva, crítica social e construção de identidade.",
+      "skills": [
+        "Interpretar eu lírico, narrador, imagens poéticas e tempo narrativo.",
+        "Relacionar literatura a cultura, memória e resistência.",
+        "Comparar textos literários e adaptações."
+      ],
+      "chapters": [
+        {
+          "title": "Poesia e linguagem simbólica",
+          "explanation": "Foca eu lírico, ritmo, sonoridade, figuras de linguagem e construção de imagens.",
+          "topics": [
+            "Leitura de poemas",
+            "Eu lírico",
+            "Construção de imagens poéticas",
+            "Uso simbólico da linguagem",
+            "Sonoridade",
+            "Ritmo",
+            "Figuras de linguagem",
+            "Metáfora",
+            "Repetição",
+            "Personificação",
+            "Expressividade poética",
+            "Tom de luto, saudade e memória"
+          ]
+        },
+        {
+          "title": "Narrativa, memória e ponto de vista",
+          "explanation": "Mostra como narrador, personagens, tempo e espaço constroem memória individual e coletiva.",
+          "topics": [
+            "Narrativa memorialística",
+            "Narrador e ponto de vista",
+            "Construção de personagens",
+            "Tempo narrativo",
+            "Espaço narrativo",
+            "Relação entre memória individual e memória coletiva",
+            "Intertextualidade com mitologia",
+            "Adaptação literária",
+            "Comparação entre textos literários"
+          ]
+        },
+        {
+          "title": "Temas literários recorrentes",
+          "explanation": "Reúne assuntos que costumam aparecer em textos literários e exigem leitura social e cultural.",
+          "topics": [
+            "Infância",
+            "Memória",
+            "Ancestralidade",
+            "Luto",
+            "Identidade",
+            "Migração",
+            "Trabalho",
+            "Relação com a natureza",
+            "Cultura indígena",
+            "Cultura afro-brasileira",
+            "Experiência urbana",
+            "Crítica social",
+            "Comunicação na modernidade",
+            "Desigualdade",
+            "Subjetividade",
+            "Literatura como forma de resistência cultural"
+          ]
+        }
+      ],
+      "checklist": [
+        "Localizar quem fala no texto.",
+        "Separar tema literal e sentido simbólico.",
+        "Relacionar o texto ao contexto social.",
+        "Evitar respostas biográficas sem base textual."
+      ]
+    },
+    {
+      "id": "linguagens-artes",
+      "subject": "Artes",
+      "title": "Artes visuais, patrimônio e leitura de imagem",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 100,
+      "priority": 3,
+      "tags": ["artes", "imagem", "patrimônio", "identidade", "cultura"],
+      "summary": "Apostila sobre pintura, retrato, arte contemporânea, cultura popular, patrimônio e arte como denúncia ou preservação cultural.",
+      "whyEnem": "As questões de artes cobram leitura de imagem, materialidade, contexto histórico e representação de grupos sociais.",
+      "skills": [
+        "Relacionar obra e contexto histórico.",
+        "Identificar símbolos visuais e crítica social.",
+        "Interpretar patrimônio cultural e cultura material."
+      ],
+      "chapters": [
+        {
+          "title": "Leitura de obra e imagem",
+          "explanation": "Ensina a observar composição, materialidade, tema, contexto e função social da imagem.",
+          "topics": [
+            "Pintura",
+            "Retrato",
+            "Arte contemporânea",
+            "Instalação artística",
+            "Materialidade da obra",
+            "Interpretação de imagens em campanhas",
+            "Relação entre imagem, texto e crítica",
+            "Uso de símbolos visuais"
+          ]
+        },
+        {
+          "title": "Cultura, identidade e patrimônio",
+          "explanation": "Trata a arte como documento cultural e como disputa de memória e identidade.",
+          "topics": [
+            "Artesanato",
+            "Cultura popular",
+            "Patrimônio cultural",
+            "Representação de identidades sociais",
+            "Representação da população negra",
+            "Memória histórica por meio da arte",
+            "Arte e colonialidade",
+            "Arte e crítica social",
+            "Relação entre obra e contexto histórico"
+          ]
+        },
+        {
+          "title": "Temas artísticos específicos",
+          "explanation": "Reúne temas de alta recorrência ligados à cultura brasileira, afro-brasileira, indígena e regional.",
+          "topics": [
+            "Retratos de figuras negras",
+            "Arte afro-brasileira",
+            "Azulejaria e memória colonial",
+            "Artesanato em madeira",
+            "Cultura regional",
+            "Patrimônio local",
+            "Cultura material indígena",
+            "Arte como documentação histórica",
+            "Arte como resistência",
+            "Arte como denúncia",
+            "Arte como preservação cultural"
+          ]
+        }
+      ],
+      "checklist": [
+        "Observar título, material e contexto.",
+        "Identificar grupo social representado.",
+        "Relacionar forma visual e crítica.",
+        "Comparar imagem e texto verbal quando houver."
+      ]
+    },
+    {
+      "id": "linguagens-ingles",
+      "subject": "Língua Inglesa",
+      "title": "Interpretação de texto em inglês",
+      "difficulty": "essencial",
+      "estimatedMinutes": 80,
+      "priority": 3,
+      "tags": ["inglês", "interpretação", "vocabulário", "cultura digital"],
+      "summary": "Apostila para leitura global em inglês, inferência de vocabulário, intenção do autor e crítica social.",
+      "whyEnem": "A prova de língua estrangeira costuma exigir leitura contextual, compreensão de tema e reconhecimento de intenção, não tradução palavra por palavra.",
+      "skills": [
+        "Identificar assunto central sem traduzir tudo.",
+        "Inferir expressões idiomáticas pelo contexto.",
+        "Reconhecer crítica social em anúncios, embalagens e textos digitais."
+      ],
+      "chapters": [
+        {
+          "title": "Leitura e intenção",
+          "explanation": "Trabalha compreensão global, intenção do autor e leitura de textos opinativos.",
+          "topics": [
+            "Interpretação de texto em inglês",
+            "Leitura de texto opinativo",
+            "Compreensão global do texto",
+            "Identificação da intenção do autor",
+            "Inferência de expressões idiomáticas",
+            "Compreensão de crítica social"
+          ]
+        },
+        {
+          "title": "Cultura, consumo e sociedade",
+          "explanation": "Reúne temas sociais e culturais que aparecem em textos curtos e publicitários.",
+          "topics": [
+            "Leitura de anúncio/produto",
+            "Cultura digital",
+            "Gerações e comportamento social",
+            "Estereótipos geracionais",
+            "Uso de expressão como snowflake generation",
+            "Marketing e consumo",
+            "Sono e qualidade de vida",
+            "Interpretação de embalagem",
+            "Relação entre linguagem publicitária e problema social"
+          ]
+        },
+        {
+          "title": "Identidade e ativismo",
+          "explanation": "Foca textos sobre representação cultural, redes sociais e disputa de identidade.",
+          "topics": [
+            "Apropriação cultural",
+            "Representação indígena",
+            "Ativismo em redes sociais",
+            "Identidade cultural"
+          ]
+        }
+      ],
+      "checklist": [
+        "Ler título e fonte antes do corpo do texto.",
+        "Circular cognatos e palavras transparentes.",
+        "Inferir termos desconhecidos pelo contexto.",
+        "Responder pela ideia global."
+      ]
+    },
+    {
+      "id": "linguagens-espanhol",
+      "subject": "Língua Espanhola",
+      "title": "Interpretação de texto em espanhol",
+      "difficulty": "essencial",
+      "estimatedMinutes": 80,
+      "priority": 3,
+      "tags": ["espanhol", "interpretação", "variação linguística", "cultura"],
+      "summary": "Apostila sobre leitura crítica em espanhol, variações hispano-americanas, regionalismos, canção e charge.",
+      "whyEnem": "Espanhol no ENEM cobra compreensão de texto, diversidade linguística, cultura popular e diferenças regionais de vocabulário.",
+      "skills": [
+        "Reconhecer variação linguística e regionalismos.",
+        "Interpretar charge, canção e texto social.",
+        "Entender léxico regional sem cair em falsos cognatos."
+      ],
+      "chapters": [
+        {
+          "title": "Leitura em espanhol",
+          "explanation": "Trabalha leitura global, crítica social e gêneros curtos.",
+          "topics": [
+            "Interpretação de texto em espanhol",
+            "Leitura de charge",
+            "Interpretação de canção",
+            "Leitura crítica de texto social",
+            "Linguagem coloquial",
+            "Expressões idiomáticas"
+          ]
+        },
+        {
+          "title": "Variação e cultura hispano-americana",
+          "explanation": "Mostra como variedades do espanhol carregam identidade, território e cultura.",
+          "topics": [
+            "Variação linguística",
+            "Regionalismos",
+            "Vocabulário hispano-americano",
+            "Diversidade linguística",
+            "Cultura caribenha",
+            "Cultura popular",
+            "Trabalho e identidade social",
+            "Léxico regional: uso de palavras como guagua",
+            "Diferenças entre variedades do espanhol"
+          ]
+        },
+        {
+          "title": "Juventude e tecnologia",
+          "explanation": "Organiza temas contemporâneos de sociabilidade, tecnologia e comportamento.",
+          "topics": [
+            "Gerações digitais",
+            "Relação entre juventude e tecnologia"
+          ]
+        }
+      ],
+      "checklist": [
+        "Usar cognatos com cautela.",
+        "Identificar país, variedade e contexto.",
+        "Ler elementos visuais em charges.",
+        "Relacionar vocabulário e crítica social."
+      ]
+    }
+  ]
+}

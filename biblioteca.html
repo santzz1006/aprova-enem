@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS ENEM 2026 | Biblioteca de Apostilas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="biblioteca.css?v=hero-logo-size-1">
+  <link rel="stylesheet" href="portal-theme.css?v=brand-aprovai-croco-3">
+</head>
+<body>
+  <div class="library-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <div class="sidebar-flow">
+        <a class="brand brand-image" href="dashboard.html" aria-label="AprovAI">
+          <img class="brand-full-logo" src="aprovai.croco.png" alt="AprovAI">
+        </a>
+
+        <nav class="main-nav">
+          <a class="nav-link" href="dashboard.html">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Dashboard</span>
+          </a>
+          <a class="nav-link active" href="biblioteca.html" aria-current="page">
+            <i data-lucide="library"></i>
+            <span>Biblioteca</span>
+          </a>
+          <a class="nav-link" href="quiz.html">
+            <i data-lucide="messages-square"></i>
+            <span>Quiz por matéria</span>
+          </a>
+          <a class="nav-link" href="questoes.html">
+            <i data-lucide="badge-help"></i>
+            <span>Questões ENEM</span>
+          </a>
+          <a class="nav-link" href="redacao.html">
+            <i data-lucide="pen-tool"></i>
+            <span>Redação</span>
+          </a>
+          <a class="nav-link" href="plano-estudos.html">
+            <i data-lucide="calendar-check"></i>
+            <span>Plano 30 dias</span>
+          </a>
+          <a class="nav-link nav-button" href="dashboard.html">
+            <i data-lucide="settings"></i>
+            <span>Configurações</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-summary">
+          <span class="summary-label">Biblioteca ativa</span>
+          <strong id="sidebarArea">Todas as áreas</strong>
+          <div class="mini-progress" aria-hidden="true">
+            <span id="sidebarProgress"></span>
+          </div>
+          <small id="sidebarProgressText">Nenhuma apostila concluída ainda.</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="library-main">
+      <header class="library-topbar">
+        <button class="icon-button mobile-menu" id="mobileMenuButton" type="button" aria-label="Abrir menu">
+          <i data-lucide="menu"></i>
+        </button>
+        <div>
+          <span class="eyebrow">Biblioteca de conteúdos</span>
+          <h1>Biblioteca de apostilas ENEM</h1>
+          <p>Conteúdo organizado por área, matéria, dificuldade e recorrência, com progresso salvo no navegador.</p>
+        </div>
+      </header>
+
+      <section class="library-hero" aria-labelledby="libraryHeroTitle">
+        <img class="library-hero-logo" src="logo.transparent.png" alt="" aria-hidden="true">
+        <div class="hero-content">
+          <span class="status-pill">
+            <i data-lucide="sparkles"></i>
+            Personalização inteligente
+          </span>
+          <h2 id="libraryHeroTitle">Comece pela área mais alinhada ao seu diagnóstico.</h2>
+          <p id="personalizedMessage">Se você já respondeu o mini questionário, a biblioteca abre priorizando sua área. Mesmo assim, todos os conteúdos continuam disponíveis.</p>
+          <div class="hero-actions">
+            <button class="primary-button" id="showRecommendedButton" type="button">
+              <i data-lucide="target"></i>
+              Ver recomendados
+            </button>
+            <button class="secondary-button" id="showAllButton" type="button">
+              <i data-lucide="layout-grid"></i>
+              Ver biblioteca completa
+            </button>
+          </div>
+        </div>
+        <div class="hero-stats" aria-label="Resumo da biblioteca">
+          <div class="hero-stat">
+            <span>Apostilas</span>
+            <strong id="statBooklets">0</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Tópicos</span>
+            <strong id="statTopics">0</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Concluídas</span>
+            <strong id="statCompleted">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="personal-alert" id="personalAlert" aria-live="polite">
+        <i data-lucide="info"></i>
+        <div>
+          <strong id="alertTitle">Priorização inicial</strong>
+          <p id="alertText">A primeira visualização usa a área escolhida no dashboard para destacar conteúdos mais relevantes. Use os filtros para navegar pela biblioteca completa.</p>
+        </div>
+      </section>
+
+      <section class="library-layout">
+        <aside class="filters-column" aria-label="Filtros da biblioteca">
+          <div class="filters-panel">
+          <div class="filters-head">
+            <span class="eyebrow">Filtros</span>
+            <button class="ghost-button compact" id="clearFiltersButton" type="button">
+              <i data-lucide="x"></i>
+              Limpar
+            </button>
+          </div>
+
+          <label class="search-box">
+            <i data-lucide="search"></i>
+            <input id="searchInput" type="search" placeholder="Buscar assunto, apostila ou habilidade">
+          </label>
+
+          <div class="filter-group">
+            <strong>Área</strong>
+            <div class="filter-options" id="areaFilters"></div>
+          </div>
+
+          <div class="filter-group">
+            <strong>Matéria</strong>
+            <div class="filter-options" id="subjectFilters"></div>
+          </div>
+
+          <div class="filter-group">
+            <strong>Dificuldade</strong>
+            <div class="filter-options" id="difficultyFilters"></div>
+          </div>
+
+          <div class="filter-group">
+            <strong>Status</strong>
+            <div class="filter-options">
+              <button class="filter-chip active" type="button" data-status-filter="all">Todas</button>
+              <button class="filter-chip" type="button" data-status-filter="not-started">Não iniciadas</button>
+              <button class="filter-chip" type="button" data-status-filter="reading">Em estudo</button>
+              <button class="filter-chip" type="button" data-status-filter="done">Concluídas</button>
+              <button class="filter-chip" type="button" data-status-filter="favorite">Favoritas</button>
+            </div>
+          </div>
+          </div>
+
+          <div class="filters-mascot" aria-hidden="true">
+            <img src="croco.pose4.transparent.png" alt="">
+          </div>
+        </aside>
+
+        <section class="content-panel" aria-labelledby="resultsTitle">
+          <div class="results-toolbar">
+            <div>
+              <span class="eyebrow">Resultados</span>
+              <h2 id="resultsTitle">Apostilas disponíveis</h2>
+            </div>
+            <div class="toolbar-actions">
+              <select id="sortSelect" aria-label="Ordenar apostilas">
+                <option value="recommended">Recomendação</option>
+                <option value="priority">Prioridade ENEM</option>
+                <option value="time">Tempo de leitura</option>
+                <option value="title">Título</option>
+                <option value="progress">Progresso</option>
+              </select>
+              <button class="icon-button" id="toggleViewButton" type="button" aria-label="Alternar visualização">
+                <i data-lucide="rows-3"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="active-context" id="activeContext"></div>
+          <div class="booklet-grid" id="bookletGrid"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <i data-lucide="book-x"></i>
+            <strong>Nenhuma apostila encontrada</strong>
+            <span>Experimente limpar filtros ou buscar por outro termo.</span>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <section class="booklet-drawer" id="bookletDrawer" aria-labelledby="drawerTitle" aria-modal="true" role="dialog">
+    <div class="drawer-card">
+      <button class="icon-button close-drawer" id="closeDrawerButton" type="button" aria-label="Fechar apostila">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="drawer-head">
+        <span class="eyebrow" id="drawerSubject">Matéria</span>
+        <h2 id="drawerTitle">Apostila</h2>
+        <p id="drawerSummary"></p>
+      </div>
+
+      <div class="drawer-meta" id="drawerMeta"></div>
+
+      <div class="drawer-actions">
+        <a class="primary-button" id="studyContentButton" href="ambiente-estudo.html">
+          <i data-lucide="graduation-cap"></i>
+          Estudar conteúdo
+        </a>
+        <button class="primary-button" id="startReadingButton" type="button">
+          <i data-lucide="book-open-check"></i>
+          Marcar como em estudo
+        </button>
+        <button class="secondary-button" id="completeBookletButton" type="button">
+          <i data-lucide="check-circle-2"></i>
+          Concluir apostila
+        </button>
+        <button class="ghost-button" id="favoriteBookletButton" type="button">
+          <i data-lucide="star"></i>
+          Favoritar
+        </button>
+      </div>
+
+      <div class="drawer-section">
+        <h3>Por que cai no ENEM</h3>
+        <p id="drawerWhy"></p>
+      </div>
+
+      <div class="drawer-section">
+        <h3>Habilidades treinadas</h3>
+        <ul class="skill-list" id="drawerSkills"></ul>
+      </div>
+
+      <div class="drawer-section">
+        <h3>Capítulos e assuntos</h3>
+        <div class="chapter-list" id="drawerChapters"></div>
+      </div>
+
+      <div class="drawer-section">
+        <h3>Checklist de estudo</h3>
+        <ul class="checklist" id="drawerChecklist"></ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="screen-dim" id="screenDim"></div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <i data-lucide="check"></i>
+    <span id="toastText">Atualizado.</span>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="biblioteca.js"></script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+{
+  "summary": [
+    {
+      "area": "linguagens",
+      "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+      "file": "data/quiz/quiz-linguagens.json",
+      "questions": 549
+    },
+    {
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas e suas Tecnologias",
+      "file": "data/quiz/quiz-humanas.json",
+      "questions": 693
+    },
+    {
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza e suas Tecnologias",
+      "file": "data/quiz/quiz-natureza.json",
+      "questions": 936
+    },
+    {
+      "area": "matematica",
+      "areaLabel": "Matemática e suas Tecnologias",
+      "file": "data/quiz/quiz-matematica.json",
+      "questions": 531
+    }
+  ],
+  "booklets": [
+    {
+      "bookletId": "linguagens-interpretacao-textual",
+      "title": "Interpretação e compreensão textual",
+      "subject": "Língua Portuguesa",
+      "area": "linguagens",
+      "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+      "questions": 87,
+      "file": "data/quiz/quiz-linguagens.json"
+    },
+    {
+      "bookletId": "linguagens-generos-textuais",
+      "title": "Gêneros textuais no ENEM",
+      "subject": "Língua Portuguesa",
+      "area": "linguagens",
+      "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+      "questions": 57,
+      "file": "data/quiz/quiz-linguagens.json"
+    },
+    {
+      "bookletId": "linguagens-construcao-sentido",
+      "title": "Linguagem e construção de sentido",
+      "subject": "Língua Portuguesa",
+      "area": "linguagens",
+      "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+      "questions": 102,
+      "file": "data/quiz/quiz-linguagens.json"
+    },
+    {
+      "bookletId": "linguagens-literatura",
+      "title": "Análise literária e temas recorrentes",
+      "subject": "Literatura",
+      "area": "linguagens",
+      "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+      "questions": 111,
+      "file": "data/quiz/quiz-linguagens.json"
+    },
+    {
+      "bookletId": "linguagens-artes",
+      "title": "Artes visuais, patrimônio e leitura de imagem",
+      "subject": "Artes",
+      "area": "linguagens",
+      "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+      "questions": 84,
+      "file": "data/quiz/quiz-linguagens.json"
+    },
+    {
+      "bookletId": "linguagens-ingles",
+      "title": "Interpretação de texto em inglês",
+      "subject": "Língua Inglesa",
+      "area": "linguagens",
+      "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+      "questions": 57,
+      "file": "data/quiz/quiz-linguagens.json"
+    },
+    {
+      "bookletId": "linguagens-espanhol",
+      "title": "Interpretação de texto em espanhol",
+      "subject": "Língua Espanhola",
+      "area": "linguagens",
+      "areaLabel": "Linguagens, Códigos e suas Tecnologias",
+      "questions": 51,
+      "file": "data/quiz/quiz-linguagens.json"
+    },
+    {
+      "bookletId": "humanas-historia-antiga-medieval",
+      "title": "História Antiga, Medieval e Moderna",
+      "subject": "História",
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas e suas Tecnologias",
+      "questions": 48,
+      "file": "data/quiz/quiz-humanas.json"
+    },
+    {
+      "bookletId": "humanas-colonizacao-brasil",
+      "title": "Colonização da América e História do Brasil",
+      "subject": "História",
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas e suas Tecnologias",
+      "questions": 120,
+      "file": "data/quiz/quiz-humanas.json"
+    },
+    {
+      "bookletId": "humanas-historia-contemporanea",
+      "title": "História Contemporânea e direitos humanos",
+      "subject": "História",
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas e suas Tecnologias",
+      "questions": 54,
+      "file": "data/quiz/quiz-humanas.json"
+    },
+    {
+      "bookletId": "humanas-geografia-urbana-economica",
+      "title": "Geografia urbana e econômica",
+      "subject": "Geografia",
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas e suas Tecnologias",
+      "questions": 99,
+      "file": "data/quiz/quiz-humanas.json"
+    },
+    {
+      "bookletId": "humanas-geografia-ambiental-geopolitica",
+      "title": "Geografia ambiental e geopolítica",
+      "subject": "Geografia",
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas e suas Tecnologias",
+      "questions": 93,
+      "file": "data/quiz/quiz-humanas.json"
+    },
+    {
+      "bookletId": "humanas-sociologia",
+      "title": "Sociologia: desigualdade, cultura e cidadania",
+      "subject": "Sociologia",
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas e suas Tecnologias",
+      "questions": 132,
+      "file": "data/quiz/quiz-humanas.json"
+    },
+    {
+      "bookletId": "humanas-filosofia",
+      "title": "Filosofia: política, conhecimento e ética",
+      "subject": "Filosofia",
+      "area": "humanas",
+      "areaLabel": "Ciências Humanas e suas Tecnologias",
+      "questions": 147,
+      "file": "data/quiz/quiz-humanas.json"
+    },
+    {
+      "bookletId": "natureza-biologia-celular-microbiologia-virus",
+      "title": "Citologia, microbiologia, vírus e biotecnologia",
+      "subject": "Biologia",
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza e suas Tecnologias",
+      "questions": 147,
+      "file": "data/quiz/quiz-natureza.json"
+    },
+    {
+      "bookletId": "natureza-genetica-evolucao-ecologia",
+      "title": "Genética, evolução e ecologia",
+      "subject": "Biologia",
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza e suas Tecnologias",
+      "questions": 138,
+      "file": "data/quiz/quiz-natureza.json"
+    },
+    {
+      "bookletId": "natureza-fisiologia-saude",
+      "title": "Fisiologia, saúde pública e meio ambiente",
+      "subject": "Biologia",
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza e suas Tecnologias",
+      "questions": 72,
+      "file": "data/quiz/quiz-natureza.json"
+    },
+    {
+      "bookletId": "natureza-quimica-geral-solucoes-equilibrio",
+      "title": "Química geral, soluções e equilíbrio",
+      "subject": "Química",
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza e suas Tecnologias",
+      "questions": 105,
+      "file": "data/quiz/quiz-natureza.json"
+    },
+    {
+      "bookletId": "natureza-quimica-organica-eletro-ambiental",
+      "title": "Orgânica, eletroquímica, termoquímica e ambiente",
+      "subject": "Química",
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza e suas Tecnologias",
+      "questions": 165,
+      "file": "data/quiz/quiz-natureza.json"
+    },
+    {
+      "bookletId": "natureza-fisica-mecanica-termologia",
+      "title": "Mecânica e termologia",
+      "subject": "Física",
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza e suas Tecnologias",
+      "questions": 135,
+      "file": "data/quiz/quiz-natureza.json"
+    },
+    {
+      "bookletId": "natureza-fisica-ondas-optica-eletricidade",
+      "title": "Ondas, óptica, eletricidade e radiações",
+      "subject": "Física",
+      "area": "natureza",
+      "areaLabel": "Ciências da Natureza e suas Tecnologias",
+      "questions": 174,
+      "file": "data/quiz/quiz-natureza.json"
+    },
+    {
+      "bookletId": "matematica-basica-grandezas",
+      "title": "Matemática básica, grandezas e unidades",
+      "subject": "Matemática",
+      "area": "matematica",
+      "areaLabel": "Matemática e suas Tecnologias",
+      "questions": 126,
+      "file": "data/quiz/quiz-matematica.json"
+    },
+    {
+      "bookletId": "matematica-funcoes-algebra",
+      "title": "Funções, álgebra e modelagem",
+      "subject": "Matemática",
+      "area": "matematica",
+      "areaLabel": "Matemática e suas Tecnologias",
+      "questions": 69,
+      "file": "data/quiz/quiz-matematica.json"
+    },
+    {
+      "bookletId": "matematica-estatistica-probabilidade",
+      "title": "Estatística, probabilidade e combinatória",
+      "subject": "Matemática",
+      "area": "matematica",
+      "areaLabel": "Matemática e suas Tecnologias",
+      "questions": 120,
+      "file": "data/quiz/quiz-matematica.json"
+    },
+    {
+      "bookletId": "matematica-geometria-plana",
+      "title": "Geometria plana",
+      "subject": "Matemática",
+      "area": "matematica",
+      "areaLabel": "Matemática e suas Tecnologias",
+      "questions": 72,
+      "file": "data/quiz/quiz-matematica.json"
+    },
+    {
+      "bookletId": "matematica-geometria-espacial",
+      "title": "Geometria espacial e visualização 3D",
+      "subject": "Matemática",
+      "area": "matematica",
+      "areaLabel": "Matemática e suas Tecnologias",
+      "questions": 51,
+      "file": "data/quiz/quiz-matematica.json"
+    },
+    {
+      "bookletId": "matematica-financeira-aplicada",
+      "title": "Matemática financeira e aplicada",
+      "subject": "Matemática",
+      "area": "matematica",
+      "areaLabel": "Matemática e suas Tecnologias",
+      "questions": 57,
+      "file": "data/quiz/quiz-matematica.json"
+    },
+    {
+      "bookletId": "matematica-resumo-recorrencias",
+      "title": "Resumo dos assuntos mais fortes",
+      "subject": "Matemática",
+      "area": "matematica",
+      "areaLabel": "Matemática e suas Tecnologias",
+      "questions": 36,
+      "file": "data/quiz/quiz-matematica.json"
+    }
+  ]
+}

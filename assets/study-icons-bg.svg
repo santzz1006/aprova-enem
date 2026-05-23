@@ -1,0 +1,109 @@
+<svg width="1440" height="1180" viewBox="0 0 1440 1180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="book">
+      <path d="M4 19.5V5.8C4 4.8 4.8 4 5.8 4H20v14.5H5.8A1.8 1.8 0 0 0 4 20.3"/>
+      <path d="M7 7h9M7 10h6"/>
+    </g>
+    <g id="calc">
+      <rect x="5" y="3" width="14" height="18" rx="3"/>
+      <path d="M8 8h8M8 12h2M12 12h2M16 12h.1M8 16h2M12 16h2M16 16h.1"/>
+    </g>
+    <g id="flask">
+      <path d="M10 2h4M12 2v6l5.8 9.7A2.8 2.8 0 0 1 15.4 22H8.6a2.8 2.8 0 0 1-2.4-4.3L12 8"/>
+      <path d="M8 16h8"/>
+    </g>
+    <g id="pen">
+      <path d="M4 19l3.5-1 9.8-9.8a2.1 2.1 0 0 0-3-3L4.5 15 4 19Z"/>
+      <path d="M13 6l4 4"/>
+    </g>
+    <g id="cap">
+      <path d="M3 7l9-4 9 4-9 4-9-4Z"/>
+      <path d="M7 10v5c0 1.7 2.2 3 5 3s5-1.3 5-3v-5"/>
+      <path d="M21 7v6"/>
+    </g>
+    <g id="chart">
+      <path d="M4 19V5M4 19h16"/>
+      <path d="M7 15l3-4 3 2 4-7"/>
+      <path d="M17 6h-3M17 6v3"/>
+    </g>
+    <g id="bulb">
+      <path d="M9 18h6M10 22h4"/>
+      <path d="M8.5 14.5A6 6 0 1 1 15.5 14.5c-.9.7-1.5 1.8-1.5 3h-4c0-1.2-.6-2.3-1.5-3Z"/>
+    </g>
+    <g id="calendar">
+      <rect x="4" y="5" width="16" height="15" rx="2"/>
+      <path d="M8 3v4M16 3v4M4 10h16M8 14h.1M12 14h.1M16 14h.1M8 17h.1M12 17h.1"/>
+    </g>
+    <g id="globe">
+      <circle cx="12" cy="12" r="9"/>
+      <path d="M3 12h18M12 3c2 2.5 3 5.5 3 9s-1 6.5-3 9M12 3c-2 2.5-3 5.5-3 9s1 6.5 3 9"/>
+    </g>
+    <g id="note">
+      <rect x="4" y="4" width="16" height="16" rx="3"/>
+      <path d="M8 9h8M8 13h8M8 17h5M8 4v16"/>
+    </g>
+    <g id="bars">
+      <path d="M4 18h16M7 18V9M12 18V5M17 18v-7"/>
+      <path d="M6 9h2M11 5h2M16 11h2"/>
+    </g>
+    <g id="scale">
+      <path d="M12 4v16M6 8h12M7 8l-3 6h6L7 8ZM17 8l-3 6h6l-3-6Z"/>
+      <path d="M9 20h6"/>
+    </g>
+  </defs>
+
+  <g stroke="#0969ff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#book" x="34" y="54" opacity=".34" transform="rotate(-8 46 66)"/>
+    <use href="#calc" x="182" y="112" opacity=".30" transform="rotate(6 194 124)"/>
+    <use href="#flask" x="330" y="62" opacity=".32" transform="rotate(-12 342 74)"/>
+    <use href="#pen" x="514" y="138" opacity=".31" transform="rotate(10 526 150)"/>
+    <use href="#cap" x="685" y="72" opacity=".29" transform="rotate(-5 697 84)"/>
+    <use href="#chart" x="850" y="130" opacity=".33" transform="rotate(8 862 142)"/>
+    <use href="#bulb" x="1012" y="58" opacity=".30" transform="rotate(-10 1024 70)"/>
+    <use href="#calendar" x="1190" y="118" opacity=".31" transform="rotate(5 1202 130)"/>
+    <use href="#note" x="1350" y="64" opacity=".30" transform="rotate(-7 1362 76)"/>
+
+    <use href="#note" x="92" y="252" opacity=".31" transform="rotate(9 104 264)"/>
+    <use href="#bars" x="270" y="306" opacity=".30" transform="rotate(-6 282 318)"/>
+    <use href="#scale" x="438" y="234" opacity=".29" transform="rotate(7 450 246)"/>
+    <use href="#book" x="616" y="312" opacity=".33" transform="rotate(-11 628 324)"/>
+    <use href="#calc" x="790" y="248" opacity=".30" transform="rotate(12 802 260)"/>
+    <use href="#flask" x="948" y="336" opacity=".31" transform="rotate(-6 960 348)"/>
+    <use href="#pen" x="1118" y="274" opacity=".32" transform="rotate(8 1130 286)"/>
+    <use href="#cap" x="1292" y="330" opacity=".29" transform="rotate(-9 1304 342)"/>
+
+    <use href="#chart" x="48" y="470" opacity=".32" transform="rotate(5 60 482)"/>
+    <use href="#bulb" x="214" y="430" opacity=".30" transform="rotate(-7 226 442)"/>
+    <use href="#calendar" x="386" y="508" opacity=".31" transform="rotate(11 398 520)"/>
+    <use href="#book" x="562" y="446" opacity=".32" transform="rotate(-10 574 458)"/>
+    <use href="#note" x="742" y="514" opacity=".30" transform="rotate(7 754 526)"/>
+    <use href="#bars" x="910" y="458" opacity=".32" transform="rotate(-5 922 470)"/>
+    <use href="#scale" x="1084" y="526" opacity=".29" transform="rotate(10 1096 538)"/>
+    <use href="#book" x="1268" y="454" opacity=".33" transform="rotate(-8 1280 466)"/>
+
+    <use href="#calc" x="130" y="660" opacity=".30" transform="rotate(7 142 672)"/>
+    <use href="#flask" x="316" y="726" opacity=".31" transform="rotate(-9 328 738)"/>
+    <use href="#pen" x="482" y="640" opacity=".32" transform="rotate(12 494 652)"/>
+    <use href="#cap" x="660" y="714" opacity=".28" transform="rotate(-6 672 726)"/>
+    <use href="#chart" x="824" y="654" opacity=".31" transform="rotate(8 836 666)"/>
+    <use href="#bulb" x="1004" y="732" opacity=".30" transform="rotate(-11 1016 744)"/>
+    <use href="#calendar" x="1168" y="666" opacity=".31" transform="rotate(7 1180 678)"/>
+    <use href="#calendar" x="1340" y="744" opacity=".30" transform="rotate(-8 1352 756)"/>
+
+    <use href="#note" x="42" y="882" opacity=".30" transform="rotate(10 54 894)"/>
+    <use href="#bars" x="230" y="822" opacity=".31" transform="rotate(-7 242 834)"/>
+    <use href="#scale" x="408" y="900" opacity=".29" transform="rotate(9 420 912)"/>
+    <use href="#book" x="584" y="836" opacity=".33" transform="rotate(-10 596 848)"/>
+    <use href="#calc" x="764" y="916" opacity=".30" transform="rotate(7 776 928)"/>
+    <use href="#flask" x="934" y="850" opacity=".31" transform="rotate(-8 946 862)"/>
+    <use href="#pen" x="1114" y="934" opacity=".32" transform="rotate(11 1126 946)"/>
+    <use href="#cap" x="1288" y="868" opacity=".28" transform="rotate(-6 1300 880)"/>
+
+    <use href="#chart" x="108" y="1060" opacity=".30" transform="rotate(-5 120 1072)"/>
+    <use href="#bulb" x="356" y="1030" opacity=".28" transform="rotate(9 368 1042)"/>
+    <use href="#calendar" x="612" y="1076" opacity=".30" transform="rotate(-8 624 1088)"/>
+    <use href="#chart" x="866" y="1026" opacity=".30" transform="rotate(7 878 1038)"/>
+    <use href="#note" x="1126" y="1070" opacity=".29" transform="rotate(-9 1138 1082)"/>
+    <use href="#bars" x="1360" y="1028" opacity=".30" transform="rotate(8 1372 1040)"/>
+  </g>
+</svg>

@@ -1,0 +1,433 @@
+{
+  "title": "Plano de estudos de 30 dias",
+  "description": "Calendario pratico com uma apostila, um quiz, uma revisao e uma acao de redacao por dia.",
+  "version": "1.0.0",
+  "areas": {
+    "linguagens": "Linguagens e Redacao",
+    "humanas": "Ciencias Humanas",
+    "natureza": "Ciencias da Natureza",
+    "matematica": "Matematica"
+  },
+  "days": [
+    {
+      "day": 1,
+      "phase": "Base e diagnóstico",
+      "area": "matematica",
+      "title": "Porcentagem, proporção e leitura de dados",
+      "goal": "Reforçar a base numérica que mais aparece em questões contextualizadas.",
+      "minutes": "45-70 min",
+      "tasks": [
+        { "id": "d1-apostila", "type": "apostila", "label": "Ler apostila de matemática básica e porcentagem", "href": "biblioteca.html" },
+        { "id": "d1-quiz", "type": "quiz", "label": "Resolver quiz curto de porcentagem e regra de três", "href": "quiz.html" },
+        { "id": "d1-revisao", "type": "revisao", "label": "Anotar três erros possíveis: base, unidade e interpretação" },
+        { "id": "d1-redacao", "type": "redacao", "label": "Escrever uma tese sobre desigualdade educacional", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 2,
+      "phase": "Base e diagnóstico",
+      "area": "linguagens",
+      "title": "Interpretação, ideia central e finalidade",
+      "goal": "Treinar leitura de comando, tese e finalidade comunicativa.",
+      "minutes": "45-65 min",
+      "tasks": [
+        { "id": "d2-apostila", "type": "apostila", "label": "Estudar interpretação e compreensão textual", "href": "biblioteca.html" },
+        { "id": "d2-quiz", "type": "quiz", "label": "Fazer quiz de interpretação de texto", "href": "quiz.html" },
+        { "id": "d2-revisao", "type": "revisao", "label": "Revisar diferença entre tema, tese e finalidade" },
+        { "id": "d2-redacao", "type": "redacao", "label": "Montar introdução com contextualização e tese", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 3,
+      "phase": "Base e diagnóstico",
+      "area": "natureza",
+      "title": "Ecologia, ciclos e impacto ambiental",
+      "goal": "Entender fluxo de energia, ciclos da matéria e impactos humanos.",
+      "minutes": "50-75 min",
+      "tasks": [
+        { "id": "d3-apostila", "type": "apostila", "label": "Ler ecologia e ciclos biogeoquímicos", "href": "biblioteca.html" },
+        { "id": "d3-quiz", "type": "quiz", "label": "Responder questões de ecologia e saneamento", "href": "quiz.html" },
+        { "id": "d3-revisao", "type": "revisao", "label": "Fazer resumo de causa, processo e consequência ambiental" },
+        { "id": "d3-redacao", "type": "redacao", "label": "Separar repertório sobre sustentabilidade", "href": "redacao-modelos.html" }
+      ]
+    },
+    {
+      "day": 4,
+      "phase": "Base e diagnóstico",
+      "area": "humanas",
+      "title": "Cidadania, direitos humanos e desigualdade",
+      "goal": "Ler fontes sociais e ligar contexto, grupo afetado e direito violado.",
+      "minutes": "50-75 min",
+      "tasks": [
+        { "id": "d4-apostila", "type": "apostila", "label": "Estudar cidadania e direitos humanos", "href": "biblioteca.html" },
+        { "id": "d4-quiz", "type": "quiz", "label": "Treinar Humanas com foco em desigualdade", "href": "quiz.html" },
+        { "id": "d4-revisao", "type": "revisao", "label": "Criar mapa: agente social, problema e consequência" },
+        { "id": "d4-redacao", "type": "redacao", "label": "Escrever proposta de intervenção com agente e ação", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 5,
+      "phase": "Base e diagnóstico",
+      "area": "matematica",
+      "title": "Gráficos, tabelas e média",
+      "goal": "Transformar dados em conclusões sem extrapolar o gráfico.",
+      "minutes": "45-70 min",
+      "tasks": [
+        { "id": "d5-apostila", "type": "apostila", "label": "Estudar estatística e leitura de gráficos", "href": "biblioteca.html" },
+        { "id": "d5-quiz", "type": "quiz", "label": "Resolver quiz de média, tabela e gráfico", "href": "quiz.html" },
+        { "id": "d5-revisao", "type": "revisao", "label": "Revisar título, unidade, eixo e legenda" },
+        { "id": "d5-redacao", "type": "redacao", "label": "Inserir um dado estatístico em um argumento", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 6,
+      "phase": "Primeira prática",
+      "area": "linguagens",
+      "title": "Textos multimodais, charge e campanha",
+      "goal": "Ler imagem e texto juntos para identificar crítica e público-alvo.",
+      "minutes": "45-65 min",
+      "tasks": [
+        { "id": "d6-apostila", "type": "apostila", "label": "Estudar textos multimodais e campanhas", "href": "biblioteca.html" },
+        { "id": "d6-quiz", "type": "quiz", "label": "Treinar charges, anúncio e cartaz", "href": "quiz.html" },
+        { "id": "d6-revisao", "type": "revisao", "label": "Anotar diferença entre humor, ironia e crítica" },
+        { "id": "d6-redacao", "type": "redacao", "label": "Criar repertório sobre mídia e cidadania", "href": "redacao-modelos.html" }
+      ]
+    },
+    {
+      "day": 7,
+      "phase": "Primeira prática",
+      "area": "redacao",
+      "title": "Redação completa 1",
+      "goal": "Escrever uma redação com quatro parágrafos e intervenção completa.",
+      "minutes": "70-100 min",
+      "tasks": [
+        { "id": "d7-apostila", "type": "apostila", "label": "Revisar modelos de redação nota 1000", "href": "redacao-modelos.html" },
+        { "id": "d7-quiz", "type": "quiz", "label": "Responder 5 questões de Linguagens antes da redação", "href": "quiz.html" },
+        { "id": "d7-revisao", "type": "revisao", "label": "Conferir tese, dois argumentos e proposta de intervenção" },
+        { "id": "d7-redacao", "type": "redacao", "label": "Escrever redação completa e avaliar ao vivo", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 8,
+      "phase": "Primeira prática",
+      "area": "natureza",
+      "title": "Genética, vírus e biotecnologia",
+      "goal": "Separar estrutura, processo e efeito em temas biológicos.",
+      "minutes": "50-75 min",
+      "tasks": [
+        { "id": "d8-apostila", "type": "apostila", "label": "Ler genética, vírus e diagnóstico molecular", "href": "biblioteca.html" },
+        { "id": "d8-quiz", "type": "quiz", "label": "Resolver questões de DNA, PCR e herança", "href": "quiz.html" },
+        { "id": "d8-revisao", "type": "revisao", "label": "Desenhar um fluxo: DNA, gene, característica e diagnóstico" },
+        { "id": "d8-redacao", "type": "redacao", "label": "Guardar repertório de ciência e saúde pública", "href": "redacao-modelos.html" }
+      ]
+    },
+    {
+      "day": 9,
+      "phase": "Primeira prática",
+      "area": "humanas",
+      "title": "História do Brasil e colonização",
+      "goal": "Relacionar trabalho, poder, território e resistência.",
+      "minutes": "50-80 min",
+      "tasks": [
+        { "id": "d9-apostila", "type": "apostila", "label": "Estudar colonização, escravidão e resistência", "href": "biblioteca.html" },
+        { "id": "d9-quiz", "type": "quiz", "label": "Resolver questões de História do Brasil", "href": "quiz.html" },
+        { "id": "d9-revisao", "type": "revisao", "label": "Criar linha do tempo com causa e consequência" },
+        { "id": "d9-redacao", "type": "redacao", "label": "Treinar repertório histórico em um parágrafo argumentativo", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 10,
+      "phase": "Primeira prática",
+      "area": "matematica",
+      "title": "Funções e modelagem",
+      "goal": "Reconhecer valor fixo, variável e crescimento em problemas reais.",
+      "minutes": "55-80 min",
+      "tasks": [
+        { "id": "d10-apostila", "type": "apostila", "label": "Estudar função afim, quadrática e gráficos", "href": "biblioteca.html" },
+        { "id": "d10-quiz", "type": "quiz", "label": "Resolver quiz de funções e modelagem", "href": "quiz.html" },
+        { "id": "d10-revisao", "type": "revisao", "label": "Anotar como identificar fórmula pelo enunciado" },
+        { "id": "d10-redacao", "type": "redacao", "label": "Revisar coesão com conectivos de comparação", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 11,
+      "phase": "Consolidação",
+      "area": "questoes",
+      "title": "Questões frequentes do ENEM",
+      "goal": "Treinar blocos mistos e identificar padrões recorrentes.",
+      "minutes": "60-90 min",
+      "tasks": [
+        { "id": "d11-apostila", "type": "apostila", "label": "Ler temas frequentes por área", "href": "temas-frequentes.html" },
+        { "id": "d11-quiz", "type": "quiz", "label": "Resolver 20 questões em sequência", "href": "questoes.html" },
+        { "id": "d11-revisao", "type": "revisao", "label": "Separar erros por leitura, conceito, conta e atenção" },
+        { "id": "d11-redacao", "type": "redacao", "label": "Usar um erro de Humanas como repertório de redação", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 12,
+      "phase": "Consolidação",
+      "area": "natureza",
+      "title": "Química: soluções, pH e equilíbrio",
+      "goal": "Organizar soluto, solvente, concentração e deslocamento de equilíbrio.",
+      "minutes": "55-85 min",
+      "tasks": [
+        { "id": "d12-apostila", "type": "apostila", "label": "Estudar soluções e equilíbrio químico", "href": "biblioteca.html" },
+        { "id": "d12-quiz", "type": "quiz", "label": "Resolver questões de concentração, pH e diluição", "href": "quiz.html" },
+        { "id": "d12-revisao", "type": "revisao", "label": "Revisar fórmulas e unidades antes de dormir" },
+        { "id": "d12-redacao", "type": "redacao", "label": "Criar repertório sobre saneamento e saúde", "href": "redacao-modelos.html" }
+      ]
+    },
+    {
+      "day": 13,
+      "phase": "Consolidação",
+      "area": "humanas",
+      "title": "Geografia urbana e ambiental",
+      "goal": "Ligar território, desigualdade, infraestrutura e ambiente.",
+      "minutes": "50-75 min",
+      "tasks": [
+        { "id": "d13-apostila", "type": "apostila", "label": "Estudar urbanização e meio ambiente", "href": "biblioteca.html" },
+        { "id": "d13-quiz", "type": "quiz", "label": "Resolver questões de cidade, clima e energia", "href": "quiz.html" },
+        { "id": "d13-revisao", "type": "revisao", "label": "Montar quadro: problema urbano, causa e solução" },
+        { "id": "d13-redacao", "type": "redacao", "label": "Escrever conclusão sobre direito à cidade", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 14,
+      "phase": "Consolidação",
+      "area": "redacao",
+      "title": "Correção da redação 1",
+      "goal": "Reescrever a redação anterior com base nos pontos fracos.",
+      "minutes": "55-85 min",
+      "tasks": [
+        { "id": "d14-apostila", "type": "apostila", "label": "Revisar regras das cinco competências", "href": "redacao.html" },
+        { "id": "d14-quiz", "type": "quiz", "label": "Resolver 10 questões de Linguagens para aquecer", "href": "quiz.html" },
+        { "id": "d14-revisao", "type": "revisao", "label": "Listar o que faltou em C2, C3, C4 e C5" },
+        { "id": "d14-redacao", "type": "redacao", "label": "Reescrever tese, argumento e intervenção", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 15,
+      "phase": "Consolidação",
+      "area": "matematica",
+      "title": "Probabilidade e combinatória",
+      "goal": "Decidir quando a ordem importa e calcular casos possíveis.",
+      "minutes": "55-85 min",
+      "tasks": [
+        { "id": "d15-apostila", "type": "apostila", "label": "Estudar probabilidade e combinatória", "href": "biblioteca.html" },
+        { "id": "d15-quiz", "type": "quiz", "label": "Treinar senhas, grupos e seleções", "href": "quiz.html" },
+        { "id": "d15-revisao", "type": "revisao", "label": "Criar tabela: ordem importa x ordem não importa" },
+        { "id": "d15-redacao", "type": "redacao", "label": "Revisar conectivos de causa e consequência", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 16,
+      "phase": "Ritmo de prova",
+      "area": "questoes",
+      "title": "Bloco Humanas + Linguagens",
+      "goal": "Treinar leitura rápida sem perder precisão.",
+      "minutes": "70-100 min",
+      "tasks": [
+        { "id": "d16-apostila", "type": "apostila", "label": "Ler temas frequentes de Humanas e Linguagens", "href": "temas-frequentes.html" },
+        { "id": "d16-quiz", "type": "quiz", "label": "Resolver bloco de questões ENEM", "href": "questoes.html" },
+        { "id": "d16-revisao", "type": "revisao", "label": "Marcar questões em que o erro foi interpretação" },
+        { "id": "d16-redacao", "type": "redacao", "label": "Transformar um tema de Humanas em repertório", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 17,
+      "phase": "Ritmo de prova",
+      "area": "natureza",
+      "title": "Física: mecânica, energia e eletricidade",
+      "goal": "Ler grandezas, unidades e fenômenos antes da fórmula.",
+      "minutes": "60-90 min",
+      "tasks": [
+        { "id": "d17-apostila", "type": "apostila", "label": "Estudar mecânica, termologia e eletricidade", "href": "biblioteca.html" },
+        { "id": "d17-quiz", "type": "quiz", "label": "Resolver questões de velocidade, força e circuitos", "href": "quiz.html" },
+        { "id": "d17-revisao", "type": "revisao", "label": "Revisar unidades: tempo, velocidade, potência e energia" },
+        { "id": "d17-redacao", "type": "redacao", "label": "Criar repertório sobre tecnologia e energia", "href": "redacao-modelos.html" }
+      ]
+    },
+    {
+      "day": 18,
+      "phase": "Ritmo de prova",
+      "area": "linguagens",
+      "title": "Literatura, memória e identidade",
+      "goal": "Interpretar voz, tom, imagens poéticas e crítica social.",
+      "minutes": "45-70 min",
+      "tasks": [
+        { "id": "d18-apostila", "type": "apostila", "label": "Ler literatura, memória e identidade", "href": "biblioteca.html" },
+        { "id": "d18-quiz", "type": "quiz", "label": "Resolver questões de poema, crônica e canção", "href": "quiz.html" },
+        { "id": "d18-revisao", "type": "revisao", "label": "Anotar metáfora, eu lírico e crítica social" },
+        { "id": "d18-redacao", "type": "redacao", "label": "Usar repertório cultural em argumento", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 19,
+      "phase": "Ritmo de prova",
+      "area": "matematica",
+      "title": "Geometria plana e espacial",
+      "goal": "Distinguir comprimento, área, volume, escala e capacidade.",
+      "minutes": "60-90 min",
+      "tasks": [
+        { "id": "d19-apostila", "type": "apostila", "label": "Estudar geometria plana, espacial e escala", "href": "biblioteca.html" },
+        { "id": "d19-quiz", "type": "quiz", "label": "Resolver questões de área, volume e escala", "href": "quiz.html" },
+        { "id": "d19-revisao", "type": "revisao", "label": "Fazer lista de fórmulas essenciais" },
+        { "id": "d19-redacao", "type": "redacao", "label": "Revisar proposta de intervenção completa", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 20,
+      "phase": "Ritmo de prova",
+      "area": "redacao",
+      "title": "Redação completa 2",
+      "goal": "Produzir redação completa com tema diferente e nota ao vivo.",
+      "minutes": "80-110 min",
+      "tasks": [
+        { "id": "d20-apostila", "type": "apostila", "label": "Escolher um modelo adaptável", "href": "redacao-modelos.html" },
+        { "id": "d20-quiz", "type": "quiz", "label": "Responder 8 questões de tema social", "href": "questoes.html" },
+        { "id": "d20-revisao", "type": "revisao", "label": "Definir tese e dois argumentos antes de escrever" },
+        { "id": "d20-redacao", "type": "redacao", "label": "Escrever redação completa no editor", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 21,
+      "phase": "Ritmo de prova",
+      "area": "questoes",
+      "title": "Bloco Natureza + Matemática",
+      "goal": "Treinar cálculo, unidade e leitura de gráficos sob ritmo.",
+      "minutes": "75-105 min",
+      "tasks": [
+        { "id": "d21-apostila", "type": "apostila", "label": "Revisar temas frequentes de Natureza e Matemática", "href": "temas-frequentes.html" },
+        { "id": "d21-quiz", "type": "quiz", "label": "Resolver bloco de questões ENEM", "href": "questoes.html" },
+        { "id": "d21-revisao", "type": "revisao", "label": "Classificar erros por fórmula, unidade ou interpretação" },
+        { "id": "d21-redacao", "type": "redacao", "label": "Criar repertório sobre ciência e tecnologia", "href": "redacao-modelos.html" }
+      ]
+    },
+    {
+      "day": 22,
+      "phase": "Revisão inteligente",
+      "area": "humanas",
+      "title": "Filosofia e sociologia",
+      "goal": "Conectar conceito, autor, problema e sociedade.",
+      "minutes": "50-80 min",
+      "tasks": [
+        { "id": "d22-apostila", "type": "apostila", "label": "Ler filosofia política, ética e sociologia", "href": "biblioteca.html" },
+        { "id": "d22-quiz", "type": "quiz", "label": "Resolver questões de cidadania e movimentos sociais", "href": "quiz.html" },
+        { "id": "d22-revisao", "type": "revisao", "label": "Fazer fichas de Rousseau, Aristóteles, Kant e direitos" },
+        { "id": "d22-redacao", "type": "redacao", "label": "Usar um filósofo em parágrafo argumentativo", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 23,
+      "phase": "Revisão inteligente",
+      "area": "linguagens",
+      "title": "Variação linguística e língua estrangeira",
+      "goal": "Ler registro, contexto, interlocutor e intenção comunicativa.",
+      "minutes": "45-70 min",
+      "tasks": [
+        { "id": "d23-apostila", "type": "apostila", "label": "Estudar variação linguística, inglês e espanhol", "href": "biblioteca.html" },
+        { "id": "d23-quiz", "type": "quiz", "label": "Resolver textos curtos de língua estrangeira", "href": "quiz.html" },
+        { "id": "d23-revisao", "type": "revisao", "label": "Anotar pistas de vocabulário e intenção do autor" },
+        { "id": "d23-redacao", "type": "redacao", "label": "Revisar linguagem formal da redação", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 24,
+      "phase": "Revisão inteligente",
+      "area": "natureza",
+      "title": "Química orgânica e ambiental",
+      "goal": "Reconhecer grupos funcionais e impactos ambientais.",
+      "minutes": "55-85 min",
+      "tasks": [
+        { "id": "d24-apostila", "type": "apostila", "label": "Estudar funções orgânicas e química ambiental", "href": "biblioteca.html" },
+        { "id": "d24-quiz", "type": "quiz", "label": "Responder questões de orgânica e poluição", "href": "quiz.html" },
+        { "id": "d24-revisao", "type": "revisao", "label": "Revisar grupos funcionais em exemplos reais" },
+        { "id": "d24-redacao", "type": "redacao", "label": "Criar repertório sobre consumo e ambiente", "href": "redacao-modelos.html" }
+      ]
+    },
+    {
+      "day": 25,
+      "phase": "Revisão inteligente",
+      "area": "matematica",
+      "title": "Matemática financeira e otimização",
+      "goal": "Comparar custo, benefício, desconto, lucro e melhor escolha.",
+      "minutes": "55-85 min",
+      "tasks": [
+        { "id": "d25-apostila", "type": "apostila", "label": "Estudar matemática financeira aplicada", "href": "biblioteca.html" },
+        { "id": "d25-quiz", "type": "quiz", "label": "Resolver questões de compra, custo e desconto", "href": "quiz.html" },
+        { "id": "d25-revisao", "type": "revisao", "label": "Montar checklist: base, taxa, unidade e comparação" },
+        { "id": "d25-redacao", "type": "redacao", "label": "Revisar conclusão com finalidade clara", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 26,
+      "phase": "Simulado e ajuste",
+      "area": "questoes",
+      "title": "Mini simulado misto",
+      "goal": "Resolver questões de todas as áreas e revisar erro por tipo.",
+      "minutes": "90-130 min",
+      "tasks": [
+        { "id": "d26-apostila", "type": "apostila", "label": "Ler mapa de temas frequentes antes do simulado", "href": "temas-frequentes.html" },
+        { "id": "d26-quiz", "type": "quiz", "label": "Fazer 40 questões no módulo ENEM", "href": "questoes.html" },
+        { "id": "d26-revisao", "type": "revisao", "label": "Criar caderno de erros com quatro categorias" },
+        { "id": "d26-redacao", "type": "redacao", "label": "Planejar tema de redação em 8 minutos", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 27,
+      "phase": "Simulado e ajuste",
+      "area": "redacao",
+      "title": "Redação completa 3",
+      "goal": "Treinar redação com limite de tempo e correção final.",
+      "minutes": "80-110 min",
+      "tasks": [
+        { "id": "d27-apostila", "type": "apostila", "label": "Revisar modelos e intervenção", "href": "redacao-modelos.html" },
+        { "id": "d27-quiz", "type": "quiz", "label": "Aquecer com 5 questões de atualidades", "href": "questoes.html" },
+        { "id": "d27-revisao", "type": "revisao", "label": "Separar repertório antes de escrever" },
+        { "id": "d27-redacao", "type": "redacao", "label": "Escrever redação completa cronometrada", "href": "redacao-editor.html" }
+      ]
+    },
+    {
+      "day": 28,
+      "phase": "Simulado e ajuste",
+      "area": "revisao",
+      "title": "Revisão dos maiores erros",
+      "goal": "Voltar aos erros mais frequentes e resolver novamente.",
+      "minutes": "60-90 min",
+      "tasks": [
+        { "id": "d28-apostila", "type": "apostila", "label": "Reabrir apostilas dos temas em que mais errou", "href": "biblioteca.html" },
+        { "id": "d28-quiz", "type": "quiz", "label": "Refazer quizzes dos assuntos fracos", "href": "quiz.html" },
+        { "id": "d28-revisao", "type": "revisao", "label": "Escrever o motivo de cada erro e a correção" },
+        { "id": "d28-redacao", "type": "redacao", "label": "Revisar a última redação por competência", "href": "redacao.html" }
+      ]
+    },
+    {
+      "day": 29,
+      "phase": "Fechamento",
+      "area": "questoes",
+      "title": "Segundo mini simulado misto",
+      "goal": "Testar evolução depois das revisões.",
+      "minutes": "90-130 min",
+      "tasks": [
+        { "id": "d29-apostila", "type": "apostila", "label": "Ler apenas resumos e fórmulas essenciais", "href": "biblioteca.html" },
+        { "id": "d29-quiz", "type": "quiz", "label": "Fazer 40 questões com controle de tempo", "href": "questoes.html" },
+        { "id": "d29-revisao", "type": "revisao", "label": "Comparar erros com o primeiro mini simulado" },
+        { "id": "d29-redacao", "type": "redacao", "label": "Planejar repertório para três temas possíveis", "href": "redacao-modelos.html" }
+      ]
+    },
+    {
+      "day": 30,
+      "phase": "Fechamento",
+      "area": "revisao",
+      "title": "Balanço final e próximo ciclo",
+      "goal": "Fechar o ciclo, medir evolução e escolher os próximos 30 dias.",
+      "minutes": "45-75 min",
+      "tasks": [
+        { "id": "d30-apostila", "type": "apostila", "label": "Revisar os resumos salvos do mês", "href": "biblioteca.html" },
+        { "id": "d30-quiz", "type": "quiz", "label": "Resolver 10 questões dos pontos fracos", "href": "quiz.html" },
+        { "id": "d30-revisao", "type": "revisao", "label": "Marcar as áreas que precisam de novo ciclo" },
+        { "id": "d30-redacao", "type": "redacao", "label": "Definir meta de redação para o próximo mês", "href": "redacao.html" }
+      ]
+    }
+  ]
+}

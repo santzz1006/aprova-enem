@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS ENEM 2026 | Modelos de Redação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="redacao.css?v=brand-aprovai-croco-3">
+</head>
+<body data-page="modelos">
+  <div class="redacao-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <div class="sidebar-flow">
+        <a class="brand brand-image" href="dashboard.html" aria-label="AprovAI">
+          <img class="brand-full-logo" src="aprovai.croco.png" alt="AprovAI">
+        </a>
+
+        <nav class="main-nav">
+          <a class="nav-link" href="dashboard.html">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Dashboard</span>
+          </a>
+          <a class="nav-link" href="biblioteca.html">
+            <i data-lucide="library"></i>
+            <span>Biblioteca</span>
+          </a>
+          <a class="nav-link" href="quiz.html">
+            <i data-lucide="messages-square"></i>
+            <span>Quiz por matéria</span>
+          </a>
+          <a class="nav-link" href="questoes.html">
+            <i data-lucide="badge-help"></i>
+            <span>Questões ENEM</span>
+          </a>
+          <a class="nav-link active" href="redacao.html" aria-current="page">
+            <i data-lucide="pen-tool"></i>
+            <span>Redação</span>
+          </a>
+          <a class="nav-link" href="plano-estudos.html">
+            <i data-lucide="calendar-check"></i>
+            <span>Plano 30 dias</span>
+          </a>
+          <a class="nav-link nav-button" href="dashboard.html">
+            <i data-lucide="settings"></i>
+            <span>Configurações</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-summary">
+          <span class="summary-label">Modelos</span>
+          <strong id="modelCount">10 redações</strong>
+          <div class="mini-progress" aria-hidden="true">
+            <span style="width: 100%"></span>
+          </div>
+          <small>Use como referência estrutural e adapte ao tema.</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="redacao-main">
+      <header class="redacao-topbar">
+        <div>
+          <span class="eyebrow">Modelos de redação</span>
+          <h1>Modelos prontos e adaptáveis para montar redações fortes.</h1>
+          <p>5 modelos com temas específicos e 5 modelos quebra-cabeça para encaixar qualquer tema de cidadania, tecnologia, cultura, saúde e meio ambiente.</p>
+        </div>
+        <div class="top-actions">
+          <a class="ghost-button" href="redacao.html"><i data-lucide="arrow-left"></i> Laboratório</a>
+          <a class="primary-button" href="redacao-editor.html"><i data-lucide="file-pen-line"></i> Escrever</a>
+        </div>
+      </header>
+
+      <section class="model-controls panel">
+        <label class="search-box"><i data-lucide="search"></i><input id="modelSearch" type="search" placeholder="Buscar por tema, repertório ou tipo"></label>
+        <div class="filter-options">
+          <button class="filter-chip active" type="button" data-model-filter="all">Todos</button>
+          <button class="filter-chip" type="button" data-model-filter="tema-especifico">Temas específicos</button>
+          <button class="filter-chip" type="button" data-model-filter="adaptavel">Adaptáveis</button>
+        </div>
+      </section>
+
+      <section class="models-list" id="modelsList"></section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><i data-lucide="check"></i><span id="toastText">Atualizado.</span></div>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="redacao.js?v=redacao-nota-1"></script>
+</body>
+</html>

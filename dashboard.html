@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS ENEM 2026 | Portal do Aluno</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dashboard.css?v=insights-croco-up-1">
+  <link rel="stylesheet" href="portal-theme.css?v=brand-aprovai-croco-3">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <div class="sidebar-flow">
+        <a class="brand brand-image" href="dashboard.html" aria-label="AprovAI">
+          <img class="brand-full-logo" src="aprovai.croco.png" alt="AprovAI">
+        </a>
+
+        <nav class="main-nav">
+          <a class="nav-link active" href="dashboard.html" aria-current="page">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Dashboard</span>
+          </a>
+          <a class="nav-link" href="biblioteca.html">
+            <i data-lucide="library"></i>
+            <span>Biblioteca</span>
+          </a>
+          <a class="nav-link" href="quiz.html">
+            <i data-lucide="messages-square"></i>
+            <span>Quiz por matéria</span>
+          </a>
+          <a class="nav-link" href="questoes.html">
+            <i data-lucide="badge-help"></i>
+            <span>Questões ENEM</span>
+          </a>
+          <a class="nav-link" href="redacao.html">
+            <i data-lucide="pen-tool"></i>
+            <span>Redação</span>
+          </a>
+          <a class="nav-link" href="plano-estudos.html">
+            <i data-lucide="calendar-check"></i>
+            <span>Plano 30 dias</span>
+          </a>
+          <button class="nav-link nav-button" id="openSettingsNavButton" type="button">
+            <i data-lucide="settings"></i>
+            <span>Configurações</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-summary">
+          <span class="summary-label">Seu foco agora</span>
+          <strong id="sidebarFocus">Diagnóstico inicial</strong>
+          <div class="mini-progress" aria-hidden="true">
+            <span id="sidebarProgress"></span>
+          </div>
+          <small id="sidebarHint">Complete o mini questionário para liberar seu modelo.</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="dashboard">
+      <header class="topbar">
+        <button class="icon-button mobile-menu" id="mobileMenuButton" type="button" aria-label="Abrir menu">
+          <i data-lucide="menu"></i>
+        </button>
+        <div class="welcome-copy">
+          <span class="eyebrow">Portal do aluno</span>
+          <h1 id="dashboardTitle">Bem-vindo ao seu centro de estudos</h1>
+          <p id="dashboardSubtitle">Monte sua trilha ENEM com rotina, quiz, redação, biblioteca e evolução em um só lugar.</p>
+        </div>
+      </header>
+
+      <section class="hero-panel" aria-labelledby="heroTitle">
+        <img class="hero-mascot" src="pose.croco2.transparent.png" alt="" aria-hidden="true">
+        <div class="hero-content">
+          <h2 id="heroTitle">Sua preparação vai começar pelo ponto certo.</h2>
+          <p id="heroText">Responda o mini questionário para criarmos um modelo de aprendizagem com metas, prioridades e próximos passos.</p>
+          <div class="hero-actions">
+            <button class="primary-button" id="heroCtaButton" type="button">
+              <i data-lucide="wand-sparkles"></i>
+              Criar meu modelo
+            </button>
+          </div>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit-card orbit-main">
+            <i id="heroGoalIcon" data-lucide="graduation-cap"></i>
+            <span>Meta</span>
+            <strong id="heroGoal">ENEM 2026</strong>
+          </div>
+          <div class="orbit-card orbit-one">
+            <i data-lucide="book-open-check"></i>
+            <strong id="heroArea">Trilha geral</strong>
+          </div>
+          <div class="orbit-card orbit-two">
+            <i data-lucide="clock-3"></i>
+            <strong id="heroPace">Ritmo inteligente</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics-grid" aria-label="Resumo do aluno">
+        <article class="metric-card accent-blue">
+          <span class="metric-icon"><i data-lucide="flame"></i></span>
+          <small>Sequência</small>
+          <strong id="streakValue">0 dias</strong>
+          <p id="streakLabel">Comece hoje sua rotina.</p>
+        </article>
+        <article class="metric-card accent-green">
+          <span class="metric-icon"><i data-lucide="check-circle-2"></i></span>
+          <small>Modelo</small>
+          <strong id="modelValue">Pendente</strong>
+          <p id="modelLabel">Questionário inicial aguardando.</p>
+        </article>
+        <article class="metric-card accent-purple">
+          <span class="metric-icon"><i data-lucide="brain-circuit"></i></span>
+          <small>Prioridade</small>
+          <strong id="priorityValue">Diagnóstico</strong>
+          <p id="priorityLabel">A plataforma ajusta o caminho.</p>
+        </article>
+        <article class="metric-card accent-orange">
+          <span class="metric-icon"><i data-lucide="clock-3"></i></span>
+          <small>Tempo diário</small>
+          <strong id="timeValue">A definir</strong>
+          <p id="timeLabel">Vamos calibrar a rotina.</p>
+        </article>
+      </section>
+
+      <section class="portal-layout">
+        <div class="main-column">
+          <section class="section-block" aria-labelledby="trailTitle">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">Trilha recomendada</span>
+                <h2 id="trailTitle">Próximas ações</h2>
+              </div>
+              <button class="ghost-button compact" id="shuffleTasksButton" type="button">
+                <i data-lucide="shuffle"></i>
+                Reordenar
+              </button>
+            </div>
+            <div class="task-list" id="taskList"></div>
+          </section>
+
+          <section class="section-block" aria-labelledby="modulesTitle">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">Módulos do portal</span>
+                <h2 id="modulesTitle">Continue por onde faz sentido</h2>
+              </div>
+              <span class="sync-status" id="syncStatus">
+                <i data-lucide="cloud-check"></i>
+                Preferências salvas
+              </span>
+            </div>
+            <div class="module-grid" id="moduleGrid"></div>
+          </section>
+
+          <section class="section-block" aria-labelledby="weeklyTitle">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">Semana sugerida</span>
+                <h2 id="weeklyTitle">Rotina de estudo</h2>
+              </div>
+              <div class="segmented-control" role="tablist" aria-label="Visualização da semana">
+                <button class="segment active" type="button" data-week-mode="balanced">Equilíbrio</button>
+                <button class="segment" type="button" data-week-mode="intense">Intenso</button>
+                <button class="segment" type="button" data-week-mode="review">Revisão</button>
+              </div>
+            </div>
+            <div class="week-board" id="weekBoard"></div>
+          </section>
+        </div>
+
+        <aside class="insights-column" aria-label="Painéis de acompanhamento">
+          <section class="focus-panel">
+            <div class="section-heading tight">
+              <div>
+                <span class="eyebrow">Mapa de foco</span>
+                <h2>Distribuição</h2>
+              </div>
+            </div>
+            <div class="focus-chart" id="focusChart"></div>
+          </section>
+
+          <section class="timeline-panel">
+            <div class="section-heading tight">
+              <div>
+                <span class="eyebrow">Movimento</span>
+                <h2>Atividade recente</h2>
+              </div>
+            </div>
+            <ol class="activity-list" id="activityList"></ol>
+          </section>
+
+          <div class="insights-mascot" aria-hidden="true">
+            <img src="croco.pose3.transparent.png" alt="">
+          </div>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <div class="screen-dim" id="screenDim"></div>
+
+  <section class="onboarding" id="onboarding" aria-labelledby="onboardingTitle" aria-modal="true" role="dialog">
+    <div class="onboarding-card">
+      <button class="icon-button close-onboarding" id="closeOnboardingButton" type="button" aria-label="Fechar questionário">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="onboarding-head">
+        <span class="eyebrow">Mini diagnóstico</span>
+        <h2 id="onboardingTitle">Vamos construir o melhor modelo de aprendizagem para você.</h2>
+        <p id="onboardingLead">Cada resposta ajusta prioridades, rotina, recomendações e atalhos do portal.</p>
+      </div>
+      <div class="onboarding-mascot" aria-hidden="true">
+        <img src="croco.pose1.transparent.png" alt="">
+      </div>
+
+      <div class="question-progress" aria-label="Progresso do questionário">
+        <span id="questionStepLabel">Pergunta 1 de 8</span>
+        <div class="progress-track">
+          <span id="questionProgressBar"></span>
+        </div>
+      </div>
+
+      <form class="question-form" id="questionForm">
+        <div class="question-stage" id="questionStage"></div>
+        <div class="question-actions">
+          <button class="secondary-button" id="previousQuestionButton" type="button">
+            <i data-lucide="arrow-left"></i>
+            Voltar
+          </button>
+          <button class="primary-button" id="nextQuestionButton" type="button">
+            Continuar
+            <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+      </form>
+
+      <div class="builder" id="builder" aria-live="polite">
+        <div class="builder-animation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h3>Montando sua trilha personalizada</h3>
+        <p id="builderText">Cruzando objetivo, curso, rotina e dificuldades para recomendar o primeiro caminho.</p>
+        <div class="builder-steps">
+          <span class="builder-step active">Perfil</span>
+          <span class="builder-step">Prioridades</span>
+          <span class="builder-step">Rotina</span>
+          <span class="builder-step">Portal</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="settings-panel" id="settingsPanel" aria-labelledby="settingsTitle" aria-modal="true" role="dialog">
+    <div class="settings-card">
+      <button class="icon-button close-settings" id="closeSettingsButton" type="button" aria-label="Fechar configurações">
+        <i data-lucide="x"></i>
+      </button>
+
+      <div class="settings-head">
+        <span class="eyebrow">Preferências do portal</span>
+        <h2 id="settingsTitle">Configurações</h2>
+        <p>Gerencie perfil, tema, trilha de aprendizagem, acessibilidade e dados salvos neste navegador.</p>
+      </div>
+
+      <div class="settings-grid">
+        <section class="settings-section profile-settings">
+          <div class="profile-cover">
+            <span class="avatar" id="avatarInitials">AL</span>
+            <button class="icon-button" id="editNameButton" type="button" aria-label="Editar nome">
+              <i data-lucide="pencil"></i>
+            </button>
+          </div>
+          <h3 id="studentName">Aluno ENEM</h3>
+          <p id="studentSummary">Seu perfil será montado após o questionário inicial.</p>
+          <div class="profile-tags" id="profileTags"></div>
+        </section>
+
+        <section class="settings-section">
+          <div class="settings-section-head">
+            <span class="settings-icon"><i data-lucide="route"></i></span>
+            <div>
+              <h3>Trilha de aprendizagem</h3>
+              <p id="settingsTrailStatus">Nenhuma trilha criada ainda.</p>
+            </div>
+          </div>
+          <div class="settings-actions">
+            <button class="primary-button" id="openOnboardingButton" type="button">
+              <i data-lucide="sparkles"></i>
+              Ajustar trilha
+            </button>
+            <button class="ghost-button" id="resetProfileButton" type="button">
+              <i data-lucide="rotate-ccw"></i>
+              Refazer perfil
+            </button>
+          </div>
+          <div class="settings-note">
+            <i data-lucide="info"></i>
+            <span>As respostas ficam salvas localmente e serão usadas nas próximas páginas do portal.</span>
+          </div>
+        </section>
+
+        <section class="settings-section">
+          <div class="settings-section-head">
+            <span class="settings-icon"><i data-lucide="palette"></i></span>
+            <div>
+              <h3>Aparência</h3>
+              <p>Altere o visual do dashboard inteiro.</p>
+            </div>
+          </div>
+          <div class="settings-control">
+            <span>Tema</span>
+            <div class="segmented-control settings-segments" role="tablist" aria-label="Tema do portal">
+              <button class="segment" type="button" data-theme-choice="light">Claro</button>
+              <button class="segment" type="button" data-theme-choice="dark">Escuro</button>
+            </div>
+          </div>
+          <label class="switch-row">
+            <span>
+              <strong>Reduzir animações</strong>
+              <small>Diminui movimentos e transições.</small>
+            </span>
+            <input id="motionToggle" type="checkbox">
+          </label>
+          <label class="switch-row">
+            <span>
+              <strong>Alto contraste</strong>
+              <small>Reforça bordas e leitura dos painéis.</small>
+            </span>
+            <input id="contrastToggle" type="checkbox">
+          </label>
+        </section>
+
+        <section class="settings-section">
+          <div class="settings-section-head">
+            <span class="settings-icon"><i data-lucide="bell-ring"></i></span>
+            <div>
+              <h3>Preferências de estudo</h3>
+              <p>Ajustes locais para a experiência do aluno.</p>
+            </div>
+          </div>
+          <label class="switch-row">
+            <span>
+              <strong>Lembretes visuais</strong>
+              <small>Destaca tarefas pendentes no portal.</small>
+            </span>
+            <input id="reminderToggle" type="checkbox">
+          </label>
+          <label class="switch-row">
+            <span>
+              <strong>Mostrar progresso dos módulos</strong>
+              <small>Mantém barras zeradas até existir atividade real.</small>
+            </span>
+            <input id="progressToggle" type="checkbox">
+          </label>
+          <div class="settings-control stacked">
+            <span>Intensidade preferida</span>
+            <select class="settings-select" id="densitySelect">
+              <option value="comfortable">Confortável</option>
+              <option value="compact">Compacta</option>
+              <option value="focused">Focada</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="settings-section danger-zone">
+          <div class="settings-section-head">
+            <span class="settings-icon"><i data-lucide="database"></i></span>
+            <div>
+              <h3>Dados e privacidade</h3>
+              <p>Controle o que está salvo neste navegador.</p>
+            </div>
+          </div>
+          <div class="settings-actions">
+            <button class="ghost-button" id="exportProfileButton" type="button">
+              <i data-lucide="download"></i>
+              Exportar dados
+            </button>
+            <button class="ghost-button" id="clearTasksButton" type="button">
+              <i data-lucide="list-x"></i>
+              Limpar tarefas
+            </button>
+          </div>
+          <button class="danger-button" id="clearAllButton" type="button">
+            <i data-lucide="trash-2"></i>
+            Apagar tudo e recomeçar
+          </button>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <i data-lucide="check"></i>
+    <span id="toastText">Atualizado.</span>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,521 @@
+{
+  "area": "humanas",
+  "areaLabel": "Ciências Humanas e suas Tecnologias",
+  "icon": "landmark",
+  "priorityMessage": "Sua escolha inicial aponta para Humanas. A biblioteca começa destacando História, Geografia, Sociologia e Filosofia, com temas recorrentes de cidadania, direitos humanos, Brasil, urbanização e meio ambiente.",
+  "collections": [
+    {
+      "id": "humanas-historia-antiga-medieval",
+      "subject": "História",
+      "title": "História Antiga, Medieval e Moderna",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 120,
+      "priority": 4,
+      "tags": ["história", "mundo antigo", "comércio", "poder", "mitologia"],
+      "summary": "Apostila sobre sociedade romana, cidadania antiga, mundo greco-romano, mitologia, cidades comerciais e expansão mercantil.",
+      "whyEnem": "Esses temas aparecem como comparação entre formas de organização social, política, trabalho, cultura e poder econômico.",
+      "skills": [
+        "Relacionar sociedade, cidadania e hierarquia.",
+        "Interpretar mito como expressão cultural.",
+        "Compreender comércio e cidades na transição econômica europeia."
+      ],
+      "chapters": [
+        {
+          "title": "Mundo greco-romano",
+          "explanation": "Mostra como política, cidadania, mitologia e ordem social estruturavam sociedades antigas.",
+          "topics": [
+            "Roma Antiga",
+            "Sociedade romana",
+            "Papel social da mulher em Roma",
+            "Cidadania e ordem social antiga",
+            "Cultura política clássica",
+            "Mundo greco-romano",
+            "Mitologia grega",
+            "Os Doze Trabalhos de Hércules",
+            "Relação entre mito, literatura e sociedade"
+          ]
+        },
+        {
+          "title": "Cidades, comércio e expansão",
+          "explanation": "Analisa o crescimento das redes comerciais e sua relação com cidades, ofícios e poder.",
+          "topics": [
+            "Cidades comerciais",
+            "Veneza e o comércio mediterrâneo",
+            "Expansão mercantil",
+            "Corporações de ofício",
+            "Transição econômica na Europa",
+            "Formação de redes comerciais",
+            "Relações entre comércio, poder e cidade"
+          ]
+        }
+      ],
+      "checklist": [
+        "Comparar cidadania antiga e moderna.",
+        "Relacionar comércio e poder urbano.",
+        "Interpretar mito como documento cultural."
+      ]
+    },
+    {
+      "id": "humanas-colonizacao-brasil",
+      "subject": "História",
+      "title": "Colonização da América e História do Brasil",
+      "difficulty": "essencial",
+      "estimatedMinutes": 160,
+      "priority": 5,
+      "tags": ["Brasil", "colonização", "indígenas", "escravidão", "república"],
+      "summary": "Apostila robusta sobre colonização, trabalho indígena e escravizado, formação territorial, independência, República, Vargas e direitos indígenas.",
+      "whyEnem": "História do Brasil é recorrente porque permite discutir poder, trabalho, violência, cidadania, imprensa, Estado e resistência.",
+      "skills": [
+        "Analisar exploração colonial e resistência.",
+        "Compreender formação do Estado nacional.",
+        "Relacionar propaganda, imprensa e construção política."
+      ],
+      "chapters": [
+        {
+          "title": "Colonização espanhola e portuguesa",
+          "explanation": "Foca dominação colonial, trabalho compulsório, catequese, hierarquia e resistência.",
+          "topics": [
+            "Colonização espanhola",
+            "Leis Novas de 1542",
+            "Encomienda",
+            "Exploração do trabalho indígena",
+            "Resistência indígena",
+            "Catequese e dominação colonial",
+            "Roda dos Expostos",
+            "Abandono infantil no período colonial",
+            "Instituições religiosas e assistência social",
+            "Escravidão colonial",
+            "Violência contra pessoas escravizadas",
+            "Sociedade açucareira",
+            "Trabalho compulsório",
+            "Hierarquias coloniais",
+            "Interiorização da colonização",
+            "Tropeirismo",
+            "Pecuária e ocupação territorial"
+          ]
+        },
+        {
+          "title": "Brasil: imigração, independência e Estado",
+          "explanation": "Analisa transição do trabalho, imprensa, opinião pública e construção do Estado nacional.",
+          "topics": [
+            "Imigração para o Brasil",
+            "Políticas de imigração no século XIX",
+            "Trabalho livre e transição pós-escravidão",
+            "Independência do Brasil",
+            "Imprensa e opinião pública no processo de independência",
+            "Construção do Estado nacional",
+            "Relação entre política, imprensa e sociedade",
+            "Formação territorial brasileira"
+          ]
+        },
+        {
+          "title": "República, Vargas e ciência",
+          "explanation": "Trabalha imagem do líder, propaganda política, trabalhismo, ciência e nacionalismo.",
+          "topics": [
+            "Primeira República",
+            "Era Vargas",
+            "Populismo",
+            "Propaganda política",
+            "Construção da imagem do líder",
+            "Estado Novo",
+            "Trabalhismo",
+            "Manipulação das massas",
+            "História da ciência no Brasil",
+            "Expedições científicas estrangeiras",
+            "Naturalismo e coleta de espécimes",
+            "Nacionalismo científico"
+          ]
+        },
+        {
+          "title": "Povos indígenas e direitos",
+          "explanation": "Relaciona história, identidade, território, legislação e resistência cultural.",
+          "topics": [
+            "História das populações indígenas",
+            "Direitos indígenas",
+            "Cultura indígena e resistência"
+          ]
+        }
+      ],
+      "checklist": [
+        "Identificar formas de trabalho e dominação.",
+        "Relacionar fonte histórica e contexto.",
+        "Separar permanência e mudança histórica.",
+        "Conectar cidadania, Estado e resistência."
+      ]
+    },
+    {
+      "id": "humanas-historia-contemporanea",
+      "subject": "História",
+      "title": "História Contemporânea e direitos humanos",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 120,
+      "priority": 4,
+      "tags": ["direitos humanos", "guerra fria", "migrações", "feminismo", "globalização"],
+      "summary": "Apostila sobre Guerra Fria, Muro de Berlim, migrações, xenofobia, direitos humanos, feminismo e globalização.",
+      "whyEnem": "A prova conecta processos contemporâneos a cidadania, desigualdade, nacionalismo, violência e luta por direitos.",
+      "skills": [
+        "Relacionar eventos políticos e transformações sociais.",
+        "Interpretar conflitos de identidade e migração.",
+        "Analisar direitos humanos como construção histórica."
+      ],
+      "chapters": [
+        {
+          "title": "Guerra Fria e pós-guerra",
+          "explanation": "Organiza crise do socialismo real, reunificação alemã e tensões políticas do século XX.",
+          "topics": [
+            "Guerra Fria",
+            "Muro de Berlim",
+            "Crise do socialismo real",
+            "Reunificação alemã",
+            "Pós-guerra",
+            "Globalização econômica"
+          ]
+        },
+        {
+          "title": "Nacionalismo, migração e desigualdade",
+          "explanation": "Relaciona migrações, xenofobia e extrema direita a conflitos sociais contemporâneos.",
+          "topics": [
+            "Nacionalismo",
+            "Xenofobia",
+            "Extrema direita",
+            "Migrações",
+            "Transformações sociais modernas"
+          ]
+        },
+        {
+          "title": "Direitos e igualdade",
+          "explanation": "Trabalha cidadania, feminismo e lutas por igualdade no século XX.",
+          "topics": [
+            "Direitos humanos",
+            "Declaração Universal dos Direitos Humanos",
+            "Cidadania no século XX",
+            "Lutas por igualdade",
+            "Feminismo",
+            "Desigualdade de gênero",
+            "Naturalização da inferioridade social da mulher"
+          ]
+        }
+      ],
+      "checklist": [
+        "Relacionar evento a processo histórico.",
+        "Identificar grupos afetados.",
+        "Conectar discurso político e direitos."
+      ]
+    },
+    {
+      "id": "humanas-geografia-urbana-economica",
+      "subject": "Geografia",
+      "title": "Geografia urbana e econômica",
+      "difficulty": "essencial",
+      "estimatedMinutes": 140,
+      "priority": 5,
+      "tags": ["urbanização", "economia", "agronegócio", "globalização", "cidades"],
+      "summary": "Apostila sobre urbanização, segregação socioespacial, direito à cidade, agronegócio, commodities, comércio exterior e logística.",
+      "whyEnem": "Geografia do ENEM costuma cobrar relação entre espaço, desigualdade, produção econômica, circulação e impactos sociais.",
+      "skills": [
+        "Interpretar problemas urbanos e desigualdade espacial.",
+        "Relacionar produção, exportação e logística.",
+        "Analisar dados econômicos em tabelas e mapas."
+      ],
+      "chapters": [
+        {
+          "title": "Cidade e desigualdade",
+          "explanation": "Analisa crescimento urbano, periferização, moradia, infraestrutura e direito à cidade.",
+          "topics": [
+            "Urbanização",
+            "Segregação socioespacial",
+            "Expansão urbana",
+            "Periferização",
+            "Paisagem urbana",
+            "Desigualdade nas cidades",
+            "Moradia",
+            "Problemas urbanos",
+            "Turismo urbano",
+            "Valorização imobiliária",
+            "Espaço urbano de Salvador",
+            "Cidades latino-americanas",
+            "Pobreza urbana",
+            "Crescimento desordenado",
+            "Infraestrutura urbana",
+            "Mobilidade",
+            "Saneamento básico",
+            "Direito à cidade"
+          ]
+        },
+        {
+          "title": "Economia, produção e circulação",
+          "explanation": "Mostra como commodities, cadeias produtivas e comércio exterior estruturam o território.",
+          "topics": [
+            "Agronegócio",
+            "Exportações brasileiras",
+            "Commodities",
+            "Café, soja, milho, açúcar, carnes e produtos agrícolas",
+            "Ranking mundial de produção",
+            "Comércio exterior",
+            "Balança comercial",
+            "Cadeias produtivas",
+            "Globalização",
+            "Logística internacional",
+            "Transporte fluvial",
+            "Impactos econômicos de secas",
+            "Relação entre clima e economia",
+            "Economia de energia",
+            "Produção e consumo de recursos naturais"
+          ]
+        }
+      ],
+      "checklist": [
+        "Ler legenda de mapa e escala.",
+        "Conectar fenômeno urbano a desigualdade.",
+        "Relacionar clima, logística e economia."
+      ]
+    },
+    {
+      "id": "humanas-geografia-ambiental-geopolitica",
+      "subject": "Geografia",
+      "title": "Geografia ambiental e geopolítica",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 130,
+      "priority": 5,
+      "tags": ["meio ambiente", "energia", "clima", "geopolítica", "sustentabilidade"],
+      "summary": "Apostila sobre energias renováveis, crise climática, queimadas, sensoriamento remoto, mineração, carro elétrico e disputas territoriais.",
+      "whyEnem": "O ENEM cobra contradições ambientais: energia limpa também tem impactos; desenvolvimento econômico pode produzir desigualdade e dano ambiental.",
+      "skills": [
+        "Analisar impactos ambientais e soluções sustentáveis.",
+        "Interpretar imagens de satélite e monitoramento.",
+        "Relacionar identidade nacional, fronteiras e diplomacia."
+      ],
+      "chapters": [
+        {
+          "title": "Energia, clima e monitoramento",
+          "explanation": "Trabalha fontes renováveis, emissões, mudanças climáticas e uso de tecnologia para observar o ambiente.",
+          "topics": [
+            "Fontes renováveis de energia",
+            "Energia solar",
+            "Energia eólica",
+            "Sustentabilidade",
+            "Mudanças climáticas",
+            "Queimadas",
+            "Emissão de CO₂",
+            "Sensoriamento remoto",
+            "Imagens de satélite",
+            "Monitoramento ambiental",
+            "Desmatamento",
+            "Poluição",
+            "Crise climática",
+            "Secas e rios navegáveis",
+            "Produção agrícola e clima",
+            "Conservação ambiental"
+          ]
+        },
+        {
+          "title": "Mineração e limites da energia limpa",
+          "explanation": "Mostra contradições entre tecnologia, consumo de minerais e impacto socioambiental.",
+          "topics": [
+            "Impactos ambientais da mineração",
+            "Contradições do carro elétrico",
+            "Extração de lítio e outros minerais",
+            "Desenvolvimento sustentável",
+            "Energia limpa e seus limites"
+          ]
+        },
+        {
+          "title": "Geopolítica e identidade territorial",
+          "explanation": "Analisa disputas simbólicas, fronteiras, nacionalismo e integração regional.",
+          "topics": [
+            "Macedônia do Norte",
+            "Disputas de nome e identidade nacional",
+            "Nacionalismo",
+            "Diplomacia",
+            "União Europeia",
+            "Integração regional",
+            "Fronteiras políticas",
+            "Identidade territorial",
+            "Conflitos simbólicos entre países",
+            "Relações internacionais"
+          ]
+        }
+      ],
+      "checklist": [
+        "Avaliar benefícios e impactos de tecnologias.",
+        "Relacionar fenômeno ambiental a ação humana.",
+        "Identificar escala local, nacional e global."
+      ]
+    },
+    {
+      "id": "humanas-sociologia",
+      "subject": "Sociologia",
+      "title": "Sociologia: desigualdade, cultura e cidadania",
+      "difficulty": "essencial",
+      "estimatedMinutes": 150,
+      "priority": 5,
+      "tags": ["sociologia", "desigualdade", "racismo", "cidadania", "cultura"],
+      "summary": "Apostila sobre socialização, trabalho, estratificação, racismo, povos indígenas, cultura afro-brasileira, mídia, consumo e movimentos sociais.",
+      "whyEnem": "Sociologia aparece como leitura crítica da sociedade brasileira: desigualdade, identidade, direitos, cultura, tecnologia e poder simbólico.",
+      "skills": [
+        "Relacionar origem social e oportunidades.",
+        "Analisar preconceito, racismo e representatividade.",
+        "Interpretar mídia, consumo e movimentos sociais."
+      ],
+      "chapters": [
+        {
+          "title": "Socialização, trabalho e desigualdade",
+          "explanation": "Estuda como origem social, trabalho e estratificação organizam oportunidades.",
+          "topics": [
+            "Socialização",
+            "Escolhas profissionais e origem social",
+            "Juventude",
+            "Trabalho",
+            "Estratificação social",
+            "Desigualdade social",
+            "Mobilidade social",
+            "Exclusão social"
+          ]
+        },
+        {
+          "title": "Raça, etnia e cultura",
+          "explanation": "Foca relações étnico-raciais, identidade coletiva, cultura popular e patrimônio.",
+          "topics": [
+            "Racismo",
+            "Racismo estrutural",
+            "Campanhas antirracistas",
+            "Representatividade",
+            "Relações étnico-raciais",
+            "Povos indígenas e identidade coletiva",
+            "Cultura afro-brasileira",
+            "Cultura popular",
+            "Religiões de matriz africana",
+            "Patrimônio cultural",
+            "Etnocentrismo",
+            "Relativismo cultural"
+          ]
+        },
+        {
+          "title": "Cidadania, mídia e modernidade",
+          "explanation": "Analisa comunicação, consumo, tecnologia, participação e controle social.",
+          "topics": [
+            "Mídia e sociedade",
+            "Comunicação na vida moderna",
+            "Alienação urbana",
+            "Relações de consumo",
+            "Cidadania",
+            "Direitos sociais",
+            "Direitos humanos",
+            "Movimentos sociais",
+            "Feminismo",
+            "Desigualdade de gênero",
+            "Violência contra a mulher",
+            "Xenofobia",
+            "Preconceito",
+            "Sociedade pós-industrial",
+            "Individualização",
+            "Tecnologia e relações sociais",
+            "Redes digitais",
+            "Modernidade",
+            "Utopia e crítica social",
+            "Poder simbólico",
+            "Ideologia",
+            "Controle social",
+            "Participação social",
+            "Comunidade e ação coletiva"
+          ]
+        }
+      ],
+      "checklist": [
+        "Identificar grupo social e conflito.",
+        "Diferenciar senso comum e análise sociológica.",
+        "Relacionar conceito a exemplo concreto."
+      ]
+    },
+    {
+      "id": "humanas-filosofia",
+      "subject": "Filosofia",
+      "title": "Filosofia: política, conhecimento e ética",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 130,
+      "priority": 4,
+      "tags": ["filosofia", "ética", "política", "conhecimento", "justiça"],
+      "summary": "Apostila sobre Platão, Aristóteles, Rousseau, Thomas More, direitos naturais, empirismo, ceticismo, ética e justiça.",
+      "whyEnem": "Filosofia no ENEM cobra conceitos em contexto: justiça, poder, cidadania, conhecimento, dever, liberdade e dignidade humana.",
+      "skills": [
+        "Relacionar filósofos a problemas políticos e éticos.",
+        "Diferenciar empirismo, razão, experiência e ceticismo.",
+        "Aplicar conceitos de justiça e cidadania."
+      ],
+      "chapters": [
+        {
+          "title": "Filosofia antiga",
+          "explanation": "Apresenta cidade ideal, justiça, formas de governo e finalidade da vida coletiva.",
+          "topics": [
+            "Platão",
+            "Cidade ideal",
+            "Governo dos filósofos",
+            "Justiça",
+            "Organização política",
+            "Aristóteles",
+            "Justiça distributiva",
+            "Ética",
+            "Bem comum",
+            "Formas de governo",
+            "Tirania",
+            "Oligarquia",
+            "Democracia",
+            "Virtude",
+            "Finalidade da vida em sociedade"
+          ]
+        },
+        {
+          "title": "Filosofia política",
+          "explanation": "Trabalha contrato social, soberania popular, utopia e direitos.",
+          "topics": [
+            "Contrato social",
+            "Rousseau",
+            "Vontade geral",
+            "Soberania popular",
+            "Legitimidade política",
+            "Cidadania",
+            "República",
+            "Poder do Estado",
+            "Utopia",
+            "Thomas More",
+            "Crítica da sociedade",
+            "Transformação social",
+            "Direitos naturais",
+            "Universalidade dos direitos humanos",
+            "Justiça social"
+          ]
+        },
+        {
+          "title": "Epistemologia e ética",
+          "explanation": "Organiza conhecimento, verdade, experiência, dever, liberdade e julgamento moral.",
+          "topics": [
+            "Conhecimento",
+            "Limites do entendimento humano",
+            "Empirismo",
+            "Ceticismo",
+            "Relação entre experiência e conhecimento",
+            "Produção da verdade",
+            "Conhecimento científico",
+            "Razão e experiência",
+            "Função crítica da filosofia",
+            "Dever",
+            "Responsabilidade",
+            "Doutrinas éticas",
+            "Justiça",
+            "Liberdade",
+            "Igualdade",
+            "Moral social",
+            "Dignidade humana",
+            "Julgamento moral",
+            "Relação entre ética e política"
+          ]
+        }
+      ],
+      "checklist": [
+        "Ler o problema filosófico antes do nome do autor.",
+        "Relacionar conceito e exemplo.",
+        "Evitar decorar frases sem entender o argumento."
+      ]
+    }
+  ]
+}

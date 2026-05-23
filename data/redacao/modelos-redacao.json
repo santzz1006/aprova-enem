@@ -1,0 +1,161 @@
+{
+  "title": "Modelos de redacao ENEM",
+  "note": "Modelos autorais para estudo. Use como referencia estrutural e adapte ao tema proposto.",
+  "models": [
+    {
+      "id": "modelo-democratizacao-educacao",
+      "type": "tema-especifico",
+      "theme": "Desafios para democratizar o acesso a educacao no Brasil",
+      "title": "Educacao como direito ainda desigual",
+      "tags": ["educacao", "desigualdade", "cidadania"],
+      "scoreTarget": 1000,
+      "essay": [
+        "A Constituicao Federal de 1988 assegura a educacao como direito social indispensavel ao exercicio da cidadania. Entretanto, no Brasil contemporaneo, tal garantia ainda nao se concretiza de forma plena, visto que desigualdades regionais, economicas e tecnologicas limitam o acesso de muitos estudantes a uma formacao de qualidade. Nesse sentido, a democratizacao educacional e dificultada tanto pela precariedade estrutural de parte das escolas quanto pela exclusao digital.",
+        "Em primeiro lugar, a insuficiencia de investimentos em infraestrutura escolar aprofunda disparidades historicas. Muitas instituicoes, sobretudo em areas perifericas e rurais, enfrentam falta de laboratorios, bibliotecas, transporte e profissionais em quantidade adequada. Como consequencia, estudantes em situacao de vulnerabilidade recebem menos oportunidades de aprendizagem, o que compromete sua permanencia na escola e seu desempenho em exames nacionais.",
+        "Alem disso, a exclusao digital tornou-se um obstaculo decisivo para a equidade educacional. A pandemia evidenciou que parcela expressiva dos alunos nao possui internet estavel, equipamentos proprios ou ambiente adequado de estudo. Assim, embora a tecnologia possa ampliar o acesso ao conhecimento, sua distribuicao desigual transforma uma ferramenta de inclusao em mais um fator de distancia social.",
+        "Portanto, cabe ao Ministerio da Educacao, em parceria com estados, municipios e empresas de tecnologia, ampliar programas de infraestrutura escolar e inclusao digital, por meio de repasses fiscalizados, distribuicao de equipamentos, internet gratuita para estudantes vulneraveis e formacao docente para uso pedagogico das ferramentas. Tais medidas devem priorizar regioes com maiores indicadores de abandono escolar, a fim de garantir que o direito constitucional a educacao seja efetivamente democratizado."
+      ],
+      "structureNotes": ["Contextualizacao juridica", "Dois problemas claros", "Intervencao com agente, acao, meio, finalidade e detalhamento"]
+    },
+    {
+      "id": "modelo-desinformacao",
+      "type": "tema-especifico",
+      "theme": "Caminhos para combater a desinformacao na sociedade brasileira",
+      "title": "Informacao como responsabilidade coletiva",
+      "tags": ["midia", "tecnologia", "cidadania"],
+      "scoreTarget": 1000,
+      "essay": [
+        "Na sociedade em rede descrita por Manuel Castells, a circulacao de informacoes tornou-se elemento central da vida publica. No entanto, no Brasil, a velocidade das plataformas digitais tambem favorece a disseminacao de boatos, discursos manipulados e falsas noticias. Desse modo, combater a desinformacao exige enfrentar a baixa educacao midiática da populacao e a limitada responsabilizacao das plataformas.",
+        "Primeiramente, a ausencia de formacao critica para o consumo de informacoes fragiliza a cidadania. Muitos usuarios compartilham conteudos sem verificar fonte, data ou intencao comunicativa, o que amplia o alcance de narrativas falsas. Esse comportamento e especialmente grave em temas como saude, politica e seguranca, pois pode influenciar decisoes coletivas e prejudicar grupos vulneraveis.",
+        "Ademais, as plataformas digitais nem sempre atuam com transparencia suficiente. Algoritmos que privilegiam engajamento podem impulsionar conteudos sensacionalistas, ainda que pouco confiaveis. Com isso, a busca por visibilidade se sobrepoe ao compromisso com o debate publico qualificado, ampliando a polarizacao e dificultando o acesso a informacoes seguras.",
+        "Portanto, o Governo Federal, por meio do Ministerio da Educacao e de orgaos reguladores, deve promover um programa nacional de educacao midiática, com aulas, campanhas publicas e materiais acessiveis sobre checagem de fatos. Paralelamente, plataformas devem ser obrigadas a informar criterios de recomendacao e ampliar mecanismos de verificacao, a fim de reduzir danos sociais sem comprometer a liberdade de expressao."
+      ],
+      "structureNotes": ["Repertorio sociologico", "Problema individual e institucional", "Intervencao equilibrada"]
+    },
+    {
+      "id": "modelo-saude-mental-tecnologia",
+      "type": "tema-especifico",
+      "theme": "Impactos da tecnologia na saude mental dos jovens",
+      "title": "Conexao excessiva e sofrimento juvenil",
+      "tags": ["saude mental", "juventude", "tecnologia"],
+      "scoreTarget": 1000,
+      "essay": [
+        "Embora as tecnologias digitais tenham ampliado o acesso a informacao e a interacao social, seu uso desregulado tambem produz efeitos negativos sobre a saude mental dos jovens. No Brasil, essa realidade se manifesta na comparacao constante nas redes sociais, na dependencia de validacao e na dificuldade de estabelecer limites de tempo de tela. Assim, o problema decorre tanto da pressao social virtual quanto da falta de educacao digital.",
+        "Em primeiro plano, as redes sociais intensificam padroes de comparacao e idealizacao. Ao exibir rotinas editadas, corpos padronizados e conquistas permanentes, tais ambientes podem gerar sensacao de insuficiencia em adolescentes ainda em processo de formacao identitaria. Consequentemente, sentimentos de ansiedade, baixa autoestima e isolamento tornam-se mais frequentes.",
+        "Além disso, a ausencia de orientacao sobre uso saudavel da tecnologia agrava o quadro. Familias e escolas, muitas vezes, tratam o celular apenas como fonte de distracao, sem discutir algoritmos, tempo de tela, sono e bem-estar emocional. Dessa forma, jovens permanecem expostos a estimulos constantes sem ferramentas para regular o proprio consumo digital.",
+        "Portanto, o Ministerio da Saude, em parceria com escolas e familias, deve criar programas de educacao digital e apoio psicologico, por meio de palestras, oficinas, acompanhamento escolar e campanhas sobre tempo de tela, sono e comparacao virtual. Essas acoes devem incluir profissionais da psicologia e materiais acessiveis, a fim de promover uma relacao mais equilibrada entre juventude, tecnologia e saude mental."
+      ],
+      "structureNotes": ["Tema atual", "Causa social e educacional", "Intervencao com saude e escola"]
+    },
+    {
+      "id": "modelo-cultura-indigena-afro",
+      "type": "tema-especifico",
+      "theme": "Valorizacao da cultura indigena e afro-brasileira",
+      "title": "Memoria cultural e reparacao historica",
+      "tags": ["cultura", "identidade", "historia"],
+      "scoreTarget": 1000,
+      "essay": [
+        "A formacao do Brasil e marcada pela contribuicao decisiva de povos indigenas e africanos, cujas culturas estruturam a lingua, a religiosidade, a culinaria e as artes nacionais. Apesar disso, tais matrizes ainda sofrem apagamento e estereotipacao em diversos espacos sociais. Logo, valorizar a cultura indigena e afro-brasileira exige combater a invisibilidade historica e ampliar sua presenca no sistema educacional e na midia.",
+        "Inicialmente, o apagamento historico compromete o reconhecimento dessas populacoes como protagonistas. Durante muito tempo, materiais escolares apresentaram indigenas e negros apenas como vitimas ou personagens do passado, sem destacar suas resistencias, conhecimentos e producoes intelectuais. Esse tratamento limitado enfraquece a identidade coletiva e perpetua preconceitos.",
+        "Outrossim, a representacao midiática frequentemente reduz tais culturas a imagens folclorizadas. Quando tradicoes complexas aparecem apenas em datas comemorativas ou como exotismo, a sociedade deixa de compreender sua diversidade e sua atualidade. Assim, a cultura deixa de ser vista como patrimonio vivo e passa a ser consumida de modo superficial.",
+        "Portanto, o Ministerio da Educacao, junto a secretarias de cultura e liderancas indigenas e afro-brasileiras, deve fortalecer a aplicacao das leis de ensino de historia e cultura afro-brasileira e indigena, por meio de materiais didaticos atualizados, formacao docente e producoes audiovisuais protagonizadas por esses grupos. Dessa maneira, sera possivel promover reconhecimento, respeito e reparacao historica."
+      ],
+      "structureNotes": ["Repertorio historico", "Apagamento e representacao", "Intervencao com protagonismo"]
+    },
+    {
+      "id": "modelo-meio-ambiente",
+      "type": "tema-especifico",
+      "theme": "Preservacao ambiental e desenvolvimento economico",
+      "title": "Desenvolvimento sem destruicao",
+      "tags": ["meio ambiente", "economia", "sustentabilidade"],
+      "scoreTarget": 1000,
+      "essay": [
+        "O conceito de desenvolvimento sustentavel, difundido pela ONU, defende a conciliacao entre crescimento economico, preservacao ambiental e justica social. Contudo, no Brasil, atividades produtivas ainda provocam desmatamento, poluicao e conflitos territoriais, revelando a dificuldade de equilibrar lucro imediato e protecao da natureza. Nesse contexto, o problema se relaciona a fiscalizacao insuficiente e a modelos economicos pouco sustentaveis.",
+        "Em primeiro lugar, a fragilidade da fiscalizacao ambiental favorece praticas ilegais. Garimpo, queimadas e desmatamento avancam quando orgaos de controle nao possuem recursos, tecnologia e pessoal suficientes. Como resultado, comunidades tradicionais, biodiversidade e recursos hidricos sofrem danos que ultrapassam o espaco local e afetam toda a sociedade.",
+        "Ademais, parte do setor produtivo ainda opera com baixa responsabilidade socioambiental. A busca por reducao de custos pode estimular descarte irregular, exploracao predatoria e resistencia a tecnologias limpas. Dessa forma, a economia cresce de maneira instavel, pois compromete os recursos naturais dos quais ela propria depende.",
+        "Portanto, cabe ao Governo Federal fortalecer a fiscalizacao ambiental, por meio de investimento em monitoramento por satelite, ampliacao de equipes tecnicas e punicao efetiva a crimes ambientais. Alem disso, bancos publicos devem oferecer incentivos a empresas que adotem praticas sustentaveis, a fim de demonstrar que desenvolvimento economico e preservacao podem coexistir."
+      ],
+      "structureNotes": ["Repertorio ONU", "Fiscalizacao e modelo produtivo", "Intervencao dupla"]
+    },
+    {
+      "id": "adaptavel-direitos-cidadania",
+      "type": "adaptavel",
+      "theme": "Modelo adaptavel para temas de cidadania e direitos",
+      "title": "Direitos previstos, realidade incompleta",
+      "tags": ["adaptavel", "direitos", "cidadania"],
+      "scoreTarget": 1000,
+      "slots": ["tema", "grupo afetado", "direito violado", "agente publico", "acao"],
+      "essay": [
+        "A Constituicao Federal de 1988 estabelece que todo cidadao deve ter acesso a direitos fundamentais. Entretanto, quando se observa o problema de [TEMA], percebe-se que essa garantia ainda encontra barreiras concretas, especialmente para [GRUPO AFETADO]. Nesse sentido, a permanencia do impasse decorre da negligencia estatal e da baixa conscientizacao social.",
+        "Em primeiro lugar, a insuficiente atuacao do poder publico dificulta a superacao do problema. A falta de politicas continuas, fiscalizacao e investimentos impede que [DIREITO VIOLADO] seja plenamente assegurado. Como consequencia, a populacao afetada permanece em situacao de vulnerabilidade e tem sua participacao social limitada.",
+        "Alem disso, a falta de debate publico aprofunda a naturalizacao do problema. Parte da sociedade trata [TEMA] como questao individual, quando, na verdade, trata-se de um desafio coletivo ligado a desigualdade e cidadania. Assim, a ausencia de informacao reduz a pressao social por mudancas efetivas.",
+        "Portanto, [AGENTE PUBLICO] deve [ACAO], por meio de campanhas, fiscalizacao e programas permanentes, com prioridade aos grupos mais afetados. Essa medida deve ser acompanhada por escolas e midias, a fim de ampliar a conscientizacao e garantir que o direito previsto em lei se transforme em realidade concreta."
+      ],
+      "structureNotes": ["Troque os colchetes pelo tema", "Funciona para inclusao, saude, educacao, violencia e desigualdade"]
+    },
+    {
+      "id": "adaptavel-tecnologia",
+      "type": "adaptavel",
+      "theme": "Modelo adaptavel para tecnologia e sociedade",
+      "title": "Tecnologia entre avanco e desigualdade",
+      "tags": ["adaptavel", "tecnologia", "sociedade"],
+      "scoreTarget": 1000,
+      "slots": ["tema tecnologico", "problema", "grupo afetado", "medida"],
+      "essay": [
+        "A expansao das tecnologias digitais transformou profundamente as formas de comunicacao, trabalho e aprendizagem. No entanto, o debate sobre [TEMA TECNOLOGICO] mostra que o progresso tecnico nao beneficia todos de maneira igual. Assim, o desafio envolve tanto a exclusao digital quanto o uso pouco critico dessas ferramentas.",
+        "Primeiramente, a desigualdade de acesso impede que [GRUPO AFETADO] aproveite plenamente os beneficios da tecnologia. Sem internet estavel, equipamentos adequados ou formacao digital, muitos individuos ficam afastados de oportunidades educacionais, profissionais e culturais.",
+        "Ademais, o uso sem orientacao pode gerar novos problemas sociais. Quando [PROBLEMA] nao e discutido por escolas, familias e instituicoes, a tecnologia deixa de ser instrumento de autonomia e passa a ampliar vulnerabilidades ja existentes.",
+        "Portanto, o Estado, em parceria com escolas, empresas e sociedade civil, deve implementar [MEDIDA], por meio de formacao digital, acesso gratuito a recursos tecnologicos e campanhas de uso consciente. Desse modo, sera possivel transformar a inovacao em ferramenta de inclusao social."
+      ],
+      "structureNotes": ["Serve para IA, redes sociais, desinformacao, educacao digital e trabalho"]
+    },
+    {
+      "id": "adaptavel-cultura-identidade",
+      "type": "adaptavel",
+      "theme": "Modelo adaptavel para cultura, memoria e identidade",
+      "title": "Memoria coletiva em disputa",
+      "tags": ["adaptavel", "cultura", "identidade"],
+      "scoreTarget": 1000,
+      "slots": ["manifestacao cultural", "grupo social", "problema de reconhecimento"],
+      "essay": [
+        "A cultura constitui um dos principais meios de construcao da identidade de um povo. Contudo, no Brasil, [MANIFESTACAO CULTURAL] ainda enfrenta [PROBLEMA DE RECONHECIMENTO], especialmente quando vinculada a [GRUPO SOCIAL]. Dessa forma, o tema revela a persistencia do apagamento historico e da representacao estereotipada.",
+        "Em primeiro lugar, a ausencia de valorizacao institucional enfraquece a preservacao cultural. Quando escolas, museus e politicas publicas nao apresentam tais manifestacoes de forma profunda, a sociedade passa a enxerga-las como elementos secundarios ou folcloricos.",
+        "Outrossim, a midia contribui para simplificacoes quando prioriza imagens superficiais. Essa representacao limitada impede que a populacao compreenda a complexidade, a atualidade e a relevancia social de [MANIFESTACAO CULTURAL].",
+        "Portanto, o Ministerio da Cultura e o Ministerio da Educacao devem criar programas de valorizacao cultural, por meio de materiais didaticos, editais, exposicoes e producoes audiovisuais com protagonismo dos grupos envolvidos. Assim, a memoria coletiva sera preservada com respeito e diversidade."
+      ],
+      "structureNotes": ["Serve para culturas indigena, afro-brasileira, regional e popular"]
+    },
+    {
+      "id": "adaptavel-saude",
+      "type": "adaptavel",
+      "theme": "Modelo adaptavel para saude publica",
+      "title": "Saude como politica coletiva",
+      "tags": ["adaptavel", "saude", "politicas publicas"],
+      "scoreTarget": 1000,
+      "slots": ["problema de saude", "causa social", "grupo vulneravel"],
+      "essay": [
+        "A Organizacao Mundial da Saude define saude como um estado de bem-estar fisico, mental e social. Entretanto, o problema de [PROBLEMA DE SAUDE] no Brasil demonstra que tal ideal ainda e distante para [GRUPO VULNERAVEL]. Nesse cenario, a situacao decorre da desigualdade de acesso a servicos e da falta de prevencao.",
+        "Inicialmente, a distribuicao desigual dos servicos de saude limita o atendimento adequado. Em regioes perifericas ou afastadas dos grandes centros, a escassez de profissionais, equipamentos e informacao dificulta diagnostico e acompanhamento.",
+        "Alem disso, a baixa cultura preventiva agrava os impactos do problema. Quando campanhas publicas nao alcancam a populacao de forma clara e continua, muitos casos so recebem atencao quando ja estao em estagio mais grave.",
+        "Portanto, o Ministerio da Saude deve fortalecer a atencao basica, por meio de equipes multidisciplinares, campanhas educativas e busca ativa em comunidades vulneraveis. A medida deve priorizar informacao acessivel e acompanhamento permanente, a fim de garantir prevencao e cuidado digno."
+      ],
+      "structureNotes": ["Serve para saude mental, vacinacao, saneamento, epidemias e cuidado preventivo"]
+    },
+    {
+      "id": "adaptavel-ambiente",
+      "type": "adaptavel",
+      "theme": "Modelo adaptavel para meio ambiente",
+      "title": "Crise ambiental e responsabilidade social",
+      "tags": ["adaptavel", "meio ambiente", "sustentabilidade"],
+      "scoreTarget": 1000,
+      "slots": ["problema ambiental", "atividade causadora", "impacto social"],
+      "essay": [
+        "A discussao sobre sustentabilidade mostra que desenvolvimento economico nao pode ocorrer a partir da destruicao dos recursos naturais. Entretanto, [PROBLEMA AMBIENTAL] evidencia que o Brasil ainda enfrenta dificuldades para conciliar producao, preservacao e justica social. Nesse contexto, o impasse resulta da fiscalizacao fragil e da baixa responsabilidade coletiva.",
+        "Em primeiro plano, a insuficiencia de controle estatal permite a continuidade de praticas danosas. Quando [ATIVIDADE CAUSADORA] ocorre sem monitoramento adequado, os impactos ambientais se espalham e atingem comunidades, biodiversidade e qualidade de vida.",
+        "Ademais, parte da sociedade ainda trata a questao ambiental como obstaculo ao crescimento economico. Essa visao reduz a importancia de tecnologias limpas, consumo consciente e planejamento de longo prazo.",
+        "Portanto, o Governo Federal deve ampliar a fiscalizacao e incentivar praticas sustentaveis, por meio de monitoramento tecnologico, punicoes efetivas e beneficios a empresas que reduzam danos ambientais. Assim, sera possivel diminuir [IMPACTO SOCIAL] e promover desenvolvimento responsavel."
+      ],
+      "structureNotes": ["Serve para desmatamento, lixo, agua, energia, queimadas e mineracao"]
+    }
+  ]
+}

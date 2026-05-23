@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS ENEM 2026 | Criar Redação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="redacao.css?v=brand-aprovai-croco-3">
+</head>
+<body data-page="editor">
+  <div class="redacao-shell editor-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <div class="sidebar-flow">
+        <a class="brand brand-image" href="dashboard.html" aria-label="AprovAI">
+          <img class="brand-full-logo" src="aprovai.croco.png" alt="AprovAI">
+        </a>
+
+        <nav class="main-nav">
+          <a class="nav-link" href="dashboard.html">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Dashboard</span>
+          </a>
+          <a class="nav-link" href="biblioteca.html">
+            <i data-lucide="library"></i>
+            <span>Biblioteca</span>
+          </a>
+          <a class="nav-link" href="quiz.html">
+            <i data-lucide="messages-square"></i>
+            <span>Quiz por matéria</span>
+          </a>
+          <a class="nav-link" href="questoes.html">
+            <i data-lucide="badge-help"></i>
+            <span>Questões ENEM</span>
+          </a>
+          <a class="nav-link active" href="redacao.html" aria-current="page">
+            <i data-lucide="pen-tool"></i>
+            <span>Redação</span>
+          </a>
+          <a class="nav-link" href="plano-estudos.html">
+            <i data-lucide="calendar-check"></i>
+            <span>Plano 30 dias</span>
+          </a>
+          <a class="nav-link nav-button" href="dashboard.html">
+            <i data-lucide="settings"></i>
+            <span>Configurações</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-summary">
+          <span class="summary-label">Nota ao vivo</span>
+          <strong id="sidebarScore">0/1000</strong>
+          <div class="mini-progress" aria-hidden="true">
+            <span id="sidebarProgress"></span>
+          </div>
+          <small id="liveStatus">Aguardando texto.</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="redacao-main">
+      <header class="redacao-topbar">
+        <div>
+          <span class="eyebrow">Criação de redação</span>
+          <h1>Editor com correção em tempo real.</h1>
+          <p>Enquanto você escreve, o sistema estima nota, aponta lacunas e sugere melhorias por competência.</p>
+        </div>
+        <div class="top-actions">
+          <a class="ghost-button" href="redacao.html"><i data-lucide="arrow-left"></i> Laboratório</a>
+          <a class="secondary-button" href="redacao-modelos.html"><i data-lucide="book-marked"></i> Ver modelos</a>
+        </div>
+      </header>
+
+      <section class="editor-layout">
+        <article class="panel writer-panel">
+          <div class="theme-row">
+            <label>
+              <span>Tema da redação</span>
+              <input id="essayTheme" type="text" placeholder="Ex: Caminhos para combater a desinformação no Brasil">
+            </label>
+            <button class="ghost-button" id="themeSuggestionButton" type="button"><i data-lucide="dice-5"></i> Sugerir tema</button>
+          </div>
+          <textarea id="essayEditor" rows="24" placeholder="Escreva sua redação aqui. Use 4 parágrafos: introdução, desenvolvimento 1, desenvolvimento 2 e conclusão com intervenção completa."></textarea>
+          <div class="writer-footer">
+            <div class="text-stats" id="textStats"></div>
+            <div class="editor-actions">
+              <button class="secondary-button" id="saveDraftButton" type="button"><i data-lucide="save"></i> Salvar rascunho</button>
+              <button class="ghost-button" id="clearEditorButton" type="button"><i data-lucide="trash-2"></i> Limpar</button>
+            </div>
+          </div>
+        </article>
+
+        <aside class="panel live-panel">
+          <span class="eyebrow">Correção ao vivo</span>
+          <div class="score-ring large"><strong id="liveScore">0</strong><span>de 1000</span></div>
+          <p id="liveSummary">Comece a escrever para ativar a análise.</p>
+          <div class="competence-list" id="liveCompetencies"></div>
+          <section class="structure-check">
+            <h2>Checklist da estrutura</h2>
+            <div id="structureChecklist"></div>
+          </section>
+          <section class="tips-list" id="liveTips"></section>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><i data-lucide="check"></i><span id="toastText">Atualizado.</span></div>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="redacao.js?v=redacao-nota-1"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaaS ENEM 2026 | Quiz por Matéria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="quiz.css?v=rollback-scroll-1">
+  <link rel="stylesheet" href="portal-theme.css?v=brand-aprovai-croco-3">
+</head>
+<body>
+  <div class="quiz-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <div class="sidebar-flow">
+        <a class="brand brand-image" href="dashboard.html" aria-label="AprovAI">
+          <img class="brand-full-logo" src="aprovai.croco.png" alt="AprovAI">
+        </a>
+
+        <nav class="main-nav">
+          <a class="nav-link" href="dashboard.html">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Dashboard</span>
+          </a>
+          <a class="nav-link" href="biblioteca.html">
+            <i data-lucide="library"></i>
+            <span>Biblioteca</span>
+          </a>
+          <a class="nav-link active" href="quiz.html" aria-current="page">
+            <i data-lucide="messages-square"></i>
+            <span>Quiz por matéria</span>
+          </a>
+          <a class="nav-link" href="questoes.html">
+            <i data-lucide="badge-help"></i>
+            <span>Questões ENEM</span>
+          </a>
+          <a class="nav-link" href="redacao.html">
+            <i data-lucide="pen-tool"></i>
+            <span>Redação</span>
+          </a>
+          <a class="nav-link" href="plano-estudos.html">
+            <i data-lucide="calendar-check"></i>
+            <span>Plano 30 dias</span>
+          </a>
+          <a class="nav-link nav-button" href="dashboard.html">
+            <i data-lucide="settings"></i>
+            <span>Configurações</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-summary">
+          <span class="summary-label">Área inicial</span>
+          <strong id="sidebarArea">Todas as áreas</strong>
+          <div class="mini-progress" aria-hidden="true">
+            <span id="sidebarAccuracy"></span>
+          </div>
+          <small id="sidebarProgressText">Nenhuma questão respondida ainda.</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="quiz-main">
+      <header class="quiz-topbar">
+        <button class="icon-button mobile-menu" id="mobileMenuButton" type="button" aria-label="Abrir menu">
+          <i data-lucide="menu"></i>
+        </button>
+        <div>
+          <span class="eyebrow">Treino por matéria</span>
+          <h1>Quiz ENEM com correção imediata</h1>
+          <p>Questões organizadas pelos assuntos das aulas, com textos de apoio, tabelas, gráficos, explicação e revisão de erros.</p>
+        </div>
+        <div class="top-actions">
+          <button class="secondary-button" id="reviewErrorsButton" type="button">
+            <i data-lucide="rotate-ccw"></i>
+            Revisar erros
+          </button>
+          <button class="primary-button" id="quickStartButton" type="button">
+            <i data-lucide="zap"></i>
+            Treino rápido
+          </button>
+        </div>
+      </header>
+
+      <section class="quiz-hero" aria-labelledby="quizHeroTitle">
+        <div class="hero-copy">
+          <span class="status-pill">
+            <i data-lucide="brain-circuit"></i>
+            Questões conectadas às aulas
+          </span>
+          <h2 id="quizHeroTitle">Comece pela área que combina com seu diagnóstico.</h2>
+          <p id="personalizedMessage">O quiz usa a área escolhida no dashboard para abrir uma trilha inicial, mas você pode treinar qualquer matéria a qualquer momento.</p>
+          <div class="hero-actions">
+            <button class="primary-button" id="showRecommendedButton" type="button">
+              <i data-lucide="target"></i>
+              Ver recomendadas
+            </button>
+            <button class="secondary-button" id="showAllButton" type="button">
+              <i data-lucide="layout-grid"></i>
+              Ver todas
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-stats" aria-label="Resumo do quiz">
+          <article>
+            <span>Questões</span>
+            <strong id="statQuestions">0</strong>
+          </article>
+          <article>
+            <span>Respondidas</span>
+            <strong id="statAnswered">0</strong>
+          </article>
+          <article>
+            <span>Acerto</span>
+            <strong id="statAccuracy">0%</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="personal-alert" id="personalAlert" aria-live="polite">
+        <i data-lucide="info"></i>
+        <div>
+          <strong id="alertTitle">Prioridade inicial</strong>
+          <p id="alertText">A primeira visão destaca questões da sua área escolhida no dashboard. Use os filtros para mudar de matéria, apostila ou dificuldade.</p>
+        </div>
+      </section>
+
+      <section class="quiz-layout">
+        <aside class="filters-panel" aria-label="Filtros do quiz">
+          <div class="filters-head">
+            <span class="eyebrow">Filtros</span>
+            <button class="ghost-button compact" id="clearFiltersButton" type="button">
+              <i data-lucide="x"></i>
+              Limpar
+            </button>
+          </div>
+
+          <label class="search-box">
+            <i data-lucide="search"></i>
+            <input id="searchInput" type="search" placeholder="Buscar questão, assunto ou habilidade">
+          </label>
+
+          <div class="filter-group">
+            <strong>Área</strong>
+            <div class="filter-options" id="areaFilters"></div>
+          </div>
+
+          <div class="filter-group">
+            <strong>Matéria</strong>
+            <div class="filter-options" id="subjectFilters"></div>
+          </div>
+
+          <div class="filter-group">
+            <strong>Apostila</strong>
+            <select id="bookletSelect" aria-label="Filtrar por apostila">
+              <option value="all">Todas as apostilas</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <strong>Dificuldade</strong>
+            <div class="filter-options" id="difficultyFilters"></div>
+          </div>
+
+          <div class="filter-group">
+            <strong>Status</strong>
+            <div class="filter-options">
+              <button class="filter-chip active" type="button" data-status-filter="all">Todas</button>
+              <button class="filter-chip" type="button" data-status-filter="new">Novas</button>
+              <button class="filter-chip" type="button" data-status-filter="correct">Acertadas</button>
+              <button class="filter-chip" type="button" data-status-filter="wrong">Erros</button>
+              <button class="filter-chip" type="button" data-status-filter="favorite">Favoritas</button>
+            </div>
+          </div>
+        </aside>
+
+        <section class="quiz-panel" aria-labelledby="questionTitle">
+          <div class="question-toolbar">
+            <div>
+              <span class="eyebrow" id="activeContext">Carregando banco de questões</span>
+              <h2 id="questionTitle">Questões por assunto</h2>
+            </div>
+            <div class="toolbar-controls">
+              <select id="sortSelect" aria-label="Ordenar questões">
+                <option value="recommended">Recomendação</option>
+                <option value="new">Novas primeiro</option>
+                <option value="wrong">Erros primeiro</option>
+                <option value="difficulty">Dificuldade</option>
+              </select>
+              <button class="icon-button" id="favoriteButton" type="button" aria-label="Favoritar questão">
+                <i data-lucide="star"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="question-card" id="questionCard">
+            <div class="loading-state">
+              <div class="loader"></div>
+              <strong>Preparando seu quiz...</strong>
+              <span>Carregando questões, textos e modelos visuais.</span>
+            </div>
+          </div>
+
+          <div class="question-actions">
+            <button class="secondary-button" id="previousQuestionButton" type="button">
+              <i data-lucide="arrow-left"></i>
+              Anterior
+            </button>
+            <button class="primary-button" id="nextQuestionButton" type="button">
+              Próxima
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+        </section>
+
+        <aside class="session-panel" aria-label="Resumo da sessão">
+          <div class="session-card">
+            <span class="eyebrow">Sessão atual</span>
+            <h3 id="sessionTitle">Treino livre</h3>
+            <div class="session-ring" id="sessionRing">
+              <strong id="sessionAccuracy">0%</strong>
+              <span>acerto</span>
+            </div>
+            <div class="session-metrics">
+              <span><strong id="sessionAnswered">0</strong> respondidas</span>
+              <span><strong id="sessionCorrect">0</strong> acertos</span>
+              <span><strong id="sessionWrong">0</strong> erros</span>
+            </div>
+          </div>
+
+          <div class="session-card">
+            <span class="eyebrow">Mapa do treino</span>
+            <div class="question-map" id="questionMap"></div>
+          </div>
+
+          <div class="session-card">
+            <span class="eyebrow">Próximo estudo</span>
+            <p id="studySuggestion">Responda uma questão para receber indicação de revisão.</p>
+            <a class="ghost-button full" id="studyLink" href="biblioteca.html">
+              <i data-lucide="book-open"></i>
+              Abrir biblioteca
+            </a>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <div class="screen-dim" id="screenDim"></div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <i data-lucide="check"></i>
+    <span id="toastText">Atualizado.</span>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>

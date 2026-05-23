@@ -1,0 +1,595 @@
+{
+  "area": "natureza",
+  "areaLabel": "Ciências da Natureza e suas Tecnologias",
+  "icon": "atom",
+  "priorityMessage": "Sua escolha inicial aponta para Ciências da Natureza. A biblioteca começa por Biologia, Química e Física com assuntos de alta recorrência: ecologia, genética, microbiologia, química orgânica, soluções, mecânica, eletricidade, ondas e termologia.",
+  "collections": [
+    {
+      "id": "natureza-biologia-celular-microbiologia-virus",
+      "subject": "Biologia",
+      "title": "Citologia, microbiologia, vírus e biotecnologia",
+      "difficulty": "essencial",
+      "estimatedMinutes": 150,
+      "priority": 5,
+      "tags": ["biologia", "célula", "microbiologia", "vírus", "DNA", "PCR"],
+      "summary": "Apostila sobre estrutura celular, transporte de substâncias, micro-organismos, metabolismo, vírus, diagnóstico molecular e biotecnologia.",
+      "whyEnem": "O ENEM cobra biologia conectada a saúde, tecnologia, alimentação, diagnóstico e processos celulares aplicados a situações reais.",
+      "skills": [
+        "Diferenciar estruturas celulares e funções.",
+        "Relacionar metabolismo microbiano a conservação de alimentos e energia.",
+        "Entender infecção viral, diagnóstico e resposta imune."
+      ],
+      "chapters": [
+        {
+          "title": "Citologia e biologia celular",
+          "explanation": "Organiza estrutura celular, organelas, transporte e diferenças entre tipos celulares.",
+          "topics": [
+            "Estrutura celular",
+            "Protozoários",
+            "Movimento celular",
+            "Pseudópodes",
+            "Citoesqueleto",
+            "Microtúbulos",
+            "Divisão celular",
+            "Função de organelas",
+            "Diferenças entre células eucarióticas e procarióticas",
+            "Membrana plasmática",
+            "Transporte de substâncias",
+            "Osmose",
+            "Difusão",
+            "Desidratação osmótica"
+          ]
+        },
+        {
+          "title": "Microbiologia e metabolismo",
+          "explanation": "Mostra como bactérias, fungos e protozoários obtêm energia e como isso aparece em alimentos, ambiente e tecnologia.",
+          "topics": [
+            "Bactérias",
+            "Fungos",
+            "Protozoários",
+            "Micro-organismos aeróbios",
+            "Micro-organismos anaeróbios",
+            "Anaeróbios facultativos",
+            "Anaeróbios estritos",
+            "Respiração celular",
+            "Fermentação",
+            "Metabolismo energético",
+            "Controle microbiano",
+            "Conservação de alimentos",
+            "Ação do sal sobre micro-organismos",
+            "Metabolismo bacteriano",
+            "Células combustíveis microbianas"
+          ]
+        },
+        {
+          "title": "Vírus, doenças e diagnóstico",
+          "explanation": "Relaciona estrutura viral, infecção, proteínas, antivirais e diagnóstico molecular.",
+          "topics": [
+            "Estrutura viral",
+            "Infecção viral",
+            "Retrovírus",
+            "HTLV-1",
+            "HIV como comparação",
+            "Imunodeficiência",
+            "Doenças virais",
+            "Antivirais",
+            "Proteínas virais",
+            "Proteína spike",
+            "Entrada do vírus na célula",
+            "Resposta imune",
+            "Biotecnologia aplicada ao diagnóstico viral",
+            "DNA",
+            "Genes",
+            "Mutação",
+            "Carcinogênese",
+            "PCR",
+            "Amplificação de material genético",
+            "Diagnóstico molecular"
+          ]
+        }
+      ],
+      "checklist": [
+        "Diferenciar processo celular de estrutura.",
+        "Relacionar conceito a aplicação tecnológica.",
+        "Identificar causa e consequência biológica."
+      ]
+    },
+    {
+      "id": "natureza-genetica-evolucao-ecologia",
+      "subject": "Biologia",
+      "title": "Genética, evolução e ecologia",
+      "difficulty": "essencial",
+      "estimatedMinutes": 170,
+      "priority": 5,
+      "tags": ["genética", "evolução", "ecologia", "ciclos", "poluição"],
+      "summary": "Apostila sobre herança, expressão gênica, seleção natural, mimetismo, filogenia, ciclos biogeoquímicos e impactos ambientais.",
+      "whyEnem": "Genética e ecologia aparecem em problemas contextualizados: doenças hereditárias, adaptação, cadeias alimentares, poluição, saúde ambiental e sustentabilidade.",
+      "skills": [
+        "Interpretar heredogramas e herança ligada ao sexo.",
+        "Relacionar adaptação e seleção natural.",
+        "Analisar ciclos, cadeias alimentares e impactos ambientais."
+      ],
+      "chapters": [
+        {
+          "title": "Genética e herança",
+          "explanation": "Foca leitura de heredogramas, alelos, cromossomos sexuais e relação genótipo-fenótipo.",
+          "topics": [
+            "Heredogramas",
+            "Herança ligada ao sexo",
+            "Daltonismo",
+            "Alelos recessivos",
+            "Cromossomos sexuais",
+            "Expressão gênica",
+            "Relação entre genótipo e fenótipo"
+          ]
+        },
+        {
+          "title": "Evolução e filogenia",
+          "explanation": "Explica seleção natural, mimetismo, vantagem adaptativa e leitura de cladogramas.",
+          "topics": [
+            "Seleção natural",
+            "Adaptação",
+            "Mimetismo",
+            "Mimetismo batesiano",
+            "Falsa-coral e coral-verdadeira",
+            "Vantagem adaptativa",
+            "Sobrevivência",
+            "Reprodução",
+            "Ancestralidade comum",
+            "Filogenia",
+            "Cladogramas",
+            "Mamíferos",
+            "Monotremados",
+            "Marsupiais",
+            "Placentários",
+            "Características derivadas"
+          ]
+        },
+        {
+          "title": "Ecologia e ambiente",
+          "explanation": "Organiza ciclos, teias, bioacumulação, poluição e sustentabilidade.",
+          "topics": [
+            "Ciclos biogeoquímicos",
+            "Ciclo do nitrogênio",
+            "Ciclo do carbono",
+            "Fixação de nitrogênio",
+            "Nitrificação",
+            "Desnitrificação",
+            "Decomposição",
+            "Fotossíntese",
+            "Cadeias alimentares",
+            "Teias alimentares",
+            "Bioacumulação",
+            "Biomagnificação",
+            "Poluição ambiental",
+            "Microplásticos",
+            "Metais pesados",
+            "Mercúrio",
+            "Impacto de poluentes nos tecidos",
+            "Ecossistemas urbanos",
+            "Biodiversidade",
+            "Sistemas agroflorestais",
+            "Sucessão ecológica",
+            "Agricultura sustentável",
+            "Relação entre saneamento e saúde ambiental"
+          ]
+        }
+      ],
+      "checklist": [
+        "Interpretar gráficos e heredogramas com calma.",
+        "Diferenciar indivíduo, população e espécie.",
+        "Relacionar poluente ao nível trófico."
+      ]
+    },
+    {
+      "id": "natureza-fisiologia-saude",
+      "subject": "Biologia",
+      "title": "Fisiologia, saúde pública e meio ambiente",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 110,
+      "priority": 4,
+      "tags": ["fisiologia", "saúde", "ambiente", "saneamento", "vetores"],
+      "summary": "Apostila sobre sistema nervoso, audição, músculos, imunologia, saneamento, vetores, biorremediação e fitorremediação.",
+      "whyEnem": "A prova conecta corpo humano a tecnologia, esporte, saúde coletiva, prevenção e impactos ambientais.",
+      "skills": [
+        "Relacionar estrutura e função fisiológica.",
+        "Interpretar saúde pública como problema ambiental e social.",
+        "Reconhecer estratégias de recuperação ambiental."
+      ],
+      "chapters": [
+        {
+          "title": "Fisiologia humana e animal",
+          "explanation": "Trabalha percepção, movimento, imunidade e corpo em situações físicas.",
+          "topics": [
+            "Sistema nervoso",
+            "Percepção sonora",
+            "Audição",
+            "Doenças neurológicas",
+            "Músculos",
+            "Fibras musculares",
+            "Fibras de contração rápida",
+            "Fibras de contração lenta",
+            "Metabolismo muscular",
+            "Exercício físico",
+            "Sistema imunológico",
+            "Centro de massa em organismos/corpos",
+            "Segurança veicular e corpo humano",
+            "Impulso e proteção em colisões"
+          ]
+        },
+        {
+          "title": "Saúde pública e recuperação ambiental",
+          "explanation": "Relaciona saneamento, vetores, água, contaminação e uso de organismos na recuperação de áreas.",
+          "topics": [
+            "Saneamento básico",
+            "Doenças associadas à água contaminada",
+            "Urbanização e saúde",
+            "Prevenção de doenças",
+            "Vetores",
+            "Contaminação ambiental",
+            "Bioremediação",
+            "Fitorremediação",
+            "Plantas acumuladoras de metais",
+            "Uso de plantas na recuperação de áreas contaminadas"
+          ]
+        }
+      ],
+      "checklist": [
+        "Identificar o sistema biológico envolvido.",
+        "Relacionar prevenção a saneamento e ambiente.",
+        "Não confundir tratamento individual com política pública."
+      ]
+    },
+    {
+      "id": "natureza-quimica-geral-solucoes-equilibrio",
+      "subject": "Química",
+      "title": "Química geral, soluções e equilíbrio",
+      "difficulty": "essencial",
+      "estimatedMinutes": 160,
+      "priority": 5,
+      "tags": ["química", "soluções", "estequiometria", "equilíbrio", "pH"],
+      "summary": "Apostila sobre reações, balanceamento, estequiometria, separação de misturas, concentração, diluição, pH e equilíbrio químico.",
+      "whyEnem": "Química no ENEM aparece como cálculo aplicado, saúde, ambiente, alimentos, materiais e processos cotidianos.",
+      "skills": [
+        "Balancear e interpretar equações químicas.",
+        "Resolver concentração, diluição e proporções.",
+        "Analisar equilíbrio e deslocamentos."
+      ],
+      "chapters": [
+        {
+          "title": "Química geral e reações",
+          "explanation": "Organiza substâncias, transformações, equações e cálculos com reagentes e produtos.",
+          "topics": [
+            "Substâncias simples e compostas",
+            "Reações químicas",
+            "Equações químicas",
+            "Balanceamento",
+            "Massa molar",
+            "Cálculo estequiométrico",
+            "Rendimento",
+            "Proporção entre reagentes e produtos",
+            "Transformações químicas",
+            "Separação de misturas",
+            "Precipitação",
+            "Solubilidade",
+            "Formação de precipitado",
+            "Reações de neutralização"
+          ]
+        },
+        {
+          "title": "Soluções",
+          "explanation": "Foca concentração, diluição, pH, eletrólitos e aplicações fisiológicas como soro caseiro.",
+          "topics": [
+            "Concentração comum",
+            "Concentração molar",
+            "Diluição",
+            "Misturas aquosas",
+            "Solubilidade",
+            "pH",
+            "Soluções ácidas e básicas",
+            "Eletrólitos",
+            "Relação entre concentração e efeito fisiológico",
+            "Soro caseiro",
+            "Massa de soluto",
+            "Volume de solução"
+          ]
+        },
+        {
+          "title": "Equilíbrio químico",
+          "explanation": "Mostra deslocamento de equilíbrio em problemas de saúde, como desmineralização dentária.",
+          "topics": [
+            "Equilíbrio de solubilidade",
+            "Desmineralização e remineralização dentária",
+            "Hidroxiapatita",
+            "Princípio de Le Chatelier",
+            "Influência do pH",
+            "Uso de fluoreto",
+            "Constante de equilíbrio",
+            "Deslocamento de equilíbrio",
+            "Química do esmalte dentário"
+          ]
+        }
+      ],
+      "checklist": [
+        "Conferir unidades antes de calcular.",
+        "Identificar reagente, produto e proporção.",
+        "Associar pH a deslocamento de equilíbrio."
+      ]
+    },
+    {
+      "id": "natureza-quimica-organica-eletro-ambiental",
+      "subject": "Química",
+      "title": "Orgânica, eletroquímica, termoquímica e ambiente",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 180,
+      "priority": 5,
+      "tags": ["orgânica", "eletroquímica", "combustão", "ambiente", "poluição"],
+      "summary": "Apostila sobre funções orgânicas, compostos em medicamentos, pilhas, redox, combustíveis, emissões e química ambiental.",
+      "whyEnem": "A prova conecta estrutura química a propriedades, medicamentos, energia, poluição e decisões sustentáveis.",
+      "skills": [
+        "Reconhecer grupos funcionais e propriedades.",
+        "Interpretar oxidação, redução e produção de energia.",
+        "Relacionar combustão a emissões e impacto ambiental."
+      ],
+      "chapters": [
+        {
+          "title": "Química orgânica",
+          "explanation": "Organiza funções, fórmulas estruturais e propriedades ácido-base em moléculas orgânicas.",
+          "topics": [
+            "Funções orgânicas",
+            "Ácido carboxílico",
+            "Fenol",
+            "Éter",
+            "Amina",
+            "Amida",
+            "Sulfonamida",
+            "Nitrocompostos",
+            "Metila",
+            "Fórmulas estruturais",
+            "Grupos funcionais",
+            "Propriedades ácido-base em compostos orgânicos",
+            "Compostos orgânicos presentes em medicamentos",
+            "Nomenclatura e reconhecimento estrutural",
+            "Conceito de compostos orgânicos",
+            "Cadeias carbônicas",
+            "Compostos de carbono"
+          ]
+        },
+        {
+          "title": "Eletroquímica e energia",
+          "explanation": "Trabalha transferência de elétrons, pilhas, células microbianas e bioeletricidade.",
+          "topics": [
+            "Oxidação",
+            "Redução",
+            "Reações redox",
+            "Pilhas",
+            "Ânodo",
+            "Cátodo",
+            "Transferência de elétrons",
+            "Célula combustível microbiana",
+            "Produção de energia por reações químicas",
+            "Potencial elétrico em processos químicos",
+            "Bioeletricidade",
+            "Reações envolvendo matéria orgânica"
+          ]
+        },
+        {
+          "title": "Combustão e química ambiental",
+          "explanation": "Relaciona energia liberada, combustível, poluentes, mineração, reciclagem e defensivos.",
+          "topics": [
+            "Combustíveis",
+            "Gás metano",
+            "Combustão",
+            "Energia liberada",
+            "Poder calorífico",
+            "Entalpia",
+            "Substituição energética",
+            "Cálculo de massa de combustível",
+            "Relação entre combustível e emissão de poluentes",
+            "Poluição atmosférica",
+            "Gases poluentes",
+            "CO",
+            "CO₂",
+            "NOx",
+            "Hidrocarbonetos",
+            "Relação ar-combustível",
+            "Combustão completa e incompleta",
+            "Emissões veiculares",
+            "Química da chuva",
+            "Grafeno e geração de energia",
+            "Alumínio e bauxita",
+            "Reciclagem",
+            "Impactos ambientais da mineração",
+            "Defensivos agrícolas",
+            "Dosagem de produtos químicos",
+            "Contaminação ambiental por substâncias químicas"
+          ]
+        }
+      ],
+      "checklist": [
+        "Marcar grupo funcional antes de interpretar propriedade.",
+        "Separar oxidação de redução.",
+        "Comparar emissão e eficiência energética."
+      ]
+    },
+    {
+      "id": "natureza-fisica-mecanica-termologia",
+      "subject": "Física",
+      "title": "Mecânica e termologia",
+      "difficulty": "essencial",
+      "estimatedMinutes": 170,
+      "priority": 5,
+      "tags": ["física", "mecânica", "calor", "energia", "segurança"],
+      "summary": "Apostila sobre cinemática, força, impulso, colisões, centro de massa, calorimetria, transferência de calor e máquinas térmicas.",
+      "whyEnem": "Física aparece com aplicações: trânsito, equipamentos, eficiência energética, aquecimento de água, máquinas e gráficos.",
+      "skills": [
+        "Interpretar movimento e forças em contexto.",
+        "Relacionar impulso, colisão e segurança.",
+        "Analisar calor, potência e eficiência."
+      ],
+      "chapters": [
+        {
+          "title": "Mecânica",
+          "explanation": "Organiza movimento, forças, vetores, colisões e equilíbrio de corpos.",
+          "topics": [
+            "Cinemática",
+            "Movimento",
+            "Deslocamento",
+            "Velocidade média",
+            "Vetores",
+            "Soma vetorial",
+            "Trajetória",
+            "Força",
+            "Leis de Newton",
+            "Força centrípeta",
+            "Movimento circular",
+            "Inércia",
+            "Impulso",
+            "Quantidade de movimento",
+            "Colisões",
+            "Segurança no trânsito",
+            "Airbag",
+            "Cinto de segurança",
+            "Centro de massa",
+            "Equilíbrio de corpos",
+            "Rotação",
+            "Torque",
+            "Balanceamento de rodas"
+          ]
+        },
+        {
+          "title": "Termologia",
+          "explanation": "Foca calor, temperatura, transferência de energia, eficiência e máquinas térmicas.",
+          "topics": [
+            "Calor",
+            "Temperatura",
+            "Equilíbrio térmico",
+            "Capacidade térmica",
+            "Calor específico",
+            "Calorimetria",
+            "Eficiência energética",
+            "Potência térmica",
+            "Aquecimento de água",
+            "Chuveiro/cafeteira/equipamentos térmicos",
+            "Transferência de calor",
+            "Condução",
+            "Convecção",
+            "Irradiação",
+            "Isolamento térmico",
+            "Aquecedor solar",
+            "Transformações gasosas",
+            "Máquinas térmicas",
+            "Ciclo de Otto",
+            "Energia interna",
+            "Trabalho em gases",
+            "Diagramas pressão-volume"
+          ]
+        }
+      ],
+      "checklist": [
+        "Desenhar o sistema físico.",
+        "Identificar grandezas e unidades.",
+        "Comparar antes/depois em colisões e aquecimento."
+      ]
+    },
+    {
+      "id": "natureza-fisica-ondas-optica-eletricidade",
+      "subject": "Física",
+      "title": "Ondas, óptica, eletricidade e radiações",
+      "difficulty": "intermediário",
+      "estimatedMinutes": 180,
+      "priority": 5,
+      "tags": ["ondas", "óptica", "eletricidade", "radiação", "circuitos"],
+      "summary": "Apostila sobre ondas sonoras, efeito Doppler, espelhos, lentes, circuitos, campo elétrico, potência, LEDs, capacitores e radiações.",
+      "whyEnem": "Esses temas aparecem em situações tecnológicas: ambulância, microscópio, lâmpadas, diodos, equipamentos elétricos e proteção radiológica.",
+      "skills": [
+        "Relacionar frequência, amplitude e percepção sonora.",
+        "Interpretar formação de imagem e instrumentos ópticos.",
+        "Resolver circuitos e potência elétrica em contexto."
+      ],
+      "chapters": [
+        {
+          "title": "Ondulatória e acústica",
+          "explanation": "Trabalha som, frequência, intensidade, Doppler e gráficos de ondas.",
+          "topics": [
+            "Ondas sonoras",
+            "Frequência",
+            "Altura do som",
+            "Intensidade sonora",
+            "Efeito Doppler",
+            "Sirene de ambulância",
+            "Movimento relativo entre fonte e observador",
+            "Propagação do som",
+            "Percepção auditiva",
+            "Gráficos de ondas",
+            "Amplitude",
+            "Período",
+            "Frequência",
+            "Oscilações",
+            "Amortecimento"
+          ]
+        },
+        {
+          "title": "Óptica",
+          "explanation": "Organiza espelhos, lentes, imagem real/virtual e instrumentos ópticos.",
+          "topics": [
+            "Espelhos",
+            "Formação de imagem",
+            "Imagem real e virtual",
+            "Distância objeto-imagem",
+            "Reflexão",
+            "Instrumentos ópticos",
+            "Microscópio",
+            "Lentes objetivas",
+            "Lente ocular",
+            "Aumento linear",
+            "Ampliação composta",
+            "Projeção ortogonal em contexto geométrico/físico"
+          ]
+        },
+        {
+          "title": "Eletricidade, magnetismo e radiações",
+          "explanation": "Foca circuitos, potência, campos, diodos e proteção contra radiação.",
+          "topics": [
+            "Carga elétrica",
+            "Campo elétrico",
+            "Linhas de campo",
+            "Potencial elétrico",
+            "Diferença de potencial",
+            "Corrente elétrica",
+            "Resistência elétrica",
+            "Circuitos elétricos",
+            "Associação de resistores",
+            "Lâmpadas em série e paralelo",
+            "Amperímetro",
+            "Voltímetro",
+            "Lei de Ohm",
+            "Potência elétrica",
+            "LEDs",
+            "Diodos",
+            "Sentido convencional da corrente",
+            "Capacitores/campos entre placas",
+            "Energia elétrica",
+            "Eficiência de aparelhos",
+            "Circuitos com pilha/bateria",
+            "Raios X",
+            "Radiação eletromagnética",
+            "Blindagem contra radiação",
+            "Penetração de radiações",
+            "Metais e absorção de radiação",
+            "Fosforescência",
+            "Luminescência",
+            "Transições eletrônicas",
+            "Emissão de luz",
+            "Placas fotoluminescentes"
+          ]
+        }
+      ],
+      "checklist": [
+        "Anotar unidades elétricas e relações.",
+        "Identificar se resistores estão em série ou paralelo.",
+        "Relacionar fenômeno ondulatório ao efeito percebido."
+      ]
+    }
+  ]
+}
