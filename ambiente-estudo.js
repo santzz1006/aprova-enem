@@ -97,7 +97,24 @@ function renderStudyPage() {
 }
 
 function renderLessonNav() {
-  $("#lessonNav").innerHTML = state.booklet.chapters.map((chapter, chapterIndex) => `
+  const currentLesson = state.flatLessons[state.currentIndex];
+  const pickerOptions = state.booklet.chapters.map((chapter, chapterIndex) => `
+    <div class="lesson-picker-group">
+      <strong>${escapeHtml(chapter.title)}</strong>
+      ${chapter.lessons.map((lesson, lessonIndex) => {
+        const globalIndex = getGlobalIndex(chapterIndex, lessonIndex);
+        const done = isLessonDone(globalIndex);
+        return `
+          <button class="lesson-picker-option ${globalIndex === state.currentIndex ? "active" : ""}" type="button" data-lesson-index="${globalIndex}">
+            <span>${done ? "✓" : globalIndex + 1}</span>
+            <strong>${escapeHtml(lesson.title)}</strong>
+          </button>
+        `;
+      }).join("")}
+    </div>
+  `).join("");
+
+  const buttonList = state.booklet.chapters.map((chapter, chapterIndex) => `
     <div class="nav-chapter">
       <strong>${chapter.title}</strong>
       ${chapter.lessons.map((lesson, lessonIndex) => {
@@ -112,6 +129,37 @@ function renderLessonNav() {
       }).join("")}
     </div>
   `).join("");
+
+  $("#lessonNav").innerHTML = `
+    <div class="lesson-picker">
+      <button class="lesson-picker-toggle" id="lessonPickerToggle" type="button" aria-expanded="false">
+        <span>Topico atual</span>
+        <strong>${state.currentIndex + 1}. ${escapeHtml(currentLesson.title)}</strong>
+        <i data-lucide="chevron-down"></i>
+      </button>
+      <div class="lesson-picker-menu" id="lessonPickerMenu">${pickerOptions}</div>
+    </div>
+    <div class="lesson-button-list">${buttonList}</div>
+  `;
+
+  const pickerToggle = $("#lessonPickerToggle");
+  if (pickerToggle) {
+    pickerToggle.addEventListener("click", () => {
+      const picker = pickerToggle.closest(".lesson-picker");
+      const isOpen = picker.classList.toggle("open");
+      pickerToggle.setAttribute("aria-expanded", String(isOpen));
+    });
+  }
+
+  $$(".lesson-picker-option").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.currentIndex = Number(button.dataset.lessonIndex);
+      renderCurrentLesson();
+      renderLessonNav();
+      refreshIcons();
+      document.body.classList.remove("menu-open");
+    });
+  });
 
   $$(".lesson-link").forEach((button) => {
     button.addEventListener("click", () => {
@@ -196,6 +244,7 @@ function renderVisualModels(models) {
               ${points.map((point) => `<circle cx="${point.x}" cy="${point.y}" r="4" class="graph-point"></circle>`).join("")}
             </svg>
             <div class="graph-caption">${model.caption || ""}</div>
+            <div class="graph-update-note">Se o grafico parecer cortado no celular, atualize a pagina ou gire a tela.</div>
           </div>
         </article>
       `;
@@ -470,7 +519,12 @@ function getGlobalIndex(chapterIndex, lessonIndex) {
 }
 
 function applySettings() {
-  document.body.dataset.theme = state.settings.theme || "light";
+  if (state.settings.theme === "dark") {
+    state.settings.theme = "light";
+    saveJson(settingsKey, state.settings);
+  }
+
+  document.body.dataset.theme = "light";
   document.body.dataset.motion = state.settings.motion ? "reduced" : "full";
 }
 
@@ -494,6 +548,19 @@ function readJson(key) {
 
 function saveJson(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
+}
+
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function escapeAttr(value = "") {
+  return escapeHtml(value);
 }
 
 function refreshIcons() {

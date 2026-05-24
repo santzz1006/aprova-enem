@@ -561,7 +561,12 @@ function getAreaMessage(area) {
 }
 
 function applySettings() {
-  document.body.dataset.theme = state.settings.theme || "light";
+  if (state.settings.theme === "dark") {
+    state.settings.theme = "light";
+    saveJson(settingsKey, state.settings);
+  }
+
+  document.body.dataset.theme = "light";
   document.body.dataset.motion = state.settings.motion ? "reduced" : "full";
 }
 

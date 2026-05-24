@@ -1097,6 +1097,17 @@ body.modal-open {
     padding: 16px;
   }
 
+  .library-hero {
+    overflow: hidden;
+  }
+
+  .library-hero-logo {
+    position: static !important;
+    justify-self: end;
+    width: 92px !important;
+    margin: -4px 0 4px;
+  }
+
   .library-topbar {
     align-items: flex-start;
   }
