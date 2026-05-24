@@ -753,9 +753,13 @@ function areaIcon(area) {
 }
 
 function applySettings() {
-  const theme = state.settings.theme || localStorage.getItem("saasEnemTheme") || "light";
   const motion = state.settings.motion || "full";
-  document.body.dataset.theme = theme;
+  if (state.settings.theme === "dark") {
+    state.settings.theme = "light";
+    saveJson(settingsKey, state.settings);
+  }
+
+  document.body.dataset.theme = "light";
   document.body.dataset.motion = motion;
 }
 

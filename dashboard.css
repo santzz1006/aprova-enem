@@ -1553,6 +1553,36 @@ body[data-theme="dark"] .onboarding-card {
   color: var(--text);
 }
 
+.terms-consent {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid rgba(9, 105, 255, 0.22);
+  border-radius: var(--radius);
+  color: var(--muted-strong);
+  background: var(--primary-soft);
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.terms-consent input {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: var(--primary);
+}
+
+.terms-consent a {
+  color: var(--primary-strong);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .option-card i {
   position: absolute;
   top: 14px;
@@ -1854,18 +1884,159 @@ body.modal-open {
     padding: 16px;
   }
 
+  .settings-panel,
+  .onboarding {
+    padding: 12px;
+  }
+
+  .settings-card,
+  .onboarding-card {
+    width: 100%;
+    max-height: calc(100dvh - 24px);
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  .settings-head h2 {
+    margin: 6px 0;
+    font-size: 1.8rem;
+  }
+
+  .settings-head p,
+  .onboarding-head p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .settings-grid {
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .settings-section {
+    min-height: auto;
+    gap: 12px;
+    padding: 14px;
+    box-shadow: none;
+  }
+
+  .settings-section-head {
+    gap: 10px;
+  }
+
+  .settings-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+  }
+
+  .settings-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .settings-note {
+    padding: 10px;
+    font-size: 0.92rem;
+  }
+
+  .close-settings,
+  .close-onboarding {
+    top: 14px;
+    right: 14px;
+    width: 42px;
+    min-height: 42px;
+  }
+
   .onboarding-mascot {
-    position: relative;
-    top: auto;
-    right: auto;
-    width: 104px;
-    margin: 12px 8px -2px auto;
+    position: absolute;
+    top: 320px;
+    right: 46px;
+    width: 68px;
+    margin: 0;
+    opacity: 0.9;
+  }
+
+  .onboarding-head {
+    padding-right: 56px;
+  }
+
+  .onboarding-head h2 {
+    max-width: 270px;
+    margin: 8px 0;
+    font-size: clamp(1.65rem, 8vw, 2.2rem);
+    line-height: 1.05;
+  }
+
+  .question-progress {
+    margin-top: 20px;
+  }
+
+  .question-stage {
+    min-height: auto;
+  }
+
+  .question-form {
+    margin-top: 14px;
+  }
+
+  .question-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .option-card {
+    min-height: auto;
+    padding: 13px;
+  }
+
+  .terms-consent {
+    padding: 10px;
+    font-size: 0.86rem;
+  }
+
+  .builder {
+    min-height: 240px;
+    padding: 8px 0;
+  }
+
+  .builder-animation {
+    width: 82px;
+    height: 82px;
+    margin-bottom: 14px;
+  }
+
+  .builder-animation span:nth-child(2) {
+    inset: 10px;
+  }
+
+  .builder-animation span:nth-child(3) {
+    inset: 22px;
+  }
+
+  .builder h3 {
+    font-size: 1.25rem;
+  }
+
+  .builder p {
+    font-size: 0.95rem;
+  }
+
+  .builder-steps {
+    gap: 6px;
+    margin-top: 14px;
+  }
+
+  .builder-step {
+    min-height: 28px;
+    padding: 5px 9px;
+    font-size: 0.78rem;
   }
 
   .hero-mascot {
-    top: -68px;
-    right: 14px;
-    width: 96px;
+    position: static;
+    justify-self: end;
+    width: 88px;
+    margin: -6px 0 4px;
   }
 
   .topbar {

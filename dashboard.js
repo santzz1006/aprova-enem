@@ -179,6 +179,7 @@ const weekModes = {
 const state = {
   step: 0,
   answers: {},
+  acceptedTerms: false,
   profile: null,
   tasks: {},
   weekMode: "balanced",
@@ -295,6 +296,11 @@ function bindEvents() {
       return;
     }
 
+    if (!state.acceptedTerms) {
+      showToast("Aceite os termos de uso e serviço para criar seu modelo.");
+      return;
+    }
+
     finishOnboarding();
   });
 
@@ -309,8 +315,14 @@ function bindEvents() {
 
   $$("[data-theme-choice]").forEach((button) => {
     button.addEventListener("click", () => {
+      if (button.dataset.themeChoice === "dark") {
+        updateSettings({ theme: "light" });
+        showToast("Modo escuro em manutenção. Ele será liberado em breve.");
+        return;
+      }
+
       updateSettings({ theme: button.dataset.themeChoice });
-      showToast(`Tema ${button.dataset.themeChoice === "dark" ? "escuro" : "claro"} aplicado.`);
+      showToast("Tema claro aplicado.");
     });
   });
 
@@ -376,6 +388,7 @@ function openOnboarding() {
   elements.settingsPanel.classList.remove("show");
   state.step = 0;
   state.answers = state.profile ? { ...state.profile.answers } : {};
+  state.acceptedTerms = Boolean(state.profile?.termsAccepted);
   elements.questionForm.style.display = "block";
   elements.builder.classList.remove("show");
   elements.onboarding.classList.add("show");
@@ -397,6 +410,7 @@ function renderQuestion() {
   const question = questions[state.step];
   const currentValue = state.answers[question.id] || "";
   const progress = ((state.step + 1) / questions.length) * 100;
+  const termsConsent = state.step === questions.length - 1 ? renderTermsConsent() : "";
 
   elements.questionStepLabel.textContent = `Pergunta ${state.step + 1} de ${questions.length}`;
   elements.questionProgressBar.style.width = `${progress}%`;
@@ -411,6 +425,7 @@ function renderQuestion() {
         <h3>${question.title}</h3>
         <p>${question.hint}</p>
         <input class="name-input" id="nameInput" type="text" maxlength="28" value="${escapeHtml(currentValue)}" placeholder="${question.placeholder}" autocomplete="given-name">
+        ${termsConsent}
       </div>
     `;
 
@@ -419,6 +434,7 @@ function renderQuestion() {
     input.addEventListener("input", () => {
       state.answers[question.id] = input.value.trim();
     });
+    bindTermsConsent();
     refreshIcons();
     return;
   }
@@ -437,6 +453,7 @@ function renderQuestion() {
           </button>
         `).join("")}
       </div>
+      ${termsConsent}
     </div>
   `;
 
@@ -453,7 +470,31 @@ function renderQuestion() {
     });
   });
 
+  bindTermsConsent();
+
   refreshIcons();
+}
+
+function renderTermsConsent() {
+  return `
+    <label class="terms-consent">
+      <input id="termsConsentInput" type="checkbox" ${state.acceptedTerms ? "checked" : ""}>
+      <span>
+        Li e aceito os
+        <a href="direitos-termos.html" target="_blank" rel="noopener noreferrer">termos de uso e serviço</a>
+        do AprovAI.
+      </span>
+    </label>
+  `;
+}
+
+function bindTermsConsent() {
+  const input = $("#termsConsentInput");
+  if (!input) return;
+
+  input.addEventListener("change", () => {
+    state.acceptedTerms = input.checked;
+  });
 }
 
 function finishOnboarding() {
@@ -504,6 +545,8 @@ function buildProfile(answers) {
 
   return {
     createdAt: new Date().toISOString(),
+    termsAccepted: state.acceptedTerms,
+    termsAcceptedAt: state.acceptedTerms ? new Date().toISOString() : null,
     answers,
     name,
     labels,
@@ -682,6 +725,10 @@ function renderSettingsPanel() {
 }
 
 function updateSettings(changes) {
+  if (changes.theme === "dark") {
+    changes = { ...changes, theme: "light" };
+  }
+
   state.settings = { ...state.settings, ...changes };
   saveJson(settingsKey, state.settings);
   applySettings();
@@ -689,7 +736,12 @@ function updateSettings(changes) {
 }
 
 function applySettings() {
-  document.body.dataset.theme = state.settings.theme;
+  if (state.settings.theme === "dark") {
+    state.settings.theme = "light";
+    saveJson(settingsKey, state.settings);
+  }
+
+  document.body.dataset.theme = "light";
   document.body.dataset.motion = state.settings.motion ? "reduced" : "full";
   document.body.dataset.contrast = state.settings.contrast ? "high" : "normal";
   document.body.dataset.density = state.settings.density;
